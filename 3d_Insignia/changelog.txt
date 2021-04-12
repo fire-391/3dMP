@@ -1,0 +1,133 @@
+3d MRB Insignia_Addon Changelog
+################################
+Guide
+
+x.y.z
+
+x = Major Change
+y = Minor Change/Patch Additiion
+z = Patch/Fix
+
+################################
+-v0.1.1 (2017-03-18)
+##Added
+	- Outlaw Patch
+##Fixed
+	- fixed naming scheme
+-v0.1.2 (2017-03-20)
+##Fixed
+	- Lighting(Photoshop)
+	- Texture filter
+-v1.2.2 (2017-03-22)
+##Added
+	- MARSOC Patch
+	- SARC Patch
+	- Navy Aviation Patch
+	- Marine Corps Patch
+	- Marine Aviation Patch
+	- JTAC Patch
+-v1.3.3 (2017-03-23)
+##Added
+	- Alpha Section Patch
+	- Bravo Section Patch
+	- Charlie Section Patch
+	- Delta Section Patch
+##Changed
+	- Outlaw Patch
+-v1.4.4 (2017-03-24)
+##Added
+	- Battleaxe Patch
+	- Bandits Patch
+##Fixed
+	- Marine Corps Patch
+	- All Aviation Section Patches
+-v1.4.5 (2017-04-26)
+##Added
+	- Renegade Patch
+	- Legion Patch
+	- Viking Patch
+##Updated
+	- Bandits Patch
+-v1.5.6 (2017-05-03) *Dead
+##Added
+	- Mace Patch
+##Fixed
+	- Naming Scheme Again
+	- Resolution Scaling to 256x256
+	- Re-cropped Images
+-v1.5.7 (2018-01-06) *Revived
+##Updated
+	- Naming scheme
+##Depreciated
+	- MARSOC Patch
+	- Navy Aviation Patch
+	- Marine Corps Patch
+	- Marine Aviation Patch
+	- JTAC Patch
+	- Alpha Section Patch
+	- Bravo Section Patch
+	- Charlie Section Patch
+	- Delta Section Patch
+	- Outlaw Patch
+	- Battleaxe Patch
+	- Bandits Patch
+-v2.6.7 (2018-01-12)
+##Fixed
+	- Cleared Trash From Config.cpp
+	- Simplified Paths to Images
+	- Simplified Naming System
+##Removed
+	- MARSOC Patch
+	- Navy Aviation Patch
+	- Marine Corps Patch
+	- Marine Aviation Patch
+	- JTAC Patch
+	- Alpha Section Patch
+	- Bravo Section Patch
+	- Charlie Section Patch
+	- Delta Section Patch
+	- Outlaw Patch
+	- Battleaxe Patch
+	- Bandits Patch
+-v2.7.8 (2018-01-25) *Added to 3d Modpack
+##Added
+	- Hades Patch
+##Updated
+	- Viking Patch
+	- Legion Patch
+	- Simplified Naming Scheme
+	- In-game Selector Added to Arsenal
+-v2.7.9 (2018-03-12)
+##Updated
+	- Viking Patch
+-v2.8.9 (2018-04-08)
+##Added
+	- JTAC patch
+-v2.9.9 (2018-04-13)
+##Added
+	- Air/Fires Patch
+##Updated
+	- Viking Patch
+-v.2.9.10 (~2018-04/05) *Ray Edit
+##Fixed
+	- Removed "/" From Air/Fires Icon Name
+-v2.10.9 (2018-05-29)
+##Updated
+	- Hades Patch
+-v3.0.0 (2018-09-03)
+##Added
+	- S-2 Patch
+
+################################
+Credits:
+
+Base Code:
+Chase
+Ray
+S4 Mod Team
+
+Art:
+Chase
+Golembesky
+Hawkins
+Benson
