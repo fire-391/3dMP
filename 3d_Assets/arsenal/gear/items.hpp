@@ -335,6 +335,18 @@ _items = [
 	"tier1_m110_la5_side",
 	"rhsusf_acc_premier",
 	"tier1_anpvs10_tan",
+	"tier1_razor_gen2_16",
+	"tier1_razor_gen2_16_adm",
+	"tier1_razor_gen2_16_geissele",
+	"tier1_razor_gen2_16_geissele_docter",
+	"tier1_razor_gen2_16_geissele_docter_pip",
+	"tier1_razor_gen3_110_adm",
+	"tier1_razor_gen3_110_adm_t2",
+	"tier1_razor_gen3_110_geissele",
+	"tier1_razor_gen3_110_geissele_docter",
+	"tier1_larue_fug_black",
+	"tier1_larue_fug_tan",
+	"tier1_larue_fug_ude",
 /*
 //RH Pistol Accessories
     "RH_gemtech9",
