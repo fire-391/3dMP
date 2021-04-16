@@ -233,14 +233,18 @@ _mags = [
 // MS IFF Strobe
 	"MS_Strobe_Mag_1",
 
+//TierOne
+	"Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
+	"Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
+
 // ACE Mags
 	"ACE_30Rnd_556x45_Stanag_Mk318_mag",
 	"ACE_30Rnd_556x45_Stanag_Mk262_mag",
 	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
-	"ACE_30Rnd_556x45_Stanag_Tracer_Dim",
+	"ACE_30Rnd_556x45_Stanag_Tracer_Dim"
 	
 // NiArms Mags
-
+/*
 	"hlc_13Rnd_9x19_B_P228",
 	"hlc_15Rnd_9x19_B_P226",
 	"hlc_13Rnd_9x19_JHP_P228",
@@ -277,4 +281,5 @@ _mags = [
 	"hlc_200rnd_556x45_B_SAW",
 	"hlc_200rnd_556x45_Mdim_SAW",
 	"hlc_200rnd_556x45_M_SAW"
+*/
 ];

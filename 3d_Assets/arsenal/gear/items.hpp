@@ -279,8 +279,64 @@ _items = [
     "SMA_supp2TOD_556",
     "SMA_supp2TWH_556",
     "SMA_supptan_762",
-
-/*//RH Pistol Accessories
+	
+// TierOne
+	"tier1_m249_la5",
+	"tier1_m249_la5_m600v_black",
+	"tier1_m249_la5_m600v_black_fl",
+	"tier1_m249_la5_m600v",
+	"tier1_m249_la5_m600v_fl",
+	"tier1_m249_la5_m603v",
+	"tier1_m249_la5_m603v_fl",
+	"tier1_socom556_black",
+	"tier1_socom556_de",
+	"tier1_socom556_2_de",
+	"tier1_mk48mod0_la5",
+	"tier1_mk48mod0_la5_m600v_black",
+	"tier1_mk48mod0_la5_m600v_black_fl",
+	"tier1_mk48mod0_la5_m600v",
+	"tier1_mk48mod0_la5_m600v_fl",
+	"tier1_mk48mod0_la5_m603v",
+	"tier1_mk48mod0_la5_m603v_fl",
+	"tier1_mk48mod1_la5",
+	"tier1_mk48mod1_la5_m600v_black",
+	"tier1_mk48mod1_la5_m600v_black_fl",
+	"tier1_mk48mod1_la5_m600v",
+	"tier1_mk48mod1_la5_m600v_fl",
+	"tier1_mk48mod1_la5_m603v",
+	"tier1_mk48mod1_la5_m603v_fl",
+	"tier1_socom762mg_black",
+	"tier1_socom762mg_de",
+	"tier1_mk46mod0_la5",
+	"tier1_mk46mod0_la5_m600v_black",
+	"tier1_mk46mod0_la5_m600v_black_fl",
+	"tier1_mk46mod0_la5_m600v",
+	"tier1_mk46mod0_la5_m600v_fl",
+	"tier1_mk46mod0_la5_m603v",
+	"tier1_mk46mod0_la5_m603v_fl",
+	"tier1_mk46mod1_la5",
+	"tier1_mk46mod1_la5_m600v_black",
+	"tier1_mk46mod1_la5_m600v_black_fl",
+	"tier1_mk46mod1_la5_m600v",
+	"tier1_mk46mod1_la5_m600v_fl",
+	"tier1_mk46mod1_la5_m603v",
+	"tier1_mk46mod1_la5_m603v_fl",
+	"tier1_socom556_black",
+	"tier1_socom556_de",
+	"tier1_socom556_2_black",
+	"tier1_socom556_2_de",
+	"tier1_socom762_2_black",
+	"tier1_socom762_2_de",
+	"tier1_harris_bipod_black",
+	"tier1_harris_bipod_tan",
+	"tier1_harris_bipod_kac_black",
+	"tier1_harris_bipod_kac_tan",
+	"tier1_m110_la5_top",
+	"tier1_m110_la5_side",
+	"rhsusf_acc_premier",
+	"tier1_anpvs10_tan",
+/*
+//RH Pistol Accessories
     "RH_gemtech9",
     "RH_A26",
     "RH_suppr9",
@@ -295,8 +351,8 @@ _items = [
     "RH_vp70stock",
     "RH_docter",
     "optic_MRD",
-    "RH_sfn57",*/
-	
+    "RH_sfn57",
+*/
 // RHS Weapon Accessories
     "muzzle_snds_acp",
     "optic_LRPS",
@@ -379,6 +435,7 @@ _items = [
     "optic_AMS",
     "optic_KHS_blk",
     "rhsusf_acc_premier_anpvs27",
+	"rhsusf_acc_premier_mrds",
     "rhsusf_acc_premier",
 	"rhsusf_acc_m8541",
 	"rhsusf_acc_m8541_low",
@@ -439,7 +496,7 @@ _items = [
 	"rhsusf_acc_m24_muzzlehider_d",
 	"rhsusf_acc_m24_muzzlehider_wd",
 	"rhsusf_acc_kac_grip",
-
+/*
 //NiArms + compatible vanilla accessories
 	"HLC_Optic_Docter_CADEX",
 	"HLC_optic_HP",
@@ -484,15 +541,15 @@ _items = [
 	"hlc_optic_docterr",
 	"hlc_grip_saw_grip1",
 	"hlc_grip_saw_grip2",
-
+*/
 //Sling load Rigging
 	"slr_slingload_CargoSling"
-	
+/*
 // TF47
-	/*"tf47_m3maaws",
+	"tf47_m3maaws",
 	"tf47_optic_m3maaws",
-	"tf47_at4_heat",*/
-
+	"tf47_at4_heat",
+*/
 // ITC mod items
 //	"ITC_ROVER_SIR"
 ];

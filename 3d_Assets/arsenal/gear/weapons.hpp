@@ -102,7 +102,25 @@ _weapons = [
     "SMA_MK18TAN_GL_SM",
     "SMA_MK18TANBLK_GL",
     "SMA_MK18TANBLK_GL_SM",*/
-
+// TierOne
+	"Tier1_MK46_Mod0",
+	"Tier1_MK46_Mod0_Desert",
+	"Tier1_MK46_Mod0_Para",
+	"Tier1_MK46_Mod0_Para_Desert",
+	"Tier1_MK46_Mod1",
+	"Tier1_MK46_Mod1_Desert",
+	"Tier1_MK46_Mod1_Savit",
+	"Tier1_MK46_Mod1_Savit_Desert",
+	"Tier1_M110k1",
+	"Tier1_M110k1_CTR",
+	"Tier1_MK48_Mod0",
+	"Tier1_MK48_Mod0_Desert",
+	"Tier1_MK48_Mod0_Para",
+	"Tier1_MK48_Mod0_Para_Desert",
+	"Tier1_MK48_Mod1",
+	"Tier1_MK48_Mod1_Desert",
+	"Tier1_M249_light_S_Desert",
+	
 // RHS M40A5
 	"rhs_weap_m40a5",
 	"rhs_weap_m40a5_d",
@@ -315,6 +333,7 @@ _weapons = [
     "RH_fn57",
     "RH_fn57_g",
     "RH_fn57_t",
+
 //NiArms Pistols
 	"hlc_pistol_P226R",
 	"hlc_pistol_P226R_Combat",
