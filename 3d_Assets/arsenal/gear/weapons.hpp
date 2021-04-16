@@ -315,7 +315,6 @@ _weapons = [
     "RH_fn57",
     "RH_fn57_g",
     "RH_fn57_t",
-*/
 //NiArms Pistols
 	"hlc_pistol_P226R",
 	"hlc_pistol_P226R_Combat",
@@ -382,7 +381,7 @@ _weapons = [
 	//"hlc_rifle_bcmblackjack",
 	"hlc_rifle_samr",
 	"hlc_rifle_CQBR",
-
+*/
 // Vanilla M4 MAAWS
 	"launch_MRAWS_green_rail_F",
 	"launch_MRAWS_green_F",
