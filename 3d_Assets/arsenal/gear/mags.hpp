@@ -92,6 +92,7 @@ _mags = [
 // Vanilla M4 MAAWS
 	"MRAWS_HE_F",
 	"MRAWS_HEAT_F",
+	"MRAWS_HEAT55_F",
 	"R_MRAAWS_HE_F",
 	"R_MRAAWS_HEAT_F",
 
