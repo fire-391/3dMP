@@ -347,6 +347,8 @@ _items = [
 	"tier1_larue_fug_black",
 	"tier1_larue_fug_tan",
 	"tier1_larue_fug_ude",
+	"tier1_dd_mlok_vfg_fde",
+	"tier1_dd_mlok_vfg_black",
 	"tier1_eotech553_black",
 	"tier1_eotech553_desert",
 	"tier1_eotech553_3xmag_black_up",
@@ -367,6 +369,12 @@ _items = [
 	"tier1_10_ngal_m600v",
 	"tier1_10_ngal_m600v_alt",
 	"tier1_10_ngal_m603v",
+	"tier1_145_ngal_m300c",
+	"tier1_145_la5_m300c",
+	"tier1_145_la5_m600v",
+	"tier1_145_la5_m603v",
+	"tier1_145_ngal_m600v",
+	"tier1_145_ngal_m603v",
 	"tier1_mw_la5_m300c_black",
 	"tier1_mw_la5_m300c",
 	"tier1_mw_ngal_m300c_black",
@@ -375,6 +383,10 @@ _items = [
 	"tier1_rahg_la5_m300c",
 	"tier1_rahg_ngal_m300c_black",
 	"tier1_rahg_ngal_m300c",
+	"tier1_urx4_la5_m300c_black",
+	"tier1_urx4_la5_m300c",
+	"tier1_urx4_ngal_m300c_black",
+	"tier1_urx4_ngal_m300c",
 
 /*
 //RH Pistol Accessories
