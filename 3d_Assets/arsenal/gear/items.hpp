@@ -17,22 +17,22 @@ _items = [
         "ACE_plasmaIV",
         "ACE_plasmaIV_500",
         "ACE_plasmaIV_250",
-		"ACE_splint",
+	"ACE_splint",
         "ACE_salineIV",
         "ACE_salineIV_500",
         "ACE_salineIV_250",
         "ACE_tourniquet",
         "ACE_surgicalKit",
    // KAT Medcial
-		"kat_accuvac",
-		"kat_chestseal",
-		"kat_guedel",
-		"kat_larynx",
-		"kat_pulseoximeter",
-		"kat_Painkiller",
-        "kat_X_AED",
-		"kat_AED",
-		"Kat_aatKit",
+	"kat_accuvac",
+	"kat_chestseal",
+	"kat_guedel",
+	"kat_larynx",
+	"kat_pulseoximeter",
+	"kat_Painkiller",
+       	"kat_X_AED",
+	"kat_AED",
+	"Kat_aatKit",
 		
 // Ace Items
 	"ACE_SpraypaintBlack",
@@ -77,10 +77,10 @@ _items = [
 	"AUR_Rappel_Gear",
 
 // Chemical Warfare
-	"CBRN_NAAK",
-	"CBRN_DetectionKit",
-	"CBRN_DeconKit",
-
+	"U_mas_usl_B_suite_VEG",
+	"U_mas_usl_B_suite_CQB",
+	"G_mas_usl_gasmask",
+	
 // NVGs
 	"MRB_PVS14",
 	"MRB_PVS14FS",
