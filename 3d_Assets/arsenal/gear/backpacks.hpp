@@ -13,15 +13,15 @@ _packs = [
 // RHS + Modified
     "MRB_assault_eagleaiii_coy_Medic",
     "rhsusf_assault_eagleaiii_coy",
-	"B_rhsusf_B_BACKPACK",
+    "B_rhsusf_B_BACKPACK",
 
 // 3d MRB Backpacks
     "MRB_Assault_MEF_BL",
     "MRB_Assault_MEF_CY",
     "MRB_Assault_MEF_DM",
-	"MRB_Assault_MEF_KHK",
+    "MRB_Assault_MEF_KHK",
     "MRB_Assault_MEF_M81",
-	"MRB_Assault_MEF_MCAM",
+    "MRB_Assault_MEF_MCAM",
     "MRB_Assault_MEF_RGR",
     "MRB_Assault_MEF_WM",
     "MRB_assault_NWI_CY",
@@ -34,9 +34,9 @@ _packs = [
     "MRB_Carryall_MEF_BL",
     "MRB_Carryall_MEF_CY",
     "MRB_Carryall_MEF_DM",
-	"MRB_Carryall_MEF_KHK",
+    "MRB_Carryall_MEF_KHK",
     "MRB_Carryall_MEF_M81",
-	"MRB_Carryall_MEF_MCAMO",
+    "MRB_Carryall_MEF_MCAMO",
     "MRB_Carryall_MEF_RGR",
     "MRB_carryall_ST_SA",
     "MRB_carryall_ST_CY",
@@ -44,9 +44,9 @@ _packs = [
     "MRB_Kitbag_MEF_BL",
     "MRB_Kitbag_MEF_CY",
     "MRB_Kitbag_MEF_DM",
-	"MRB_Kitbag_MEF_KHK",
+    "MRB_Kitbag_MEF_KHK",
     "MRB_Kitbag_MEF_M81",
-	"MRB_Kitbag_MEF_MCAMO",
+    "MRB_Kitbag_MEF_MCAMO",
 	"MRB_Kitbag_MEF_RGR",
     "MRB_Kitbag_MEF_WM",
     "MRB_Kitbag_MEF_TN",
@@ -103,31 +103,6 @@ _packs = [
 	"Black_Backpack_Compact",
 	"Black_Backpack_kitbag",
 
-//  TFAR ILBE Radios
-/*  "tfw_ilbe_d",
-    "tfw_ilbe_dd_d",
-    "tfw_ilbe_blade_d",
-    "tfw_ilbe_wd",
-    "tfw_ilbe_dd_wd",
-    "tfw_ilbe_blade_wd",
-    "tfw_ilbe_dd_coy",
-    "tfw_ilbe_coy",
-    "tfw_ilbe_gr",
-    "tfw_ilbe_blade_gr",
-    "tfw_ilbe_dd_gr",*/
-
-// TFAR back mounted radios
-	/*"TFAR_rt1523g",
-	"TFAR_rt1523g_big",
-	"TFAR_rt1523g_black",
-	"TFAR_rt1523g_fabric",
-	"TFAR_rt1523g_green",
-	"TFAR_rt1523g_rhs",
-	"TFAR_rt1523g_sage",*/
-
-// MRH Satellite backpack
-	"B_Carryall_satellite",
-	
 // COS Backpacks
 	"Backpack_OD",
 	"Backpack_FLASH_OD",
