@@ -67,10 +67,10 @@ _facewear = [
     "rhsusf_oakley_goggles_clr",
     "rhsusf_oakley_goggles_ylw",
 	"g_wirelessearpiece_f",
-	//Aviators
+//Aviators
 	"G_Aviator",
 	"G-Bandanna_aviator",
-	// Goggles
+// Goggles
     "G_Shades_Black",
     "G_Shades_Blue",
     "G_Shades_Green",
