@@ -178,9 +178,6 @@ _mags = [
 	//"rhs_mag_maaws_ILLUM",
 	//"rhs_mag_maaws_SMOKE",
 	"rhs_fgm148_magazine_AT",
-	// Binos
-	"m24_bino",
-	"m24_bino_ard",
 
 //AMP
 	"AMP_Breaching_Charge_Mag",
