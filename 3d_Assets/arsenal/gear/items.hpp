@@ -398,7 +398,9 @@ _items = [
     "optic_MRD",
     "RH_sfn57",
 */
-// RHS Weapon Accessories
+// RHS Items
+	"m24_bino",
+	"m24_bino_ard",
     "muzzle_snds_acp",
     "optic_LRPS",
     "Leupold_Mk4",
