@@ -34,6 +34,7 @@ _items = [
 	"Kat_aatKit",
 		
 // Ace Items
+	"ACE_MX2A",
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintBlue",
 	"ACE_SpraypaintGreen",
