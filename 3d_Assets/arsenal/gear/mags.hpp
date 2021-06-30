@@ -1,63 +1,5 @@
 _mags = [
-// RHS Marksman Magazines
-    // M107
-    "rhsusf_mag_10Rnd_STD_50BMG_M33",
-    "rhsusf_mag_10Rnd_STD_50BMG_mk211",
-    //  M24
-    "rhsusf_5Rnd_762x51_m118_special_Mag",
-    "rhsusf_5Rnd_762x51_m62_Mag",
-    "rhsusf_5Rnd_762x51_m993_Mag",
-    // Mk 11 Mod 0
-    "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",
-	"rhsusf_20Rnd_762x51_SR25_m62_Mag",
-    "rhsusf_20Rnd_762x51_SR25_m993_Mag",
-    //Mk 17
-    "rhs_mag_20Rnd_SCAR_762x51_m118_special",
-    "rhs_mag_20Rnd_SCAR_762x51_m61_ap",
-    "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-    "rhs_mag_20Rnd_SCAR_762x51_m118_special_bk",
-    "rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk",
-    "rhs_mag_20Rnd_SCAR_762x51_m62_tracer_bk",
-	"rhs_mag_20Rnd_Scar_762x51_mk316_special",
-	"rhs_mag_20Rnd_Scar_762x51_mk316_special_bk",
-	"rhs_mag_20Rnd_SCAR_762x51_m80a1_epr_bk",
-	"rhs_mag_20Rnd_SCAR_762x51_m80a1_epr",
-	// M40A5
-	"rhsusf_10Rnd_762x51_M118_special_mag",
-	"rhsusf_10Rnd_762x51_M993_Mag",
-	"rhsusf_10Rnd_762x51_m62_Mag",
-	// ACE compat vanilla HK417
-	"ACE_20Rnd_762x51_M118LR_Mag",
-	"ACE_20Rnd_762x51_M993_AP_Mag",
-
-/*// SMA Minimi MK3 Magazines
-    "SMA_150Rnd_762_M80A1",
-    "SMA_150Rnd_762_M80A1_Tracer",
-    "SMA_150Rnd_762_M80A1_Mixed",
-
- // SMA M4A1 - MK 18 - SCAR L Magazines
-    "SMA_30Rnd_556x45_M855A1",
-    "SMA_30Rnd_556x45_M855A1_Tracer",
-    "SMA_30Rnd_556x45_M855A1_IR",
-    "SMA_30Rnd_556x45_Mk318",
-    "SMA_30Rnd_556x45_Mk318_Tracer",
-    "SMA_30Rnd_556x45_Mk318_IR",
-    "SMA_30Rnd_556x45_Mk262",
-    "SMA_30Rnd_556x45_Mk262_Tracer",
-    "SMA_30Rnd_556x45_Mk262_IR",
-
-// SMA SCAR H Magazines
-    "SMA_20Rnd_762x51mm_M80A1_EPR",
-    "SMA_20Rnd_762x51mm_M80A1_EPR_Tracer",
-    "SMA_20Rnd_762x51mm_M80A1_EPR_IR",
-    "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range",
-    "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer",
-    "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR",
-    "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic",
-    "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer",
-    "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR",
-*/
-    //Javelin Ammo
+// Javelin Ammo
 	"rhs_fgm148_magazine_AT",
 
 /*	// Carl Gustav Ammo
@@ -67,73 +9,101 @@ _mags = [
 	"rhs_mag_maaws_ILLUM",
 	"rhs_mag_maaws_SMOKE",
 */
-
 // Pistol Magazines
-    // Glock 17 Magazines
     "rhsusf_mag_17Rnd_9x19_FMJ",
     "rhsusf_mag_17Rnd_9x19_JHP",
-    // M1911 Magazine
     "rhsusf_mag_7x45acp_MHP",
-    // m9 Beretta Magazines
     "rhsusf_mag_15Rnd_9x19_JHP",
     "rhsusf_mag_15Rnd_9x19_FMJ",
-    // Custom Covert II
     "9Rnd_45ACP_Mag",
-	// FNX45
 	"11Rnd_45ACP_Mag",
 
-//Vanilla M249SW Magazines
-	/*"200Rnd_556x45_MRB_Tracer_Red_F",
-	"200Rnd_556x45_Box_F",
-	"200Rnd_556x45_Box_Red_F",
-	"200Rnd_556x45_Box_Tracer_F",
-	"200Rnd_556x45_Box_Tracer_Red_F",*/
-
-// Vanilla M4 MAAWS
+// Vanilla Items
+    // 5.56
+	//"30Rnd_556x45_Stanag",
+	//"30Rnd_556x45_Stanag_Tracer_Red",
+	//"200Rnd_556x45_MRB_Tracer_Red_F",
+	//"200Rnd_556x45_Box_F",
+	//"200Rnd_556x45_Box_Red_F",
+	//"200Rnd_556x45_Box_Tracer_F",
+	//"200Rnd_556x45_Box_Tracer_Red_F",
+    // Mines
+	"APERSTripMine_Wire_Mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
+	"ClaymoreDirectionalMine_Remote_Mag",
+	"ATMine_Range_Mag",
+	"SLAMDirectionalMine_Wire_Mag",
+	"APERSBoundingMine_Range_Mag",
+    // Grenades
+	"SmokeShellBlue",
+	"SmokeShellPurple",
+	"SmokeShellOrange",
+	"SmokeShellPurple",
+	"SmokeShellRed",
+	"SmokeShellGreen",
+	"SmokeShellYellow",
+	"Chemlight_green",
+	"Chemlight_red",
+	"Chemlight_blue",
+	"Chemlight_yellow",
+	"B_IR_Grenade",
+    // M4 MAAWS
 	"MRAWS_HE_F",
 	"MRAWS_HEAT_F",
 	"MRAWS_HEAT55_F",
 	"R_MRAAWS_HE_F",
 	"R_MRAAWS_HEAT_F",
 
-/*//RH Pistol Magazines
-    "RH_16Rnd_9x19_cz",
-    "RH_14Rnd_9x19_sw",
-    "RH_12Rnd_45cal_usp",
-    "RH_7Rnd_45cal_m1911",
-    "RH_15Rnd_9x19_M9",
-    "RH_17Rnd_9x19_g17",
-    "RH_15Rnd_9x19_SIG",
-    "RH_18Rnd_9x19_VP",
-    "RH_15Rnd_45cal_fnp",
-    "RH_20Rnd_57x28_FN",
-	*/
-
-// MISC Items
+// ACE Items
+    // 5.56
+	"ACE_30Rnd_556x45_Stanag_Mk318_mag",
+	"ACE_30Rnd_556x45_Stanag_Mk262_mag",
+	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
+	"ACE_30Rnd_556x45_Stanag_Tracer_Dim",
+    // Mines
+	"ACE_FlareTripMine_Mag",
+    // Grenades
+	"ACE_Chemlight_IR",
+	"ACE_M84",
+    // Flares
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Red",
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Yellow",
+    // Magazines
+	"ACE_HuntIR_M203",
+	"ACE_40mm_Flare_White",
+	"ACE_40mm_Flare_ir",
+    "ACE_20Rnd_762x51_M118LR_Mag",
+    "ACE_20Rnd_762x51_M993_AP_Mag",
+    
+// RHS Items
+    // 5.56
 	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
 	"rhs_mag_30Rnd_556x45_Mk262_Stanag",
 	"rhs_mag_30Rnd_556x45_Mk318_PMAG",
 	"rhs_mag_30Rnd_556x45_Mk262_PMAG",
 	"rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",
 	"rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan",
-	//"rhs_mag_30Rnd_556x45_M200_Stanag",
 	"rhs_mag_30rnd_556x45_Mk262_Stanag_pull",
 	"rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",
 	"rhs_mag_30Rnd_556x45_Mk318_SCAR",
 	"rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull",
+	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
+	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",
 	"rhsusf_100Rnd_556x45_M995_soft_pouch",
 	"rhsusf_100Rnd_556x45_M995_soft_pouch_ucp",
 	"rhsusf_100Rnd_556x45_M995_soft_pouch_coyote",
-	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
-	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",
-	//"rhs_mag_100Rnd_556x45_Mk318_cmag",
-	//"rhs_mag_100Rnd_556x45_Mk262_cmag",
-	//"30Rnd_556x45_Stanag",
-	//"30Rnd_556x45_Stanag_Tracer_Red",
-	"ACE_HuntIR_M203",
+	"rhsusf_100Rnd_556x45_soft_pouch",
+	"rhsusf_200Rnd_556x45_soft_pouch",
+	"rhs_200Rnd_556x45_T_SAW",
+	"rhs_200rnd_556x45_M_SAW",
+    // MP7
 	"rhsusf_mag_40Rnd_46x30_FMJ",
 	"rhsusf_mag_40Rnd_46x30_JHP",
 	"rhsusf_mag_40Rnd_46x30_AP",
+    // 40mm
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
@@ -146,24 +116,64 @@ _mags = [
 	"rhs_mag_m714_White",
 	"rhs_mag_m715_Green",
 	"rhs_mag_m716_yellow",
-	"ACE_40mm_Flare_White",
-	"ACE_40mm_Flare_ir",
+	"rhsusf_mag_6Rnd_M583A1_white",
+	"rhsusf_mag_6Rnd_m661_green",
+	"rhsusf_mag_6Rnd_m662_red",
+	"rhsusf_mag_6Rnd_M713_red",
+	"rhsusf_mag_6Rnd_M714_white",
+	"rhsusf_mag_6Rnd_M715_green",
+	"rhsusf_mag_6Rnd_M716_yellow",
+    "rhsusf_mag_6Rnd_M433_HEDP",
+	"rhsusf_mag_6Rnd_M397_HET",
+	"rhsusf_mag_6Rnd_M441_HE",
+	"rhsusf_mag_6Rnd_M576_Buckshot",
+	"rhsusf_mag_6Rnd_M781_Practice",
+    // 7.62
+    "rhsusf_5Rnd_762x51_m118_special_Mag",
+    "rhsusf_5Rnd_762x51_m62_Mag",
+    "rhsusf_5Rnd_762x51_m993_Mag",
+    "rhsusf_10Rnd_762x51_M118_special_mag",
+    "rhsusf_10Rnd_762x51_M993_Mag",
+    "rhsusf_10Rnd_762x51_m62_Mag",
+    "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",
+    "rhsusf_20Rnd_762x51_SR25_m62_Mag",
+    "rhsusf_20Rnd_762x51_SR25_m993_Mag",
+    "rhs_mag_20Rnd_SCAR_762x51_m118_special",
+    "rhs_mag_20Rnd_SCAR_762x51_m61_ap",
+    "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
+    "rhs_mag_20Rnd_SCAR_762x51_m118_special_bk",
+    "rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk",
+    "rhs_mag_20Rnd_SCAR_762x51_m62_tracer_bk",
+    "rhs_mag_20Rnd_Scar_762x51_mk316_special",
+    "rhs_mag_20Rnd_Scar_762x51_mk316_special_bk",
+    "rhs_mag_20Rnd_SCAR_762x51_m80a1_epr_bk",
+    "rhs_mag_20Rnd_SCAR_762x51_m80a1_epr",
 	"rhsusf_100Rnd_762x51",
 	"rhsusf_100Rnd_762x51_m993",
 	"rhsusf_100Rnd_762x51_m61_ap",
 	"rhsusf_100Rnd_762x51_m80a1epr",
-	"rhsusf_100Rnd_556x45_soft_pouch",
-	"rhsusf_200Rnd_556x45_soft_pouch",
 	"rhsusf_100rnd_762x51_m62_tracer",
-	"rhs_200Rnd_556x45_T_SAW",
-	"rhs_200rnd_556x45_M_SAW",
+    // 50 bmg
+    "rhsusf_mag_10Rnd_STD_50BMG_M33",
+    "rhsusf_mag_10Rnd_STD_50BMG_mk211",
+    // 12ga
 	"rhsusf_5Rnd_00Buck",
 	"rhsusf_5Rnd_Slug",
 	"rhsusf_8Rnd_00Buck",
 	"rhsusf_8Rnd_Slug",
-	"rhs_m136_mag",
+    // 9mm
 	"30Rnd_9x21_Mag_SMG_02",
 	"30Rnd_9x21_Mag_SMG_02_Tracer_Red",
+    // Grenades
+	"rhs_mag_an_m14_th3",
+	"rhs_mag_m67",
+	"rhs_mag_an_m8hc",
+    // Muzzle
+	"rhsusf_acc_sr25s",
+	"rhsusf_acc_sr25s_d",
+	"rhsusf_acc_sr25s_wd",
+    // Rockets
+	"rhs_m136_mag",
 	"rhs_m136_hp_mag",
 	"rhs_m136_hedp_mag",
 	"rhs_mag_smaw_HEAA",
@@ -171,78 +181,21 @@ _mags = [
 	"rhs_mag_smaw_SR",
 	"rhs_m72a7_mag",
 	"rhs_fim92_mag",
-	"rhsusf_mag_6Rnd_M585_white",
-	"rhsusf_mag_6Rnd_m661_green",
-	"rhsusf_mag_6Rnd_m662_red",
-	"rhsusf_mag_6Rnd_M713_red",
-	"rhsusf_mag_6Rnd_M714_white",
-	"rhsusf_mag_6Rnd_M715_green",
-	"rhsusf_mag_6Rnd_M716_yellow",
-	"APERSTripMine_Wire_Mag",
-	"ACE_FlareTripMine_Mag",
-	"DemoCharge_Remote_Mag",
-	"SatchelCharge_Remote_Mag",
-	"ClaymoreDirectionalMine_Remote_Mag",
-	"ATMine_Range_Mag",
-	"SLAMDirectionalMine_Wire_Mag",
-	"APERSBoundingMine_Range_Mag",
-	"ACE_HandFlare_Green",
-	"ACE_HandFlare_Red",
-	"ACE_HandFlare_White",
-	"ACE_HandFlare_Yellow",
-	"rhs_mag_an_m14_th3",
-	"Chemlight_green",
-	"Chemlight_red",
-	"Chemlight_blue",
-	"Chemlight_yellow",
-	"ACE_Chemlight_IR",
-	"rhs_mag_m67",
-	"ACE_M84",
-	//"MRB_IR_Strobe_Item",
-	"B_IR_Grenade",
-	"SmokeShellBlue",
-	"SmokeShellPurple",
-	"SmokeShellOrange",
-	"SmokeShellPurple",
-	"SmokeShellRed",
-	"SmokeShellGreen",
-	"rhs_mag_an_m8hc",
-	"SmokeShellYellow",
-	"rhsusf_acc_sr25s",
-	"rhsusf_acc_sr25s_d",
-	"rhsusf_acc_sr55s_wd",
-	"rhsusf_mag_6Rnd_M433_HEDP",
-	"rhsusf_mag_6Rnd_M397_HET",
-	"rhsusf_mag_6Rnd_M441_HE",
-	"rhsusf_mag_6Rnd_M576_Buckshot",
-	"rhsusf_mag_6Rnd_M781_Practice",
-	"rhsusf_mag_6Rnd_M585_White",
-	"rhsusf_mag_6Rnd_M661_Green",
-	"rhsusf_mag_6Rnd_M713_Red",
-	"rhsusf_mag_6Rnd_M714_White",
-	"rhsusf_mag_6Rnd_M715_Green",
-	/*"tf47_m3maaws_heat",
-	"tf47_m3maaws_hedp",
-	"tf47_m3maaws_he",
-	"tf47_m3maaws_smoke",
-	"tf47_m3maaws_illum",*/
-	"AMP_Breaching_Charge_Mag",
-	"AMP_Door_Wedge",
+    // Binos
 	"m24_bino",
 	"m24_bino_ard",
 
+//AMP
+	"AMP_Breaching_Charge_Mag",
+	"AMP_Door_Wedge",
+    
 // MS IFF Strobe
 	"MS_Strobe_Mag_1",
 
 //TierOne
 	"Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
-	"Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
+	"Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag"
 
-// ACE Mags
-	"ACE_30Rnd_556x45_Stanag_Mk318_mag",
-	"ACE_30Rnd_556x45_Stanag_Mk262_mag",
-	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
-	"ACE_30Rnd_556x45_Stanag_Tracer_Dim"
 	
 // NiArms Mags
 /*
