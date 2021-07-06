@@ -107,6 +107,7 @@ _items = [
 	"ToolKit",
 	"Laserdesignator",
 	"Laserbatteries",
+	"Binocular",
 
 // ACRE2 radios
 	"ACRE_PRC152",
@@ -445,7 +446,7 @@ _items = [
 	"rhsusf_acc_SU230a_C",
 	"rhsusf_acc_SU230a_MRDS",
 	"rhsusf_acc_SU230a_MRDS_C",
-	/*"rhsusf_acc_SpecterDR",
+/*	"rhsusf_acc_SpecterDR",
 	"rhsusf_acc_SpecterDR_3d",
 	"rhsusf_acc_SpecterDR_A",
 	"rhsusf_acc_SpecterDR_A_3d",
@@ -527,6 +528,10 @@ _items = [
 	"rhsusf_acc_m24_muzzlehider_d",
 	"rhsusf_acc_m24_muzzlehider_wd",
 	"rhsusf_acc_kac_grip",
+	
+// 3d MRB custom
+	"MRB_SniperBlinds",
+	
 //Sling load Rigging
 	"slr_slingload_CargoSling"
 /*
