@@ -112,9 +112,9 @@ _weapons = [
 	"rhs_weap_m40a5_wd",
 	
 	// M107
-	"rhs_weap_M107",
-	"rhs_weap_M107_d",
-	"rhs_weap_M107_w",
+	//"rhs_weap_M107",
+	//"rhs_weap_M107_d",
+	//"rhs_weap_M107_w",
 	
 	// M24
 	"rhs_weap_m24sws",
