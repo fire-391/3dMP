@@ -240,7 +240,7 @@ _weapons = [
 	"rhs_weap_hk416d145_m320",
 	"rhs_weap_hk416d145_wd",
 	"rhs_weap_hk416d145_wd_2",
-/*
+
 //Vanilla
 	// M4 MAAWS
 	"launch_MRAWS_green_rail_F",
@@ -252,7 +252,7 @@ _weapons = [
 	
 	// 249SW
 	//"LMG_03_F",
-*/
+
 //MISC Weap
 	"arifle_SPAR_03_blk_F",
 	"arifle_SPAR_03_khk_F",
