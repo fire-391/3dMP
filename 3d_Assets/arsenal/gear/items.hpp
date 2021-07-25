@@ -32,6 +32,7 @@ _items = [
 	"kat_X_AED",
 	"kat_AED",
 	"Kat_aatKit",
+	"kat_larynx",
 		
 // Ace Items
 	"ACE_MX2A",
