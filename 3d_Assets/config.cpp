@@ -79,7 +79,7 @@ class CfgPatches
 			"MRB_Supply_Crate",			//line 303
 			"MRB_Ammunition_Container",	//line 419
 			"MRB_Fuel_Container",		//line 429
-			"MRB_PersistenceCrate"
+			"MRB_PersistenceCrate",
 			"MRB_FTX_Arsenal_Crate"
 		};
 		/*requiredAddons[] =
