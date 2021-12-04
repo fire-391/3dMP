@@ -140,7 +140,6 @@ class BettIR_Config
          };
     };
 };
-#include "ace_medical.hpp"
 #include "cfgGroups.hpp"
 #include "cfgFactionClasses.hpp"
 #include "cfgFunctions.hpp"
