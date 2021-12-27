@@ -78,7 +78,7 @@ _ftx = [
 	"AMP_Door_Wedge",
 
 // MS IFF Strobe
-	"MS_Strobe_Mag_1",
+	"MS_Strobe_Mag_1"
 
 //TierOne
 
