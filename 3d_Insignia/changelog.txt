@@ -118,6 +118,18 @@ z = Patch/Fix
 ##Added
 	- S-2 Patch
 
+-v3.1.0
+##Updated
+- 8311 Patch
+- 8312 Patch
+
+##Added
+- 8313 Patch
+- Company HQ Patch
+
+##Removed
+- 8321 Patch
+
 ################################
 Credits:
 
@@ -131,3 +143,4 @@ Chase
 Golembesky
 Hawkins
 Benson
+Bedlam
