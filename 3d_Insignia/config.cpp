@@ -30,9 +30,9 @@ class CfgUnitInsignia {
         texture = "3d_Insignia\data\8311.paa";
     };
     class MRB_8321_Patch {
-        displayName = "MSOT 8321 Hades";
+        displayName = "MSOT 8313 Hades";
         author = "3d MRB";
-        texture = "3d_Insignia\data\8321.paa";
+        texture = "3d_Insignia\data\8313.paa";
     };
     class MRB_SOAR_Patch {
         displayName = "160th SOAR";
@@ -43,5 +43,10 @@ class CfgUnitInsignia {
         displayName = "S-2 Patch";
         author = "3d MRB";
         texture = "3d_Insignia\data\S2.paa";
+	};
+  class MRB_CHQ {
+        displayName = "Company HQ Patch";
+        author = "3d MRB";
+        texture = "3d_Insignia\data\CHQ.paa";
 	};
 };
