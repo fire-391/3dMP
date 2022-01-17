@@ -60,7 +60,7 @@ class cfgVehicles {
     class ACE_IR_Strobe_Effect: All {
         class NVGMarker;
     };
-/*	
+/*
     class MRB_IR_Strobe_Effect: ACE_IR_Strobe_Effect {
         class NVGMarker: NVGMarker {
             brightness = 0.8;
@@ -227,6 +227,16 @@ class cfgVehicles {
         displayName = "Full Arsenal Crate";
         class EventHandlers {
             init = "[_this select 0] execVM '\3d_Assets\arsenal\full_arsenal.sqf';";
+        };
+    };
+    class MRB_FTX_Arsenal_Crate: MRB_Arsenal_Crate {
+        author = "3d MRB";
+        scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+        displayName = "FTX Arsenal Crate";
+        class EventHandlers {
+            init = "[_this select 0] execVM '\3d_Assets\arsenal\ftx_arsenal.sqf';";
         };
     };
     class Reammobox_F;
