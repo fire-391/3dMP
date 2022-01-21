@@ -1,13 +1,8 @@
 _ftx = [
 // Vanilla Items
-	// Mines
-	"APERSTripMine_Wire_Mag",
-	"DemoCharge_Remote_Mag",
-	"SatchelCharge_Remote_Mag",
-	"ClaymoreDirectionalMine_Remote_Mag",
-	"ATMine_Range_Mag",
-	"SLAMDirectionalMine_Wire_Mag",
-	"APERSBoundingMine_Range_Mag",
+	// Pistol .45
+	"9Rnd_45ACP_Mag",
+	"11Rnd_45ACP_Mag",
 	// Grenades
 	"SmokeShellBlue",
 	"SmokeShellPurple",
@@ -21,10 +16,9 @@ _ftx = [
 	"Chemlight_blue",
 	"Chemlight_yellow",
 	"B_IR_Grenade",
-
+	// UAV Terminal
+	"O_UavTerminal",
 // ACE Items
-	// Mines
-	"ACE_FlareTripMine_Mag",
 	// Grenades
 	"ACE_Chemlight_IR",
 	"ACE_M84",
@@ -72,53 +66,18 @@ _ftx = [
 	"rhsusf_acc_sr25s",
 	"rhsusf_acc_sr25s_d",
 	"rhsusf_acc_sr25s_wd",
+	// 9mm
+	"rhsusf_mag_17Rnd_9x19_FMJ",
+	"rhsusf_mag_17Rnd_9x19_JHP",
+	"rhsusf_mag_15Rnd_9x19_JHP",
+	"rhsusf_mag_15Rnd_9x19_FMJ",
+	// .45
+	"rhsusf_mag_7x45acp_MHP",
+
 
 //AMP
-	"AMP_Breaching_Charge_Mag",
 	"AMP_Door_Wedge",
 
 // MS IFF Strobe
 	"MS_Strobe_Mag_1"
-
-//TierOne
-
-// NiArms Mags
-/*
-	"hlc_13Rnd_9x19_B_P228",
-	"hlc_15Rnd_9x19_B_P226",
-	"hlc_13Rnd_9x19_JHP_P228",
-	"hlc_15Rnd_9x19_JHP_P226",
-	"hlc_13Rnd_9x19_SD_P228",
-	"hlc_15Rnd_9x19_SD_P226",
-	"hlc_12Rnd_40SW_B_P226",
-	"hlc_12Rnd_40sw_JHP_P226",
-	"hlc_12Rnd_40SW_SD_P226",
-	"hlc_10Rnd_40SW_B_P229",
-	"hlc_10Rnd_40SW_JHP_P229",
-	"hlc_10Rnd_40sw_SD_P229",
-	"hlc_30rnd_556x45_EPR_PMAG",
-	"hlc_30rnd_556x45_M_PMAG",
-	"hlc_30rnd_556x45_TDim",
-	"hlc_30rnd_556x45_SOST_PMAG",
-	"hlc_30rnd_556x45_SOST",
-	"hlc_30rnd_556x45_S_PMAG",
-	"hlc_30rnd_556x45_S",
-	"hlc_30rnd_556x45_t_PMAG",
-	"hlc_30rnd_556x45_t",
-	"hlc_30rnd_556x45_TDim_PMAG",
-	"hlc_30rnd_556x45_TDim",
-	"hlc_100Rnd_762x51_B_M60E4",
-	"hlc_100rnd_762x51_Mdim_M60E4",
-	"hlc_100rnd_762x51_Barrier_M60E4",
-	"hlc_100rnd_762x51_M_M60E4",
-	"hlc_100Rnd_762x51_T_M60E4",
-	"hlc_200Rnd_762x51_B_M60E4",
-	"hlc_200Rnd_762x51_Mdim_M60E4",
-	"hlc_200rnd_762x51_Barrier_M60E4",
-	"hlc_200Rnd_762x51_T_M60E4",
-	"hlc_200rnd_556x45_T_SAW",
-	"hlc_200rnd_556x45_B_SAW",
-	"hlc_200rnd_556x45_Mdim_SAW",
-	"hlc_200rnd_556x45_M_SAW"
-*/
 ];
