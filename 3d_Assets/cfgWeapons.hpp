@@ -27,11 +27,6 @@ class CfgWeapons
         modelOptics = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_14_opt";
         picture = "\rhsusf\addons\rhsusf_infantry\ui\ico_anpvs14.paa";
         model = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_14_UP";
-		ace_nightvision_generation = 7;
-		ace_nightvision_bluRadius = 0.10;
-		ace_nightvision_eyeCups = 1;
-		ace_nightvision_fogScaling = 0.5;
-		ace_nightvision_effectScaling = 0.5;
         class ItemInfo: ItemInfo {
             modelOff = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_14_UP";
             uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_14_DOWN";
@@ -53,12 +48,6 @@ class CfgWeapons
         modelOptics = "\A3\weapons_f\reticle\optics_night";
         picture = "\rhsusf\addons\rhsusf_infantry\ui\ico_anpvs15.paa";
         model = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_UP";
-		ace_nightvision_generation = 7;
-		ace_nightvision_bluRadius = 0.10;
-		ace_nightvision_eyeCups = 1;
-		ace_nightvision_fogScaling = 0.5;
-		ace_nightvision_effectScaling = 0.5;
-        class ItemInfo: ItemInfo {
             modelOff = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_UP";
             uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_DOWN";
         };
@@ -79,11 +68,6 @@ class CfgWeapons
         modelOptics = "\A3\weapons_f\reticle\optics_night";
         picture = "\3d_Assets\data\PVS_23_Opt.paa";
         model = "\SOAS_Gear\H_SOAR_ANVIS_ON";
-		ace_nightvision_generation = 7;
-		ace_nightvision_bluRadius = 0.10;
-		ace_nightvision_eyeCups = 1;
-		ace_nightvision_fogScaling = 0.5;
-		ace_nightvision_effectScaling = 0.5;
         class ItemInfo: ItemInfo {
             uniformModel = "\SOAS_Gear\H_SOAR_ANVIS_ON";
             modelOff = "\SOAS_Gear\H_SOAR_ANVIS_OFF";
@@ -106,11 +90,6 @@ class CfgWeapons
         modelOptics = "\A3\weapons_f\reticle\optics_night";
         picture = "\SOAS_Gear\Data\UI\SOAS_ANVIS_6.paa";
         model = "\SOAS_Gear\H_SOAR_ANVIS_ON";
-		ace_nightvision_generation = 7;
-		ace_nightvision_bluRadius = 0.10;
-		ace_nightvision_eyeCups = 1;
-		ace_nightvision_fogScaling = 0.5;
-		ace_nightvision_effectScaling = 0.5;
         class ItemInfo: ItemInfo {
             uniformModel = "\SOAS_Gear\H_SOAR_ANVIS_ON";
             modelOff = "\SOAS_Gear\H_SOAR_ANVIS_OFF";
