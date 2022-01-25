@@ -48,6 +48,7 @@ class CfgWeapons
         modelOptics = "\A3\weapons_f\reticle\optics_night";
         picture = "\rhsusf\addons\rhsusf_infantry\ui\ico_anpvs15.paa";
         model = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_UP";
+	class ItemInfo: ItemInfo {
             modelOff = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_UP";
             uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\nvg\ANPVS_15_DOWN";
         };
