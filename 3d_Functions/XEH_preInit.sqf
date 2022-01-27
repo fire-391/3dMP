@@ -32,7 +32,6 @@ FN(lockBackpackHolder)
 FN(openChestbag)
 FN(prepBackpackHolder)
 FN(saveLoadout)
-FN(setAISkill)
 FN(setCallSign)
 FN(setChannelNames)
 FN(showCSDialog)
@@ -54,6 +53,7 @@ FN(EdenModuleSpawnMenu)
         params ["_value"];
         setTerrainGrid _value;
     }
+] call CBA_settings_fnc_init;
 
 mrb_insigniaCache = call CBA_fnc_createNamespace;
 {
