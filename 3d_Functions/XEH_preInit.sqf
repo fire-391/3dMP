@@ -14,7 +14,6 @@ FN(AresModuleFRIES)
 FN(AresModuleShiftTemperature)
 */
 //Functions
-FN(AcreCustomSignal)
 FN(backpackToChest)
 FN(canDropBag)
 FN(canMoveBag)
