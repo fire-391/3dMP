@@ -529,6 +529,10 @@ _items = [
 	"rhsusf_acc_m24_muzzlehider_d",
 	"rhsusf_acc_m24_muzzlehider_wd",
 	"rhsusf_acc_kac_grip",
+	"rhsusf_acc_aac_m14dcqd_silencer",
+	"rhsusf_acc_aac_m14dcqd_silencer_d",
+	"rhsusf_acc_aac_m14dcqd_silencer_wd",
+	"rhsusf_acc_m14_flashsuppresor",
 	
 // 3d MRB custom
 	"MRB_SniperBlinds",
