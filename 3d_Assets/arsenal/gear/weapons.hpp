@@ -120,6 +120,9 @@ _weapons = [
 	"rhs_weap_m24sws",
 	"rhs_weap_m24sws_blk",
 	"rhs_weap_m24sws_ghillie",
+	
+	// M14EBR
+	"rhs_weap_m14ebrri",
 
 	// Javelin
 	"rhs_weap_fgm148",
