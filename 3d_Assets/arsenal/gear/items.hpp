@@ -383,6 +383,18 @@ _items = [
 	"tier1_urx4_la5_m300c",
 	"tier1_urx4_ngal_m300c_black",
 	"tier1_urx4_ngal_m300c",
+	"tier1_romeo4t_bcq_black",
+	"tier1_romeo4t_bcq_tan",
+	"tier1_romeo4t_bcq_g33_black_up",
+	"tier1_romeo4t_bcq_g33_tan_up",
+	"tier1_microt2_g33_black_up",
+	"tier1_microt2_g33_desert_up",
+	"tier1_afg_mlok_black",
+	"tier1_afg_mlok_fde",
+	"tier1_urx4_la5_m603v",
+	"tier1_urx4_ngal_m603v",
+	"tier1_socom556_2_mini_black",
+	"tier1_socom556_2_mini_de",
 
 // RHS Items
 	"m24_bino",
