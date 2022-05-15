@@ -17,6 +17,8 @@ All are false by default.
 		["C-130J Hercules", "USAF_C130J", [true, false, false]],
 		["C-130J Hercules [3CB]", "UK3CB_CW_US_B_Early_C130J", [true, false, false]],
 		["C-130J Hercules Cargo", "USAF_C130J_Cargo", [true, false, false]],
+		["F/A-18E", "JS_JC_FA18E", [true, true, true]]
+		["F/A-18F", "JS_JC_FA18F", [true, true, true]]
 		["MQ-9 Reaper", "MRB_MQ9", [true, true, true]]
 	],
 	[
