@@ -59,46 +59,6 @@ class CfgFactionClasses {
     };
 };
 
-// Miles' Stamina Mod
-/*
-class CfgMovesFatigue {
-    staminaDuration = 100;
-    staminaRestoration = 40;
-    terrainDrainSprint = -0.7;
-    terrainDrainRun = -0.7;
-};
-*/
-
-// Miles' AI Mod
-class Extended_Init_EventHandlers {
-    class CAManBase {
-        class MRB_AISkillEvent {
-            init = "call mrb_fnc_setAISkill";
-        };
-    };
-};
-
-class CfgAISkill {
-    aimingAccuracy[] = {0,0,1,1};
-    aimingShake[] = {0,0,1,1};
-    aimingSpeed[] = {0,0,1,1};
-    commanding[] = {0,0,1,1};
-    courage[] = {0,0,1,1};
-    general[] = {0,0,1,1};
-    reloadSpeed[] = {0,0,1,1};
-    spotDistance[] = {0,0,1,1};
-    spotTime[] = {0,0,1,1};
-};
-
-class CfgAILevelPresets {
-    class Custom;
-    class MRB_AILevelPreset: Custom {
-        displayName = "MRB";
-        precisionAI = 0.2;
-        skillAI = 0.9;
-    };
-};
-
 class CfgDifficultyPresets {
     class Custom;
     class MRB_difficultyPreset: Custom {
