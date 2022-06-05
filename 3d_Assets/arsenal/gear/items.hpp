@@ -33,6 +33,9 @@ _items = [
 	"kat_AED",
 	"Kat_aatKit",
 	"kat_larynx",
+	"kat_IV_16", 
+	"kat_IO_FAST",
+	"kat_TXA",
 		
 // Ace Items
 	"ACE_MX2A",
