@@ -80,6 +80,14 @@ _items = [
 	"AUR_Rappel_Rope_70",
 	"AUR_Rappel_Gear",
 
+// Breach
+	"tsp_lockpick",
+	"tsp_frameCharge_mag",
+	"tsp_popperCharge_mag",
+	"tsp_popperCharge_auto_mag",
+	"tsp_stickCharge_mag",
+	"tsp_stickCharge_auto_mag ",
+	
 // Chemical Warfare
 	"U_mas_usl_B_suite_VEG",
 	"U_mas_usl_B_suite_CQB",
