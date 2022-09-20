@@ -3,7 +3,7 @@ params ["_crate"];
 #include "gear\backpacks.hpp"
 #include "gear\facewear.hpp"
 #include "gear\headgear.hpp"
-#include "gear\items.hpp"
+#include "gear\mags.hpp"
 #include "gear\ftx.hpp"
 #include "gear\uniforms.hpp"
 #include "gear\vests.hpp"
