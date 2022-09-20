@@ -199,7 +199,8 @@ mrb_insigniaCache = call CBA_fnc_createNamespace;
     "MRB_JTAC_Patch",
     "MRB_SARC_Patch",
     "MRB_8311_Patch",
-    "MRB_8321_Patch",
+    "MRB_8313_Patch",
     "MRB_SOAR_Patch",
-    "MRB_S2"
+    "MRB_S2",
+    "MRB_CHQ"
 ];
