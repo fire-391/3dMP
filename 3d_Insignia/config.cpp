@@ -29,7 +29,7 @@ class CfgUnitInsignia {
         author = "3d MRB";
         texture = "3d_Insignia\data\8311.paa";
     };
-    class MRB_8321_Patch {
+    class MRB_8313_Patch {
         displayName = "MSOT 8313 Hades";
         author = "3d MRB";
         texture = "3d_Insignia\data\8313.paa";
