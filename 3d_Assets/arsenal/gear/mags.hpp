@@ -184,8 +184,8 @@ _mags = [
 	"rhs_fgm148_magazine_AT",
 
 //AMP
-	"AMP_Breaching_Charge_Mag",
-	"AMP_Door_Wedge",
+	//"AMP_Breaching_Charge_Mag",
+	//"AMP_Door_Wedge",
     
 // MS IFF Strobe
 	"MS_Strobe_Mag_1",
