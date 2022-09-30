@@ -13,7 +13,7 @@ _mags = [
 	"30Rnd_9x21_Mag_SMG_02_Tracer_Red",
 	// .45
 	"9Rnd_45ACP_Mag",
-	"11Rnd_45ACP_Mag",	
+	"11Rnd_45ACP_Mag",
 	// Mines
 	"APERSTripMine_Wire_Mag",
 	"DemoCharge_Remote_Mag",
@@ -60,11 +60,13 @@ _mags = [
 	"ACE_HandFlare_Yellow",
 	// Magazines
 	"ACE_HuntIR_M203",
-	"ACE_40mm_Flare_White",
+	"ACE_40mm_Flare_white",
+	"ACE_40mm_Flare_green",
+	"ACE_40mm_Flare_red",
 	"ACE_40mm_Flare_ir",
 	"ACE_20Rnd_762x51_M118LR_Mag",
 	"ACE_20Rnd_762x51_M993_AP_Mag",
-    
+
 // RHS Items
 	// 5.56
 	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
@@ -186,14 +188,14 @@ _mags = [
 //AMP
 	//"AMP_Breaching_Charge_Mag",
 	//"AMP_Door_Wedge",
-    
+
 // MS IFF Strobe
 	"MS_Strobe_Mag_1",
 
 //TierOne
 	"Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
 	"Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag"
-	
+
 // NiArms Mags
 /*
 	"hlc_13Rnd_9x19_B_P228",
