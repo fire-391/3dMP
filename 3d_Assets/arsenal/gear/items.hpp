@@ -62,6 +62,7 @@ _items = [
 	"ACE_VectorDay",
 	"ACE_Vector",
 	"ACE_muzzle_mzls_smg_01",
+	"ACE_muzzle_mzls_bravo",
 	"ACE_RangeCard",
 	"ACE_SpareBarrel",
 	"ACE_ConcertinaWireCoil",
@@ -595,6 +596,8 @@ _items = [
 	"tier1_socom556_de",
 	"tier1_socom556_2_black",
 	"tier1_socom556_2_de",
+	"tier1_socom762mg_black",
+	"tier1_socom762mg_de",
 //Bipods:
 	"tier1_bcm_gunfighter_vg_black",
 	"tier1_bcm_gunfighter_vg_fde",
