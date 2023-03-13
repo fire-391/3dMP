@@ -42,7 +42,6 @@ _crate addMagazineCargoGlobal ["rhs_mag_M715_green", 10];
 _crate addMagazineCargoGlobal ["rhs_mag_M713_red", 10];
 _crate addMagazineCargoGlobal ["rhs_mag_M661_green", 5];
 _crate addMagazineCargoGlobal ["rhs_mag_M662_red", 5];
-_crate addMagazineCargoGlobal ["AMP_Breaching_Charge_Mag", 3];
 _crate addMagazineCargoGlobal ["ACE_M84", 10];
 _crate addMagazineCargoGlobal ["RHS_Mag_M67", 15];
 _crate addMagazineCargoGlobal ["MS_Strobe_Mag_1", 4];
