@@ -86,7 +86,7 @@ class CfgWeapons
     { 
         displayname = "HGU-56/P Visor Mask (Whelan)";
         scope = 2;
-		picture = "pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca"
+		picture = "\pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca"
         hiddenSelectionsTextures[] =
         { 
             "pilot_helmets\img\MRB_H_hgu56_visor_mask_Whelan"
