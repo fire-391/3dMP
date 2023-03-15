@@ -50,7 +50,7 @@ class CfgWeapons
     {
         displayName = "HGU-56/P USA (Carrera)";
         scope = 2;
-		picture = "pilot_helmets\img\rhs_hgu56_usa_ca"
+		picture = "pilot_helmets\img\MRB_H_hgu56_Carrera"
         hiddenSelectionsTextures[] =
         {
             "pilot_helmets\img\MRB_H_hgu56_Carrera"
