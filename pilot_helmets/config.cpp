@@ -53,7 +53,7 @@ class CfgWeapons
 		picture = "pilot_helmets\img\rhs_hgu56_usa_ca"
         hiddenSelectionsTextures[] =
         {
-            "pilot_helmets\img\MRB_H_hgu56_Carrera.paa"
+            "pilot_helmets\img\MRB_H_hgu56_Carrera"
         };
     };
     class MRB_H_hgu56_visor_Speirs : MRB_H_hgu56_visor_base
@@ -62,7 +62,7 @@ class CfgWeapons
         scope = 2;
         hiddenSelectionsTextures[] =
         {
-            "pilot_helmets\img\MRB_H_hgu56_visor_Speirs.paa"
+            "pilot_helmets\img\MRB_H_hgu56_visor_Speirs"
         };
     };
     class MRB_H_hgu56_visor_Brueske : MRB_H_hgu56_visor_base
@@ -80,7 +80,7 @@ class CfgWeapons
         scope = 2;
         hiddenSelectionsTextures[] =
         {
-            "pilot_helmets\img\MRB_H_hgu56_visor_Levorse.paa"
+            "pilot_helmets\img\MRB_H_hgu56_visor_Levorse"
         };
     };
     class MRB_H_hgu56_visor_mask_Whelan : MRB_H_hgu56_visor_mask_base
@@ -90,7 +90,7 @@ class CfgWeapons
 		picture = "pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca"
         hiddenSelectionsTextures[] =
         { 
-            "pilot_helmets\img\MRB_H_hgu56_visor_mask_Whelan.paa"
+            "pilot_helmets\img\MRB_H_hgu56_visor_mask_Whelan"
         };
     };
     class MRB_H_hgu56_visor_mask_Jordan : MRB_H_hgu56_visor_mask_base
@@ -99,7 +99,7 @@ class CfgWeapons
         scope = 2;
         hiddenSelectionsTextures[] =
         { 
-            "pilot_helmets\img\MRB_H_hgu56_visor_mask_Jordan.paa"
+            "pilot_helmets\img\MRB_H_hgu56_visor_mask_Jordan"
         };
     };
 };
