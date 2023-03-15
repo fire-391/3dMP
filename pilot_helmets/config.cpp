@@ -50,7 +50,7 @@ class CfgWeapons
     {
         displayName = "HGU-56/P USA (Carrera)";
         scope = 2;
-		picture = "pilot_helmets\img\rhs_hgu56_usa_co"
+		picture = "pilot_helmets\img\rhs_hgu56_usa_ca"
         hiddenSelectionsTextures[] =
         {
             "pilot_helmets\img\MRB_H_hgu56_Carrera"
@@ -87,7 +87,7 @@ class CfgWeapons
     { 
         displayname = "HGU-56/P Visor Mask (Whelan)";
         scope = 2;
-		picture = "pilot_helmets\img\rhs_hgu56_smiley_co"
+		picture = "pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca"
         hiddenSelectionsTextures[] =
         { 
             "pilot_helmets\img\MRB_H_hgu56_visor_mask_Whelan"
