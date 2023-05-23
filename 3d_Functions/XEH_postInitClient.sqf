@@ -96,6 +96,41 @@ if (hasInterface) then {
 };
 
 private _medicalTab = [
-    "ACE_quikclot", "ACE_packingBandage","ACE_elasticBandage", "ACE_fieldDressing","ACE_tourniquet", "ACE_splint","ACE_morphine","ACE_epinephrine", "ACE_adenosine","ACE_salineIV", "ACE_salineIV_500","ACE_salineIV_250","ACE_plasmaIV","ACE_plasmaIV_500","ACE_plasmaIV_250","ACE_bloodIV","ACE_bloodIV_500","ACE_bloodIV_250","ACE_surgicalKit","ACE_personalAidKit","kat_IV_16","Kat_aatKit","kat_accuvac","kat_AED","kat_X_AED","kat_chestseal","kat_IO_FAST","kat_guedel","kat_larynx","kat_pulseoximeter","kat_TXA"
+    "ACE_quikclot",
+    "ACE_packingBandage",
+    "ACE_elasticBandage", 
+    "ACE_fieldDressing",
+    "ACE_tourniquet",
+    "ACE_splint",
+    "ACE_morphine",
+    "ACE_epinephrine",
+    "ACE_adenosine",
+    "ACE_salineIV",
+    "ACE_salineIV_500",
+    "ACE_salineIV_250",
+    "ACE_plasmaIV",
+    "ACE_plasmaIV_500",
+    "ACE_plasmaIV_250",
+    "ACE_bloodIV",
+    "ACE_bloodIV_500",
+    "ACE_bloodIV_250",
+    "ACE_surgicalKit",
+    "ACE_personalAidKit",
+    "kat_IV_16",
+    "Kat_aatKit",
+    "kat_accuvac",
+    "kat_AED",
+    "kat_X_AED",
+    "kat_chestseal",
+    "kat_IO_FAST",
+    "kat_guedel",
+    "kat_larynx",
+    "kat_pulseoximeter",
+    "kat_TXA",
+    "kat_EACA",
+	"kat_fentanyl",
+	"kat_ketamine",
+	"kat_naloxone"
+		
 ];
 [_medicalTab, "Medical","3d_Functions\data\redCrystal.paa"] call ace_arsenal_fnc_addRightPanelButton;
