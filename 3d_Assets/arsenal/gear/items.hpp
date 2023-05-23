@@ -36,6 +36,10 @@ _items = [
 	"kat_IV_16", 
 	"kat_IO_FAST",
 	"kat_TXA",
+	"kat_EACA",
+	"kat_fentanyl",
+	"kat_ketamine",
+	"kat_naloxone",
 		
 // Ace Items
 	"ACE_MX2A",
