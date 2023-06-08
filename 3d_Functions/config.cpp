@@ -297,9 +297,9 @@ class CfgVehicles {
                 description = "Which menu will be used";
                 typeName = "NUMBER";
                 class values {
-                    class air { name = "FOB SENTINEL SPAWN MENU"; value = 0;};
+                    class air { name = "FIXED WING SPAWN MENU"; value = 0;};
                     class ground { name = "GROUND VEHICLE SPAWN MENU"; value = 1;};
-                    class helo { name = "USS WASP SPAWN MENU"; value = 2;};
+                    class helo { name = "HELICOPTOR SPAWN MENU"; value = 2;};
                     class support { name = "SUPPORT VEHICLE SPAWN MENU"; value = 3;};
                 };
             };
