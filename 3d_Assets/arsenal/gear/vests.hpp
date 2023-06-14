@@ -240,7 +240,7 @@ _vests = [
 	"milgp_v_mmac_medic_belt_aor1_aor1_aor1",
 	"milgp_v_mmac_medic_belt_aor1_cb_cb",
 	"milgp_v_mmac_medic_belt_aor1_mc_mc",
-	"milgp_v_mmac_medic_belt_blk_mcb_mcb"
+	"milgp_v_mmac_medic_belt_blk_mcb_mcb",
 	"milgp_v_mmac_medic_belt_cb_cb_cb",
 	"milgp_v_mmac_medic_belt_cb_mc_mc",
 	"milgp_v_mmac_medic_belt_mc_mc_mc",
