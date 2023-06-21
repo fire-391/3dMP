@@ -25,7 +25,7 @@
 		scopeArsenal = 2;
 		class EventHandlers 
 		{
-			init = "this animateSource ["hoist_hook_hide", 1]; this animateSource ["Fuelprobe_Show", 0]; this animateSource ["ERFS_Show", 0];";
+			init = "this animateSource ["Fuelprobe_Show", 0]; this animateSource ["ERFS_Show", 0];";
 		};
 	};
 	/*class Helicopter_Base_H; 
