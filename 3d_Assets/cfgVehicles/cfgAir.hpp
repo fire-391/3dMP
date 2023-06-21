@@ -13,22 +13,22 @@
 			init = "_veh = (_this select 0); createVehicleCrew _veh;";
 		};
 	};
-	/*class rksla3_uav_watchkeeper_base;
-	class rksla3_uav_watchkeeper_uk : rksla3_uav_watchkeeper_base
+	class vtx_MH60M;
+	class MRB_MH60M : vtx_MH60M
 	{
-		displayName = "WK450 Watchkeeper";
+		displayName = "MRB_MH-60M";
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Aircraft";
-		scope = 0;
+		scope = 2;
 		side = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		class EventHandlers 
 		{
-			init = "_veh = (_this select 0); createVehicleCrew _veh;";
+			init = "this animateSource ["hoist_hook_hide", 1]; this animateSource ["Fuelprobe_Show", 0]; this animateSource ["ERFS_Show", 0];";
 		};
 	};
-	class Helicopter_Base_H; 
+	/*class Helicopter_Base_H; 
 	class Heli_Transport_01_base_F : Helicopter_Base_H {};
 	class B_Heli_Transport_01_F : Heli_Transport_01_base_F {};
 	class RHS_MELB_base : Helicopter_Base_H 
