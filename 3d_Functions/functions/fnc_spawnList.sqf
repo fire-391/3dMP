@@ -84,7 +84,7 @@ All are false by default.
 		["MH-6M Little Bird", "RHS_MELB_MH6M", [true, false, false]],
 		["CH-47 Chinook", "RHS_CH_47F_10", [true, false, false]],
 		["MH-60M", "mrb_MH60M", [true, true, true]],
-		["MH-60M DAP", "vtx_MH60M_DAP", [true, true, true]]
+		["MH-60M DAP", "mrb_MH60M_DAP", [true, true, true]]
 	],
 	[
 		["Delete Vehicle", "delete_any"],
