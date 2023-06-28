@@ -29,7 +29,7 @@
 		};
 	};
 	class vtx_MH60M_DAP;
-	class MRB_MH60M : vtx_MH60M_DAP
+	class MRB_MH60M_DAP : vtx_MH60M_DAP
 	{
 		displayName = "MRB_MH-60M";
 		faction = "B_3d_Marine_Raider";
