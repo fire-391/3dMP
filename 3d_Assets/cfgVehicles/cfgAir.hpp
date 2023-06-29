@@ -31,7 +31,7 @@
 	class vtx_MH60M_DAP;
 	class MRB_MH60M_DAP : vtx_MH60M_DAP
 	{
-		displayName = "MRB_MH-60M DAP";
+		displayName = "MRB_MH-60M_DAP";
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Aircraft";
 		scope = 2;
@@ -44,9 +44,9 @@
 		};
 	};
 	class vtx_MH60M_DAP_MLASS;
-	class MRB_MH60M_DAP_MLASS : vtx_MH60M_DAP_MLASS
+	class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS
 	{
-		displayName = "MRB_MH-60M MLASS";
+		displayName = "MRB_MH-60M_MLASS";
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Aircraft";
 		scope = 2;
