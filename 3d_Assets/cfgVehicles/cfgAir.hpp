@@ -40,7 +40,7 @@
 		scopeArsenal = 2;
 		class EventHandlers 
 		{
-			init = "[_this select 0, nil, ['Fuelprobe_show', 0,]] call BIS_fnc_initVehicle;";
+			init = "[_this select 0, nil, ['Fuelprobe_show', 0]] call BIS_fnc_initVehicle;";
 		};
 	};
 	class vtx_MH60M_DAP_MLASS;
@@ -55,7 +55,7 @@
 		scopeArsenal = 2;
 		class EventHandlers 
 		{
-			init = "[_this select 0, nil, ['Fuelprobe_show', 0,]] call BIS_fnc_initVehicle;";
+			init = "[_this select 0, nil, ['Fuelprobe_show', 0]] call BIS_fnc_initVehicle;";
 		};
 	};
   /*class Helicopter_Base_H; 
