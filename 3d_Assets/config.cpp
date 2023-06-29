@@ -68,6 +68,8 @@ class CfgPatches
 			"MRB_M109A7_SPH_Tan",
 			// Rotary Wing Configured in 3dassets\cfgvehicles\cfgAir.hpp in same order as below
 			"MRB_MQ9",					//line 1
+			"MRB_MH60M_DAP",
+			"MRB_MH60M_MLASS",
 			//"MH47E_Razor1", 			//line 77
 			//"MH47E_Razor2",				//line 149
 			//"MH47E_Razor3",				//line 221
