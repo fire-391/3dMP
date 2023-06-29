@@ -31,7 +31,7 @@
 	class vtx_MH60M_DAP;
 	class MRB_MH60M_DAP : vtx_MH60M_DAP
 	{
-		displayName = "MRB_MH-60M";
+		displayName = "MRB_MH-60M DAP";
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Aircraft";
 		scope = 2;
@@ -40,7 +40,22 @@
 		scopeArsenal = 2;
 		class EventHandlers 
 		{
-			init = "[_this select 0, nil, ['Fuelprobe_show', 0, 'ERFS_Show', 0]] call BIS_fnc_initVehicle;";
+			init = "[_this select 0, nil, ['Fuelprobe_show', 0,]] call BIS_fnc_initVehicle;";
+		};
+	};
+	class vtx_MH60M_DAP_MLASS;
+	class MRB_MH60M_DAP_MLASS : vtx_MH60M_DAP_MLASS
+	{
+		displayName = "MRB_MH-60M MLASS";
+		faction = "B_3d_Marine_Raider";
+		editorSubcategory = "B_3d_Marine_Raider_Aircraft";
+		scope = 2;
+		side = 1;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		class EventHandlers 
+		{
+			init = "[_this select 0, nil, ['Fuelprobe_show', 0,]] call BIS_fnc_initVehicle;";
 		};
 	};
   /*class Helicopter_Base_H; 
