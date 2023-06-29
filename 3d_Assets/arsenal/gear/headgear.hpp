@@ -59,6 +59,7 @@ _headgear = [
     "JS_JC_FA18_PilotHelmet",
 
 // MILGP Ops Core Helmets
+    "milgp_h_opscore_03_aor1_khk",
     "milgp_h_opscore_03_blk_blk_blkc",
     "milgp_h_opscore_03_blk_blk_mcbc",
     "milgp_h_opscore_03_rgr_rgr_m81c",
@@ -81,6 +82,7 @@ _headgear = [
     "milgp_h_opscore_03_goggles_rgr_rgr_rgrc",
     "milgp_h_opscore_03_goggles_khk_khk_cbc",
     "milgp_h_opscore_03_goggles_khk_khk_mcc",
+    "milgp_h_opscore_04_aor1_khk",
     "milgp_h_opscore_04_blk_blk_blkc",
     "milgp_h_opscore_04_blk_blk_mcbc",
     "milgp_h_opscore_04_rgr_rgr_m81c",
@@ -103,6 +105,7 @@ _headgear = [
     "milgp_h_opscore_04_goggles_khk_hexagon_cb",
     "milgp_h_opscore_04_goggles_khk_cb",
     "milgp_h_opscore_04_goggles_wht_wht",
+    "milgp_h_opscore_05_aor1_khk",
     "milgp_h_opscore_05_blk_blk_blkc",
     "milgp_h_opscore_05_blk_blk_mcbc",
     "milgp_h_opscore_05_rgr_rgr_m81c",
@@ -115,6 +118,7 @@ _headgear = [
     "milgp_h_opscore_05_goggles_rgr_rgr_rgrc",
     "milgp_h_opscore_05_goggles_khk_khk_cbc",
     "milgp_h_opscore_05_goggles_khk_khk_mcc",
+    "milgp_h_opscore_06_aor1_khk",
     "milgp_h_opscore_06_blk_blk_blkc",
     "milgp_h_opscore_06_blk_blk_mcbc",
     "milgp_h_opscore_06_rgr_rgr_m81c",
