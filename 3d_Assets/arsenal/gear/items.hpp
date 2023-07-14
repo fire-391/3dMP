@@ -40,6 +40,7 @@ _items = [
   "kat_fentanyl",
   "kat_ketamine",
   "kat_naloxone",
+  "kat_pocketBVM",
 	
 // Ace Items
   "ACE_MX2A",
