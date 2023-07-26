@@ -25,10 +25,10 @@ _items = [
     "ACE_surgicalKit",
 // KAT Medcial
   "kat_accuvac",
-  "kat_chestseal",
+  "kat_chestSeal",
   "kat_guedel",
   "kat_pulseoximeter",
-  "kat_Painkiller",
+  "kat_PainkillerItem",
   "kat_X_AED",
   "kat_AED",
   "Kat_aatKit",
