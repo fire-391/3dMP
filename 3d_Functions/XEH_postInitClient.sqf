@@ -130,7 +130,7 @@ private _medicalTab = [
     "kat_EACA",
     "kat_fentanyl",
     "kat_ketamine",
-    "kat_naloxone"
+    "kat_naloxone",
     "kat_pocketBVM",
     "kat_PainkillerItem"
 ];
