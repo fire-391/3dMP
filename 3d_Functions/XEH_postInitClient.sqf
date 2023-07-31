@@ -128,9 +128,11 @@ private _medicalTab = [
     "kat_pulseoximeter",
     "kat_TXA",
     "kat_EACA",
-	"kat_fentanyl",
-	"kat_ketamine",
-	"kat_naloxone"
+    "kat_fentanyl",
+    "kat_ketamine",
+    "kat_naloxone"
+    "kat_pocketBVM",
+    "kat_PainkillerItem",
 		
 ];
 [_medicalTab, "Medical","3d_Functions\data\redCrystal.paa"] call ace_arsenal_fnc_addRightPanelButton;
