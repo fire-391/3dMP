@@ -94,7 +94,7 @@ if (_callSign != "" && {ace_player isEqualTo leader ace_player}) then {
 if (hasInterface) then {
     call FNC(setChannelNames);
 };
-
+*/
 private _medicalTab = [
     "ACE_quikclot",
     "ACE_packingBandage",
