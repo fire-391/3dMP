@@ -1,7 +1,6 @@
 class cfgVehicles {
     #include "\3d_Assets\cfgVehicles\cfgAir.hpp"
     #include "\3d_Assets\cfgVehicles\cfgBackpacks.hpp"
-    #include "\3d_Assets\cfgVehicles\cfgBoats.hpp"
     #include "\3d_Assets\cfgVehicles\cfgGround.hpp"
     #include "\3d_Assets\cfgVehicles\cfgUnits.hpp"
 	class Land_Destroyer_01_hull_base_F;
