@@ -1196,3 +1196,16 @@
 		hiddenSelectionsMaterials[] = {"rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_01_d.rvmat","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_02_d.rvmat","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_03_d.rvmat","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_mesh_d.rvmat","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_wheels_d.rvmat"};
 		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_01_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_02_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_03_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_mesh_d_ca.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_wheels_d_co.paa"};
 	};
+class CfgVehicles {
+	class B_Boat_Transport_01_F;
+    class MRB_Zodiac: B_Boat_Transport_01_F {
+        displayName = "MRB Zodiac";
+		maxSpeed = 55;
+		enginePower = 47;
+		side = 1;
+		scope =2;
+		crew = "MRB_Element_CSO";
+		editorSubcategory = "B_3d_Marine_Raider_Vehicles";
+		faction = "B_3d_Marine_Raider";
+	};
+};
