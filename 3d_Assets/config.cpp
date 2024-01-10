@@ -66,6 +66,7 @@ class CfgPatches
 			"MRB_Grizzly_ATV_Woodland",
 			"MRB_M109A7_SPH_Woodland",
 			"MRB_M109A7_SPH_Tan",
+			"MRB_Zodiac",
 			// Rotary Wing Configured in 3dassets\cfgvehicles\cfgAir.hpp in same order as below
 			"MRB_MQ9",					//line 1
 			"MRB_MH60M_DAP",
