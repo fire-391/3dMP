@@ -1204,6 +1204,8 @@
 		side = 1;
 		scope =2;
 		crew = "MRB_Element_CSO";
+                displayName = "MRB Zodiac";
+
 		editorSubcategory = "B_3d_Marine_Raider_Vehicles";
 		faction = "B_3d_Marine_Raider";
 	};
