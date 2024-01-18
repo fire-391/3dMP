@@ -1197,7 +1197,7 @@
 		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_01_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_02_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_03_d_co.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_mesh_d_ca.paa","rhsusf\addons\rhsusf_m109\data\rhsusf_m109a6_wheels_d_co.paa"};
 	};
 	class B_Boat_Transport_01_F;
-    class MRB_Zodiac: B_Boat_Transport_01_F {
+    class MRB_Zodiac : B_Boat_Transport_01_F {
         displayName = "MRB Zodiac";
 		maxSpeed = 55;
 		enginePower = 47;
