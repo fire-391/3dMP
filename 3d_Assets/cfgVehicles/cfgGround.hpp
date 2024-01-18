@@ -1203,7 +1203,6 @@
 		enginePower = 47;
 		side = 1;
 		scope =2;
-                displayName = "MRB Zodiac";
 		editorSubcategory = "B_3d_Marine_Raider_Watercraft";
 		faction = "B_3d_Marine_Raider";
 	};
