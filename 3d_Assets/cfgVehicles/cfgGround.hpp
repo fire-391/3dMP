@@ -1206,4 +1206,3 @@
 		editorSubcategory = "B_3d_Marine_Raider_Watercraft";
 		faction = "B_3d_Marine_Raider";
 	};
-};
