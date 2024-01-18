@@ -8,18 +8,18 @@ class CfgPatches
 		weapons[] =
 		{
 			// 3d weapons Configured in 3dassets\cfgWeapons.hpp in same order as below
-			//"MRB_Vector",				//line 15
-			"MRB_PVS14",				//line 138
-			"MRB_PVS14FS",				//line 151
-			"MRB_PVS15",				//line 171
-			"MRB_PVS15FS",				//line 191
-			"MRB_PVS23",				//line 211
-			"MRB_PVS23FS",				//line 231
-			"MRB_AVS6",					//line 251
-			"MRB_AVS6FS",				//line 271
-			"ACE_TacticalLadder_Item",	//line 294
-			"MRB_UAV_Item",				//line 308
-			"MRB_IR_Strobe_Item"		//line 323
+			//"MRB_Vector",			//line 15
+			"MRB_PVS14",			//line 138
+			"MRB_PVS14FS",			//line 151
+			"MRB_PVS15",			//line 171
+			"MRB_PVS15FS",			//line 191
+			"MRB_PVS23",			//line 211
+			"MRB_PVS23FS",			//line 231
+			"MRB_AVS6",			//line 251
+			"MRB_AVS6FS",			//line 271
+			"ACE_TacticalLadder_Item",      //line 294
+			"MRB_UAV_Item",			//line 308
+			"MRB_IR_Strobe_Item"	        //line 323
 		};
 		units[] =
 		{
@@ -59,7 +59,6 @@ class CfgPatches
 			"MRB_DAGOR_Olive",
 			"MRB_DAGOR_XM312_Tan",
 			"MRB_DAGOR_XM312_Olive",
-			"MRB_MATV",
 			"MRB_MATV_CROWS",
 			"MRB_Grizzly_ATV_Tan",
 			"MRB_Grizzly_ATV_Black",
@@ -68,18 +67,18 @@ class CfgPatches
 			"MRB_M109A7_SPH_Tan",
 			"MRB_Zodiac",
 			// Rotary Wing Configured in 3dassets\cfgvehicles\cfgAir.hpp in same order as below
-			"MRB_MQ9",					//line 1
+			"MRB_MQ9",			//line 1
 			"MRB_MH60M_DAP",
 			"MRB_MH60M_MLASS",
-			//"MH47E_Razor1", 			//line 77
-			//"MH47E_Razor2",				//line 149
-			//"MH47E_Razor3",				//line 221
+			//"MH47E_Razor1", 		//line 77
+			//"MH47E_Razor2",		//line 149
+			//"MH47E_Razor3",		//line 221
 			// 3d Logistics Configured in 3dassets\cfgvehicles.hpp in same order as below
 			"MRB_Arsenal_Crate",		//line 147
 			"MRB_Full_Arsenal_Crate",	//line 230
 			"MRB_Equipment_Crate",		//line 243
-			"MRB_CNR_Crate",			//line 269
-			"MRB_Supply_Crate",			//line 303
+			"MRB_CNR_Crate",		//line 269
+			"MRB_Supply_Crate",		//line 303
 			"MRB_Ammunition_Container",	//line 419
 			"MRB_Fuel_Container",		//line 429
 			"MRB_PersistenceCrate",
