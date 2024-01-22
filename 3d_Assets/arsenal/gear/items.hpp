@@ -45,6 +45,9 @@ _items = [
 	
 // Ace Items
   "ACE_MX2A",
+  "ACE_artilleryTable",
+  "acex_intelitems_notepad",
+  "ACE_PlottingBoard",
   "ACE_SpraypaintBlack",
   "ACE_SpraypaintBlue",
   "ACE_SpraypaintGreen",
