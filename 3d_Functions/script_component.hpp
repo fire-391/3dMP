@@ -24,10 +24,3 @@
 // Networking
 #define SERVER_ONLY if (!isServer) exitWith {PRINT("Non-server call to file %1 in mission %2 - file is marked SERVER_ONLY!",PRINT_LVL_WARNING)}
 #define CLIENT_ONLY if (!hasInterface) exitWith {PRINT("Non-client call to file %1 in mission %2 - file is marked CLIENT_ONLY!",PRINT_LVL_WARNING)}
-
-// AI Levels
-#define AI_LEVEL_SUPER 1.12
-#define AI_LEVEL_HIGH 1
-#define AI_LEVEL_NORM 0.88
-#define AI_LEVEL_LOW 0.76
-#define AI_LEVEL_NONE -1
