@@ -497,4 +497,8 @@ class CfgWeapons
     class milgp_h_opscore_06_goggles_RGR {
          ace_hearing_protection = 0.80;  // Protection against deafening (0 to 1, higher means more protection)
 	};
+	class rhs_weap_ATAS_launcher;
+	class 3d_weap_ATAS_launcher: rhs_weap_ATAS_launcher {
+		magazines[] = {"3d_mag_ATAS_2"};
+	};
 };
