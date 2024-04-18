@@ -166,7 +166,7 @@ _weapons = [
     "rhs_weap_mk18_m320",
     "rhs_weap_mk18_KAC",
   //249 SAW
-    /*"rhs_weap_m249",
+    "rhs_weap_m249",
     "rhs_weap_m249_pip_L",
     "rhs_weap_m249_pip_L_para",
     "rhs_weap_m249_pip_L_vfg",
@@ -174,7 +174,6 @@ _weapons = [
     "rhs_weap_m249_pip_S_para",
     "rhs_weap_m249_pip_S_vfg",
     "rhs_weap_m249_pip",
-    */
   //HK416
     "rhs_weap_hk416d10",
     "rhs_weap_hk416d10_m320",
