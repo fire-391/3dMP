@@ -102,6 +102,6 @@ _uniforms = [
 "Project_BJC_blk",
 "Project_BJC_blk_2",
 "Project_BJC_blk_3",
-"Project_BJC_blk_1",
+"Project_BJC_blk_1"
 	
 ];
