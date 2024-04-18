@@ -196,6 +196,15 @@ _mags = [
   "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
   "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag"
 
+//CSW
+  "ace_csw_100Rnd_127x99_mag",
+  "ace_csw_100Rnd_127x99_mag_red",
+  "ACE_1Rnd_82mm_Mo_HE",
+  "ACE_1Rnd_82mm_Mo_Illum",
+  "ACE_1Rnd_82mm_Mo_Smoke",
+  "ace_compat_rhs_usf3_48Rnd_40mm_MK19",
+  "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M430A1",
+
 // NiArms Mags
 /*
   "hlc_13Rnd_9x19_B_P228",
