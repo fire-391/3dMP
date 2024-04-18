@@ -471,6 +471,9 @@ _items = [
     "tier1_razor_gen3_110_adm_t2",
     "tier1_razor_gen3_110_geissele",
     "tier1_razor_gen3_110_geissele_docter",
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
   //Rail Attachments:
     "tier1_mk48mod0_la5",
     "tier1_mk48mod0_la5_m600v_black",
@@ -584,6 +587,10 @@ _items = [
     "tier1_mk46mod1_la5_m600v_black",
     "tier1_mk46mod1_la5_m600v",
     "tier1_mk46mod1_la5_m603v",
+    "Tier1_DBALPL",
+    "Tier1_DBALPL_FL",
+    "Tier1_TLR1",
+    "Tier1_X300U",
   //Muzzle Devices:
     "tier1_aac_m42000_black",
     "tier1_aac_m42000_desert",
@@ -607,6 +614,11 @@ _items = [
     "tier1_socom556_2_de",
     "tier1_socom762mg_black",
     "tier1_socom762mg_de",
+    "Tier1_Evo9",
+    "Tier1_TiRant9",
+    "Tier1_TiRant9S",
+    "Tier1_Agency_Compensator",
+    "Tier1_Octane9",
   //Bipods:
     "tier1_bcm_gunfighter_vg_black",
     "tier1_bcm_gunfighter_vg_fde",
