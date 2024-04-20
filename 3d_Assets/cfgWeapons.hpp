@@ -4,7 +4,6 @@ class CfgWeapons
 	class UniformItem;
 	class Uniform_Base;
 	class VSM_M81_Crye_Camo;
-	class VSM_Multicam_Crye_Camo;
 	class M81_Survival_Uni: VSM_M81_Crye_Camo
 	{
 		author="3d MRB";
@@ -19,6 +18,8 @@ class CfgWeapons
 			mass = 35;
 		};
 	};
+        
+	class VSM_Multicam_Crye_Camo;
 	class MC_Survival_Uni: VSM_Multicam_Crye_Camo
 	{
 		author="3d MRB";
