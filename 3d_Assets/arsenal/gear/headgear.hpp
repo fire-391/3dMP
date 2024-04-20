@@ -260,6 +260,7 @@ _headgear = [
     "rhs_booniehat2_marpatwd",
     "rhs_8point_marpatd",
     "rhs_8point_marpatwd",
+    "rhssaf_booniehat_woodland",
   //Caps
     "rhsusf_bowman_cap",
     "H_Cap_oli_hs",
