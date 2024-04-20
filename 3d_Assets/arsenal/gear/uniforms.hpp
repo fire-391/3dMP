@@ -19,6 +19,8 @@ _uniforms = [
   "U_B_HeliPilotCoveralls",
   "U_B_Wetsuit",
   "U_B_survival_uniform",
+  "M81_Survival_Uni",
+  "MC_Survival_Uni",
 
 // SOCOM Uniforms
   //"SOCOM_uniform_g3_m81_base",
