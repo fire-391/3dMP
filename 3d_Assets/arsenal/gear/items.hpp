@@ -137,7 +137,7 @@ _items = [
   "ACRE_VHF30108",
 
 // SMA Optics and Attachments
-  "SMA_ANPEQ15_BLK",
+/*  "SMA_ANPEQ15_BLK",
   "SMA_ANPEQ15_TAN",
   "SMA_ANPEQ15_TOP_417BLK",
   "SMA_ANPEQ15_TOP_417TAN",
@@ -296,7 +296,7 @@ _items = [
   "SMA_supp2TOD_556",
   "SMA_supp2TWH_556",
   "SMA_supptan_762",
-
+*/
 // TierOne
   //Optics:
     "tier1_anpvs10_tan",
@@ -824,7 +824,7 @@ _items = [
   "rhsusf_acc_m14_flashsuppresor",
 
 // 3d MRB custom
-  "MRB_SniperBlinds",
+  //"MRB_SniperBlinds",
 
 //Sling load Rigging
   "slr_slingload_CargoSling"
