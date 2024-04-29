@@ -34,6 +34,11 @@ _vests = [
   "milgp_v_marciras_marksman_mc_mc",
   "milgp_v_marciras_marksman_belt_mc_mc_mc",
   "milgp_v_marciras_teamleader_mc_mc",
-  "milgp_v_marciras_teamleader_belt_mc_mc_mc"
+  "milgp_v_marciras_teamleader_belt_mc_mc_mc",
+  "milgp_v_mmac_light_mc_mc",
+  "milgp_v_mmac_marksman_mc_mc",
+  "milgp_v_mmac_marksman_belt_mc_mc_mc",
+  "milgp_v_mmac_teamleader_mc_mc",
+  "milgp_v_mmac_teamleader_belt_mc_mc_mc"
 
 ];
