@@ -104,8 +104,8 @@ _items = [
   "G_mas_usl_gasmask",
 
 // NVGs
-  "MRB_PVS14",
-  "MRB_PVS14FS",
+  //"MRB_PVS14",
+  //"MRB_PVS14FS",
   "MRB_PVS15",
   "MRB_PVS15FS",
   "MRB_PVS23",
