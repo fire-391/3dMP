@@ -98,11 +98,11 @@ _items = [
   "tsp_stickCharge_mag",
   "tsp_stickCharge_auto_mag",
 
-// Chemical Warfare
-  "U_mas_usl_B_suite_VEG",
+// Chemical Warfare (Delete if not causing issues)
+  /*"U_mas_usl_B_suite_VEG",
   "U_mas_usl_B_suite_CQB",
   "G_mas_usl_gasmask",
-
+*/
 // NVGs
   //"MRB_PVS14",
   //"MRB_PVS14FS",
