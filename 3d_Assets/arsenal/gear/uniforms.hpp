@@ -7,6 +7,8 @@ _uniforms = [
 "VSM_Multicam_Crye_Camo",
 "VSM_M81_Crye_SS_Camo",
 "VSM_Multicam_Crye_SS_Camo",
+"M81_Survival_Uni",
+"MC_Survival_Uni",
 "U_B_Wetsuit",
 
 //MilGp
@@ -14,6 +16,14 @@ _uniforms = [
 "milgp_u_fleece_khk_g3_field_pants_M81",
 "milgp_u_fleece_grey_g3_field_pants_M81",
 "Milgp_u_fleece_grey_g3_field_pants_mcalpine",
+"milgp_u_g3_field_set_mc",
+"milgp_u_g3_field_set_rolled_mc",
+"milgp_u_pcu_g3_field_pants_mc",
+"milgp_u_pcu_rgr_g3_field_pants_mc",
+"milgp_u_pcu_tan_g3_field_pants_mc",
+"milgp_u_fleece_rgr_g3_field_pants_mc",
+"milgp_u_fleece_khk_g3_field_pants_mc",
+"milgp_u_fleece_grey_g3_field_pants_mc",
 	
 //USP
 "USP_G3C_MC",
@@ -38,6 +48,8 @@ _uniforms = [
 "USP_SOFTSHELL_G3C_KP_MX_RGR_MC",
 "USP_G3C_IST_KP_MC",
 "USP_G3C_IST_KP_MX_MC",
+"USP_G3F_MC",
+"USP_G3F_MX_MC",
 
 //Low-Visibility BJC
 "Project_BJC_PCU_Cargo2",
