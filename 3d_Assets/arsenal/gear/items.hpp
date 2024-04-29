@@ -136,6 +136,9 @@ _items = [
   "ACRE_PRC117F",
   "ACRE_VHF30108",
 
+// Recon
+  "US_Facepaint",
+
 // SMA Optics and Attachments
 /*  "SMA_ANPEQ15_BLK",
   "SMA_ANPEQ15_TAN",
