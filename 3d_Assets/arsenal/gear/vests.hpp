@@ -29,4 +29,11 @@ _vests = [
 
 "V_RebreatherB",
 
+//Aviation
+  "milgp_v_marciras_light_mc_mc",
+  "milgp_v_marciras_marksman_mc_mc",
+  "milgp_v_marciras_marksman_belt_mc_mc_mc",
+  "milgp_v_marciras_teamleader_mc_mc",
+  "milgp_v_marciras_teamleader_belt_mc_mc_mc"
+
 ];
