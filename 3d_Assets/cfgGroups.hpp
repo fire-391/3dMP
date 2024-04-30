@@ -1,6 +1,6 @@
 class CfgGroups {
     class West {
-        class LOP_IA {
+        /*class LOP_IA {
             class Infantry {
                 class MRB_IA_SFT {
                     aliveCategory = "Infantry";
@@ -165,7 +165,7 @@ class CfgGroups {
                     };
                 };
             };
-        };
+        };*/
         class B_3d_Marine_Raider {
             name = "3d Marine Raider Battalion"; //Faction Name
             class BattHQ {
