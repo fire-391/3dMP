@@ -8,7 +8,7 @@ _packs = [
   "B_Carryall_oli",
   "B_Kitbag_cbr",
   "B_Kitbag_rgr",
-  "B_Kitbag_tan,"
+  "B_Kitbag_tan",
   "B_AssaultPack_rgr",
   "B_AssaultPack_cbr",
   "B_Assaultpack_KHK",
