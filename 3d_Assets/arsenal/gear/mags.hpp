@@ -203,7 +203,7 @@ _mags = [
   "ACE_1Rnd_82mm_Mo_Illum",
   "ACE_1Rnd_82mm_Mo_Smoke",
   "ace_compat_rhs_usf3_48Rnd_40mm_MK19",
-  "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M430A1",
+  "ace_compat_rhs_usf3_48Rnd_40mm_MK19_M430A1"
 
 // NiArms Mags
 /*
