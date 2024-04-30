@@ -194,7 +194,7 @@ _mags = [
 
 //TierOne
   "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
-  "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag"
+  "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
 
 //CSW
   "ace_csw_100Rnd_127x99_mag",
