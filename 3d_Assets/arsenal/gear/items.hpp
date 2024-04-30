@@ -98,14 +98,14 @@ _items = [
   "tsp_stickCharge_mag",
   "tsp_stickCharge_auto_mag",
 
-// Chemical Warfare
-  "U_mas_usl_B_suite_VEG",
+// Chemical Warfare (Delete if not causing issues)
+  /*"U_mas_usl_B_suite_VEG",
   "U_mas_usl_B_suite_CQB",
   "G_mas_usl_gasmask",
-
+*/
 // NVGs
-  "MRB_PVS14",
-  "MRB_PVS14FS",
+  //"MRB_PVS14",
+  //"MRB_PVS14FS",
   "MRB_PVS15",
   "MRB_PVS15FS",
   "MRB_PVS23",
@@ -136,8 +136,11 @@ _items = [
   "ACRE_PRC117F",
   "ACRE_VHF30108",
 
+// Recon
+  "US_Facepaint",
+
 // SMA Optics and Attachments
-  "SMA_ANPEQ15_BLK",
+/*  "SMA_ANPEQ15_BLK",
   "SMA_ANPEQ15_TAN",
   "SMA_ANPEQ15_TOP_417BLK",
   "SMA_ANPEQ15_TOP_417TAN",
@@ -296,7 +299,7 @@ _items = [
   "SMA_supp2TOD_556",
   "SMA_supp2TWH_556",
   "SMA_supptan_762",
-
+*/
 // TierOne
   //Optics:
     "tier1_anpvs10_tan",
@@ -471,6 +474,9 @@ _items = [
     "tier1_razor_gen3_110_adm_t2",
     "tier1_razor_gen3_110_geissele",
     "tier1_razor_gen3_110_geissele_docter",
+    "Tier1_Docter",
+    "Tier1_MRDS",
+    "Tier1_MRDS_Tan",
   //Rail Attachments:
     "tier1_mk48mod0_la5",
     "tier1_mk48mod0_la5_m600v_black",
@@ -584,6 +590,10 @@ _items = [
     "tier1_mk46mod1_la5_m600v_black",
     "tier1_mk46mod1_la5_m600v",
     "tier1_mk46mod1_la5_m603v",
+    "Tier1_DBALPL",
+    "Tier1_DBALPL_FL",
+    "Tier1_TLR1",
+    "Tier1_X300U",
   //Muzzle Devices:
     "tier1_aac_m42000_black",
     "tier1_aac_m42000_desert",
@@ -607,6 +617,11 @@ _items = [
     "tier1_socom556_2_de",
     "tier1_socom762mg_black",
     "tier1_socom762mg_de",
+    "Tier1_Evo9",
+    "Tier1_TiRant9",
+    "Tier1_TiRant9S",
+    "Tier1_Agency_Compensator",
+    "Tier1_Octane9",
   //Bipods:
     "tier1_bcm_gunfighter_vg_black",
     "tier1_bcm_gunfighter_vg_fde",
@@ -622,6 +637,44 @@ _items = [
     "tier1_mvg_mlok_fde",
     "tier1_rvg_mlok_black",
     "tier1_rvg_mlok_fde",
+    "Tier1_Harris_Bipod_MLOK_Black_2",
+    "Tier1_Harris_Bipod_MLOK_Tan",
+    "Tier1_Harris_Bipod_MVG_MLOK_Black",
+    "Tier1_Harris_Bipod_MVG_MLOK_tan",
+    "Tier1_DD_VFG_Black",
+    "Tier1_DD_VFG_DE",
+    "Tier1_Gangster_Grip_Black",
+    "Tier1_Gangster_Grip_Tan",
+    "Tier1_GripPod_Black",
+    "Tier1_GripPod_Tan",
+    "Tier1_KAC_VFG_Black",
+    "Tier1_KAC_VFG_DE",
+    "Tier1_Larue_FUG_Black",
+    "Tier1_Larue_FUG_Tan",
+    "Tier1_Larue_FUG_UDE",
+    "Tier1_DD_VFG_Black",
+    "Tier1_DD_VFG_DE",
+    "Tier1_SAW_Bipod_2_DD",
+    "Tier1_SAW_Bipod_2_DD_Desert",
+    "Tier1_SAW_Bipod_DD",
+    "Tier1_SAW_Bipod_DD_Desert",
+    "Tier1_GripPod_Black",
+    "Tier1_GripPod_Tan",
+    "Tier1_KAC_VFG_Black",
+    "Tier1_KAC_VFG_DE",
+    "Tier1_SAW_Bipod_2_KAC",
+    "Tier1_SAW_Bipod_2_KAC_Desert",
+    "Tier1_SAW_Bipod_KAC",
+    "Tier1_SAW_Bipod_KAC_Desert",
+    "Tier1_Larue_FUG_Black",
+    "Tier1_Larue_FUG_Tan",
+    "Tier1_Larue_FUG_UDE",
+    "Tier1_SAW_Bipod_2",
+    "Tier1_SAW_Bipod_2_Desert",
+    "Tier1_SAW_Bipod",
+    "Tier1_SAW_Bipod_Desert",
+    "Tier1_Harris_Bipod_Black",
+    "Tier1_Harris_Bipod_Tan",
 
 // RHS Items
   "m24_bino",
@@ -774,7 +827,7 @@ _items = [
   "rhsusf_acc_m14_flashsuppresor",
 
 // 3d MRB custom
-  "MRB_SniperBlinds",
+  //"MRB_SniperBlinds",
 
 //Sling load Rigging
   "slr_slingload_CargoSling"
