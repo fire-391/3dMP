@@ -1,20 +1,5 @@
 class CfgWeapons
 {        
-	class VSM_Multicam_Crye_Camo;
-	class MC_Survival_Uni: VSM_Multicam_Crye_Camo
-	{
-		author="3d MRB";
-		scope=2;
-		displayName="Survival Fatigues Multicam";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		class ItemInfo: UniformItem
-		{
-			uniformClass = "VSM_Multicam_Crye_Uniform";
-			containerClass = "Supply70";
-			uniformType="Neopren";
-			mass = 35;
-		};
-	};
     class ItemCore;
     // Nightvisions
     class Binocular;
