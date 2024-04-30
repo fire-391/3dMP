@@ -24,7 +24,7 @@ _uniforms = [
 "milgp_u_fleece_rgr_g3_field_pants_mc",
 "milgp_u_fleece_khk_g3_field_pants_mc",
 "milgp_u_fleece_grey_g3_field_pants_mc",
-	
+
 //USP
 "USP_G3C_MC",
 "USP_G3C_MX_MC",
