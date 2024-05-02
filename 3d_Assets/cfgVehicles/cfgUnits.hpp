@@ -6,7 +6,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_tan_shirt_Camo";
+		uniformClass = "VSM_M81_Crye_Camo";
 		icon = "iconManOfficer";
 		linkedItems[] = {};
 		weapons[] = {};
@@ -59,7 +59,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_grey_shirt_Camo";
+		uniformClass = "VSM_M81_Crye_Camo";
 		icon = "iconManOfficer";
 		linkedItems[] = {};
 		weapons[] = {};
@@ -121,7 +121,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_od_shirt_Camo";
+		uniformClass = "VSM_M81_Crye_Camo";
 		backpack = ;
 		icon = "iconManOfficer";
 		linkedItems[] = {};
