@@ -675,6 +675,10 @@ _items = [
     "Tier1_SAW_Bipod_Desert",
     "Tier1_Harris_Bipod_Black",
     "Tier1_Harris_Bipod_Tan",
+    "Tier1_Harris_Bipod_DD_Tan",
+    "Tier1_Harris_Bipod_DD_Black",
+    "Tier1_Harris_Bipod_KAC_Black",
+    "Tier1_Harris_Bipod_KAC_Tan",
 
 // RHS Items
   "m24_bino",
@@ -825,6 +829,7 @@ _items = [
   "rhsusf_acc_aac_m14dcqd_silencer_d",
   "rhsusf_acc_aac_m14dcqd_silencer_wd",
   "rhsusf_acc_m14_flashsuppresor",
+  "rhsgref_sdn6_suppressor",
 
 // 3d MRB custom
   //"MRB_SniperBlinds",
