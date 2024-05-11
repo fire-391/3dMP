@@ -103,6 +103,7 @@ class CfgWeapons
         };
     };
 };
+/*
 
 
 
@@ -131,4 +132,4 @@ class CfgWeapons
 
 
 
-
+*/
