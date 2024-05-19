@@ -42,19 +42,27 @@ class MRB_MH60M : vtx_MH60M
   {
     class GAU21_L_Hide: GAU21_L_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class GAU21_R_Hide: GAU21_R_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class FuelProbe_show : FuelProbe_show
     {
+    source = "user"
     initphase = 0;
+    animPeriod = 1;
     };
     class ERFS_Show : ERFS_Show
     {
+    source = "user"
     initphase = 0;
+    animPeriod = 1;
     };
     class CabinSeats_Hide: CabinSeats_Hide
     {
@@ -86,23 +94,27 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP
   {
     class GAU21_L_Hide: GAU21_L_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class GAU21_R_Hide: GAU21_R_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class FuelProbe_show : FuelProbe_show
     {
+    source = "user"
     initphase = 0;
+    animPeriod = 1;
     };
     class ERFS_Show : ERFS_Show
     {
+    source = "user"
     initphase = 0;
-    };
-    class CabinSeats_Hide: CabinSeats_Hide
-    {
-    initPhase=1;
+    animPeriod = 1;
     };
   };
 };
@@ -130,23 +142,27 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS
   {
     class GAU21_L_Hide: GAU21_L_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class GAU21_R_Hide: GAU21_R_Hide
     {
+    source = "user"
     initphase = 1;
+    animPeriod = 1;
     };
     class FuelProbe_show : FuelProbe_show
     {
+    source = "user"
     initphase = 0;
+    animPeriod = 1;
     };
     class ERFS_Show : ERFS_Show
     {
+    source = "user"
     initphase = 0;
-    };
-    class CabinSeats_Hide: CabinSeats_Hide
-    {
-    initPhase=1;
+    animPeriod = 1;
     };
   };
 };
