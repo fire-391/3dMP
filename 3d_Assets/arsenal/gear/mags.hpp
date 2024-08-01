@@ -20,8 +20,14 @@ _mags = [
     "SatchelCharge_Remote_Mag",
     "ClaymoreDirectionalMine_Remote_Mag",
     "ATMine_Range_Mag",
-    "SLAMDirectionalMine_Wire_Mag",
-    "APERSBoundingMine_Range_Mag",
+    "rhs_mine_M3_tripwire_mag",
+    "rhsusf_mine_m49a1_10m_mag",
+    "rhsusf_mine_m49a1_3m_mag",
+    "rhsusf_mine_m49a1_6m_mag",
+    "rhs_mine_msk40p_blue_mag",
+    "rhs_mine_msk40p_green_mag",
+    "rhs_mine_msk40p_red_mag",
+    "rhs_mine_msk40p_white_mag",
   //Grenades
     "SmokeShellBlue",
     "SmokeShellPurple",
@@ -43,16 +49,11 @@ _mags = [
     "R_MRAAWS_HEAT_F",
 
 //ACE Items
-  //5.56
-    "ACE_30Rnd_556x45_Stanag_Mk318_mag",
-    "ACE_30Rnd_556x45_Stanag_Mk262_mag",
-    "ACE_30Rnd_556x45_Stanag_M995_AP_mag",
-    "ACE_30Rnd_556x45_Stanag_Tracer_Dim",
   //Mines
     "ACE_FlareTripMine_Mag",
   //Grenades
     "ACE_Chemlight_IR",
-    "ACE_M84",
+    "tsp_flashbang_m84",
   //Flares
     "ACE_HandFlare_Green",
     "ACE_HandFlare_Red",
@@ -69,16 +70,6 @@ _mags = [
 
 //RHS Items
   //5.56
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag",
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag",
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG",
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG",
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan",
-    "rhs_mag_30rnd_556x45_Mk262_Stanag_pull",
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR",
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull",
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",
     "rhs_mag_30Rnd_556x45_M855A1_PMAG",
@@ -149,6 +140,8 @@ _mags = [
   //50 bmg
     "rhsusf_mag_10Rnd_STD_50BMG_M33",
     "rhsusf_mag_10Rnd_STD_50BMG_mk211",
+  //300 Winmag
+    "rhsusf_5Rnd_300winmag_xm2010",
   //12ga
     "rhsusf_5Rnd_00Buck",
     "rhsusf_5Rnd_Slug",

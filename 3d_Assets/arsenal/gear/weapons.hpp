@@ -93,6 +93,11 @@ _weapons = [
     "rhs_weap_m24sws",
     "rhs_weap_m24sws_blk",
     "rhs_weap_m24sws_ghillie",
+  //M2010
+    "rhs_weap_XM2010",
+    "rhs_weap_XM2010_wd",
+    "rhs_weap_XM2010_d",
+    "rhs_weap_XM2010_sa",
   //M14EBR
     "rhs_weap_m14ebrri",
   //Javelin

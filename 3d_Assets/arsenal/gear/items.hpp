@@ -28,7 +28,6 @@ _items = [
   "kat_chestSeal",
   "kat_guedel",
   "kat_pulseoximeter",
-  "kat_PainkillerItem",
   "kat_X_AED",
   "kat_AED",
   "Kat_aatKit",
@@ -42,6 +41,7 @@ _items = [
   "kat_naloxone",
   "kat_pocketBVM",
   "kat_PenthroxItem",
+  "kat_Painkiller",
 	
 // Ace Items
   "ACE_MX2A",
@@ -92,11 +92,16 @@ _items = [
 
 // Breach
   "tsp_lockpick",
-  "tsp_frameCharge_mag",
-  "tsp_popperCharge_mag",
-  "tsp_popperCharge_auto_mag",
-  "tsp_stickCharge_mag",
-  "tsp_stickCharge_auto_mag",
+  "tsp_breach_block_mag",
+  "tsp_breach_block_auto_mag",
+  "tsp_breach_linear_mag",
+  "tsp_breach_linear_auto_mag",
+  "tsp_breach_popper_mag",
+  "tsp_breach_popper_auto_mag",
+  "tsp_breach_package_mag",
+  "tsp_breach_silhouette_mag",
+  "tsp_breach_stick_mag",
+  "tsp_breach_shock",
 
 // Chemical Warfare (Delete if not causing issues)
   /*"U_mas_usl_B_suite_VEG",
@@ -675,6 +680,10 @@ _items = [
     "Tier1_SAW_Bipod_Desert",
     "Tier1_Harris_Bipod_Black",
     "Tier1_Harris_Bipod_Tan",
+    "Tier1_Harris_Bipod_DD_Tan",
+    "Tier1_Harris_Bipod_DD_Black",
+    "Tier1_Harris_Bipod_KAC_Black",
+    "Tier1_Harris_Bipod_KAC_Tan",
 
 // RHS Items
   "m24_bino",
@@ -825,6 +834,7 @@ _items = [
   "rhsusf_acc_aac_m14dcqd_silencer_d",
   "rhsusf_acc_aac_m14dcqd_silencer_wd",
   "rhsusf_acc_m14_flashsuppresor",
+  "rhsgref_sdn6_suppressor",
 
 // 3d MRB custom
   //"MRB_SniperBlinds",
