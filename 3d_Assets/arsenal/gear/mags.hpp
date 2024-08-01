@@ -52,7 +52,7 @@ _mags = [
     "ACE_FlareTripMine_Mag",
   //Grenades
     "ACE_Chemlight_IR",
-    "ACE_M84",
+    "tsp_flashbang_m84",
   //Flares
     "ACE_HandFlare_Green",
     "ACE_HandFlare_Red",
