@@ -140,6 +140,8 @@ _mags = [
   //50 bmg
     "rhsusf_mag_10Rnd_STD_50BMG_M33",
     "rhsusf_mag_10Rnd_STD_50BMG_mk211",
+  //300 Winmag
+    "rhsusf_5Rnd_300winmag_xm2010",
   //12ga
     "rhsusf_5Rnd_00Buck",
     "rhsusf_5Rnd_Slug",
