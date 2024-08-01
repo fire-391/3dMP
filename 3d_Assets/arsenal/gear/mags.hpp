@@ -43,11 +43,6 @@ _mags = [
     "R_MRAAWS_HEAT_F",
 
 //ACE Items
-  //5.56
-    "ACE_30Rnd_556x45_Stanag_Mk318_mag",
-    "ACE_30Rnd_556x45_Stanag_Mk262_mag",
-    "ACE_30Rnd_556x45_Stanag_M995_AP_mag",
-    "ACE_30Rnd_556x45_Stanag_Tracer_Dim",
   //Mines
     "ACE_FlareTripMine_Mag",
   //Grenades
@@ -69,16 +64,6 @@ _mags = [
 
 //RHS Items
   //5.56
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag",
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag",
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG",
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG",
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan",
-    "rhs_mag_30rnd_556x45_Mk262_Stanag_pull",
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR",
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull",
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",
     "rhs_mag_30Rnd_556x45_M855A1_PMAG",
