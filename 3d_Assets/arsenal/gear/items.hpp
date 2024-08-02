@@ -40,7 +40,7 @@ _items = [
   "kat_ketamine",
   "kat_naloxone",
   "kat_pocketBVM",
-  "kat_PenthroxItem",
+  "kat_Penthrox",
   "kat_Painkiller",
 	
 // Ace Items
