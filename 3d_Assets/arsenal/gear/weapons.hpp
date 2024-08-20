@@ -229,6 +229,9 @@ _weapons = [
 //Pistols
   "Tier1_Glock19_Urban_TB",
   "Tier1_Glock19_WAR_TB",
+  "Tier1_P320",
+  "Tier1_P320_PMM",
+  "Tier1_P320_TB",
   "rhs_weap_M320",
   //"ACE_VMH3",
 
