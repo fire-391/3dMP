@@ -152,6 +152,14 @@ _mags = [
     "rhsusf_mag_17Rnd_9x19_JHP",
     "rhsusf_mag_15Rnd_9x19_JHP",
     "rhsusf_mag_15Rnd_9x19_FMJ",
+    "Tier1_15Rnd_9x19_FMJ",
+    "Tier1_15Rnd_9x19_JHP",
+    "Tier1_20Rnd_9x19_FMJ",
+    "Tier1_20Rnd_9x19_JHP",
+    "Tier1_17Rnd_9x19_P320_FMJ",
+    "Tier1_17Rnd_9x19_P320_JHP",
+    "Tier1_21Rnd_9x19_P320_FMJ",
+    "Tier1_21Rnd_9x19_P320_JHP",
   //.45
     "rhsusf_mag_7x45acp_MHP",
   //Grenades
