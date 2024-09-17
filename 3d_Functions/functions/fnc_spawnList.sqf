@@ -79,10 +79,10 @@ All are false by default.
 		["Quad Bike", "MRB_Grizzly_ATV_Black"],
 		["AH-6M Little Bird", "RHS_MELB_AH6M", [true, false, false]],
 		["AH-64D Apache [RHS]", "RHS_AH64D", [true, true, true]],
-		["AH-64D Apache (no radar)", "fza_ah64d_b2e_nr", [true, true, true]],
-		["AH-64D Apache", "fza_ah64d_b2e", [true, true, true]],
+		["AH-64D Apache SFM+", "fza_ah64d_b2e", [true, true, true]],
+		["AH-64D Apache Helisim", "fza_ah64d_b2e_heliSim", [true, true, true]],
 		["MH-6M Little Bird", "RHS_MELB_MH6M", [true, false, false]],
-		["CH-47 Chinook", "RHS_CH_47F_10", [true, false, false]],
+		["MH-47 Chinook", "TF373_SOAR_MH47G", [true, false, false]],
 		["MH-60M", "MRB_MH60M", [true, true, true]],		
 		["MH-60M DAP (2pyln)", "MRB_MH60M_DAP", [true, true, true]],
 		["MH-60M DAP (4pyln)", "MRB_MH60M_MLASS", [true, true, true]]
