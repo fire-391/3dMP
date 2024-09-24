@@ -599,6 +599,12 @@ _items = [
     "Tier1_DBALPL_FL",
     "Tier1_TLR1",
     "Tier1_X300U",
+	"Tier1_M4BII_LA5_M300C_Black",
+    "Tier1_M4BII_NGAL_M300C_Black",
+    "Tier1_M4BII_NGAL_M300C",
+    "Tier1_Mk18_LA5_M300C_Black",
+    "Tier1_Mk18_NGAL_M300C_Black",
+    "Tier1_Mk18_NGAL_M300C",
   //Muzzle Devices:
     "tier1_aac_m42000_black",
     "tier1_aac_m42000_desert",
