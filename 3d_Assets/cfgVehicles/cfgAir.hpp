@@ -1,6 +1,5 @@
 class USAF_MQ9;
-class MRB_MQ9 : USAF_MQ9
-{
+class MRB_MQ9 : USAF_MQ9 {
   displayname = "MQ-9 Reaper";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
@@ -12,25 +11,9 @@ class MRB_MQ9 : USAF_MQ9
     {
       init = "_veh = (_this select 0); createVehicleCrew _veh;";
     };
-  };
-class Heli_Transport_01_base_F;
-class vtx_H60_base: Heli_Transport_01_base_F
-{
-  class AnimationSources;
 };
-class vtx_MH60M: vtx_H60_base 
-{
-  class AnimationSources: AnimationSources
-{
-    class GAU21_L_Hide;
-    class GAU21_R_Hide;
-    class fuelProbe_show;
-    class ERFS_Show;
-    class CabinSeats_Hide;
-  };
-};
-class MRB_MH60M : vtx_MH60M
-{
+class vtx_MH60M;
+class MRB_MH60M : vtx_MH60M {
   displayName = "MRB_MH-60M";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
@@ -38,51 +21,21 @@ class MRB_MH60M : vtx_MH60M
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
-  class AnimationSources : AnimationSources
-  {
-    class GAU21_L_Hide: GAU21_L_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportMagazines {};
+    class TransportItems {
+        ITEM_XX(ACE_microDAGR, 2);
+        ITEM_XX(ToolKit, 1);
+        ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_rope27, 2);
     };
-    class GAU21_R_Hide: GAU21_R_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportBackpacks {
+        BACK_XX(MRB_SPB_Med, 1);
+        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Throw, 1);
     };
-    class FuelProbe_show : FuelProbe_show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
-    };
-    class ERFS_Show : ERFS_Show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
-    };
-    class CabinSeats_Hide: CabinSeats_Hide
-    {
-    initPhase=1;
-    };
-  };
 };
-class vtx_MH60M_DAP: vtx_H60_base 
-{
-  class AnimationSources: AnimationSources
-  {
-    class GAU21_L_Hide;
-    class GAU21_R_Hide;
-    class fuelProbe_show;
-    class ERFS_Show;
-    class CabinSeats_Hide;
-  };
-};
-class MRB_MH60M_DAP : vtx_MH60M_DAP
-{
+class vtx_MH60M_DAP;
+class MRB_MH60M_DAP : vtx_MH60M_DAP {
   displayName = "MRB_MH-60M_DAP";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
@@ -90,47 +43,21 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
-  class AnimationSources : AnimationSources
-  {
-    class GAU21_L_Hide: GAU21_L_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportMagazines {};
+    class TransportItems {
+        ITEM_XX(ACE_microDAGR, 2);
+        ITEM_XX(ToolKit, 1);
+        ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_rope27, 2);
     };
-    class GAU21_R_Hide: GAU21_R_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportBackpacks {
+        BACK_XX(MRB_SPB_Med, 1);
+        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Throw, 1);
     };
-    class FuelProbe_show : FuelProbe_show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
-    };
-    class ERFS_Show : ERFS_Show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
-    };
-  };
 };
-class vtx_MH60M_DAP_MLASS: vtx_H60_base 
-{
-  class AnimationSources: AnimationSources
-  {
-    class GAU21_L_Hide;
-    class GAU21_R_Hide;
-    class fuelProbe_show;
-    class ERFS_Show;
-    class CabinSeats_Hide;
-    };
-  };
-class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS
-{
+class vtx_MH60M_DAP_MLASS;
+class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
   displayName = "MRB_MH-60M_MLASS";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
@@ -138,33 +65,39 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
-  class AnimationSources : AnimationSources
-  {
-    class GAU21_L_Hide: GAU21_L_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportMagazines {};
+    class TransportItems {
+        ITEM_XX(ACE_microDAGR, 2);
+        ITEM_XX(ToolKit, 1);
+        ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_rope27, 2);
     };
-    class GAU21_R_Hide: GAU21_R_Hide
-    {
-    source = "user"
-    initphase = 1;
-    animPeriod = 1;
+    class TransportBackpacks {
+        BACK_XX(MRB_SPB_Med, 1);
+        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Throw, 1);
     };
-    class FuelProbe_show : FuelProbe_show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
+};
+class TF373_SOAR_MH47G;
+class MRB_MH47G : TF373_SOAR_MH47G {
+  displayName = "MRB_MH-47G";
+  faction = "B_3d_Marine_Raider";
+  editorSubcategory = "B_3d_Marine_Raider_Aircraft";
+  scope = 2;
+  side = 1;
+  scopeCurator = 2;
+  scopeArsenal = 2;
+    class TransportMagazines {};
+    class TransportItems {
+        ITEM_XX(ToolKit, 1);
+        ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_rope27, 2);
     };
-    class ERFS_Show : ERFS_Show
-    {
-    source = "user"
-    initphase = 0;
-    animPeriod = 1;
+    class TransportBackpacks {
+        BACK_XX(MRB_SPB_Med, 1);
+        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Throw, 1);
     };
-  };
 };
 /*class Helicopter_Base_H; 
 class Heli_Transport_01_base_F : Helicopter_Base_H {};
