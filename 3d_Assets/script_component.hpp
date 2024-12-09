@@ -24,3 +24,9 @@
 // Networking
 #define SERVER_ONLY if (!isServer) exitWith {PRINT("Non-server call to file %1 in mission %2 - file is marked SERVER_ONLY!",PRINT_LVL_WARNING)}
 #define CLIENT_ONLY if (!hasInterface) exitWith {PRINT("Non-client call to file %1 in mission %2 - file is marked CLIENT_ONLY!",PRINT_LVL_WARNING)}
+
+// Prefilled objects
+#define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; }
+#define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
+#define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
+#define BACK_XX(a,b) class _xx_##a { backpack = a; count = b; }
