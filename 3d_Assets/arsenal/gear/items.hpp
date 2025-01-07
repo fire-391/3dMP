@@ -89,7 +89,10 @@ _items = [
   "AUR_Rappel_Rope_50",
   "AUR_Rappel_Rope_70",
   "AUR_Rappel_Gear",
-
+	
+// Animate
+	"tsp_sling",
+  
 // Breach
   "tsp_lockpick",
   "tsp_breach_block_mag",
