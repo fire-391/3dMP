@@ -1,19 +1,19 @@
 class CfgGroups {
   class West {
     class B_3d_Marine_Raider {
-    name = "3d Marine Raider Battalion"; //Faction Name
+    name = "3d Marine Raider Battalion";
       class BattHQ {
-      name = "3d Battalion HQ"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "3d Battalion HQ";
         class BattalionHQ {
-        name = "Battalion HQ"; //Name of Group
-        faction = "3d Marine Raider Battalion"; //Faction
+        name = "Battalion HQ";
+        faction = "3d Marine Raider Battalion";
         icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
-        side = 1; //Side
+        side = 1;
           class Unit0 {
           side = 1;
-          vehicle = "MRB_Battalion_CO"; //Class name of desired solider
-          rank = "CAPTAIN"; // Rank
-          position[] = {5,0,0}; //Position in the formation
+          vehicle = "MRB_Battalion_CO";
+          rank = "CAPTAIN";
+          position[] = {5,0,0};
           };
           class Unit1 {
           side = 1;
@@ -36,17 +36,17 @@ class CfgGroups {
         };
       };
       class ComHQ {
-      name = "3d Company HQ"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "3d Company HQ";
         class CompanyHQ {
-        name = "Company HQ"; //Name of Group
-        faction = "3d Marine Raider Battalion"; //Faction
+        name = "Company HQ";
+        faction = "3d Marine Raider Battalion";
         icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
-        side = 1; //Side
+        side = 1;
           class Unit0 {
           side = 1;
-          vehicle = "MRB_Company_CO"; //Class name of desired solider
-          rank = "CAPTAIN"; // Rank
-          position[] = {5,0,0}; //Position in the formation
+          vehicle = "MRB_Company_CO";
+          rank = "CAPTAIN";
+          position[] = {5,0,0};
           };
           class Unit1 {
           side = 1;
@@ -75,7 +75,7 @@ class CfgGroups {
         };
       };
       class MSOTHQ {
-      name = "3d MSOT Team"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "3d MSOT Team";
         class MHQ {
         name = "Team HQ";
         side = 1;
@@ -144,17 +144,17 @@ class CfgGroups {
         };
       };
       class CJSOAC {
-      name = "CJSOAC"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "CJSOAC";
         class CJSOAC_HQ {
-        name = "CJSOAC HQ"; //Name of Group
-        faction = "3d Marine Raider Battalion"; //Faction
+        name = "CJSOAC HQ";
+        faction = "3d Marine Raider Battalion";
         icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-        side = 1; //Side
+        side = 1;
           class Unit0 {
           side = 1;
-          vehicle = "CJSOAC_Detachment_CO"; //Class name of desired solider
-          rank = "CAPTAIN"; // Rank
-          position[] = {5,0,0}; //Position in the formation
+          vehicle = "CJSOAC_Detachment_CO";
+          rank = "CAPTAIN";
+          position[] = {5,0,0};
           };
           class Unit1 {
           side = 1;
@@ -165,17 +165,17 @@ class CfgGroups {
         };
       };
       class Units {
-      name = "160th Units"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "160th Units";
         class 160th_Section {
-        name = "Detachment Section"; //Name of Group
-        faction = "3d Marine Raider Battalion"; //Faction
+        name = "Detachment Section";
+        faction = "3d Marine Raider Battalion";
         icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-        side = 1; //Side
+        side = 1;
           class Unit0 {
           side = 1;
-          vehicle = "160th_Detachment_SL"; //Class name of desired solider
-          rank = "LIEUTENANT"; // Rank
-          position[] = {5,0,0}; //Position in the formation
+          vehicle = "160th_Detachment_SL";
+          rank = "LIEUTENANT";
+          position[] = {5,0,0};
           };
           class Unit1 {
           side = 1;
@@ -204,17 +204,17 @@ class CfgGroups {
         };
       };
       class SOW {
-      name = "16th SOW"; //Name of Sub Group - Infantry , SpecOps , Support , Motorized , Mechanized, Armored
+      name = "16th SOW";
         class 16th_Section {
-        name = "Detachment Section"; //Name of Group
-        faction = "3d Marine Raider Battalion"; //Faction
+        name = "Detachment Section";
+        faction = "3d Marine Raider Battalion";
         icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-        side = 1; //Side
+        side = 1;
           class Unit0 {
           side = 1;
-          vehicle = "16th_Detachment_SL"; //Class name of desired solider
-          rank = "LIEUTENANT"; // Rank
-          position[] = {5,0,0}; //Position in the formation
+          vehicle = "16th_Detachment_SL";
+          rank = "LIEUTENANT";
+          position[] = {5,0,0};
           };
         };
       };
