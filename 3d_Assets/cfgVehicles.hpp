@@ -60,14 +60,6 @@ class cfgVehicles {
     class ACE_IR_Strobe_Effect: All {
         class NVGMarker;
     };
-/*
-    class MRB_IR_Strobe_Effect: ACE_IR_Strobe_Effect {
-        class NVGMarker: NVGMarker {
-            brightness = 0.8;
-        };
-        brightness = 20;
-    };
-*/
     class Item_Base_F;
     class ACE_Item_Tactical_Ladder: Item_Base_F {
         scope = 2;
@@ -163,18 +155,6 @@ class cfgVehicles {
         };
         //Content
         class TransportItems {
-            /*class _xx_ACE_Vector {
-                name = "ACE_Vector";
-                count = "50";
-            };
-            class _xx_ACE_MX2A {
-                name = "ACE_MX2A";
-                count = "50";
-            };
-            class _xx_ACE_key_master {
-                name = "ACE_key_master";
-                count = "5";
-            };*/
             class _xx_ACE_key_lockpick {
                 name = "ACE_key_lockpick";
                 count = "75";
@@ -183,18 +163,6 @@ class cfgVehicles {
                 name = "ACE_key_west";
                 count = "75";
             };
-            /*class _xx_lerca_1200_black {
-                name = "lerca_1200_black";
-                count = "50";
-            };
-            class _xx_lerca_1200_tan {
-                name = "lerca_1200_tan";
-                count = "50";
-            };
-            class _xx_Laserdesignator {
-                name = "Laserdesignator";
-                count = "5";
-            };*/
             class _xx_ACRE_PRC152 {
                 name = "ACRE_PRC152";
                 count = "100";
@@ -202,11 +170,7 @@ class cfgVehicles {
             class _xx_ACRE_PRC117F {
                 name = "ACRE_PRC117F";
                 count = "20";
-            };/*
-            class _xx_ItemSMGR {
-                name = "ItemSMGR";
-                count = "10";
-            };*/
+            };
         };
         class TransportMagazines {
             class _xx_Laserbatteries {
@@ -334,17 +298,5 @@ class cfgVehicles {
         displayName = "Aircraft Fuel Container";
         editorCategory = "3d_Objects";
         editorSubcategory = "3d_Containers";
-    };
-	class B_CargoNet_01_ammo_F;
-    class MRB_PersistenceCrate: B_CargoNet_01_ammo_F {
-        author = "3d MRB";
-        displayName = "Persistence Crate";
-        editorCategory = "3d_Objects";
-        editorSubcategory = "3d_Crates";
-
-        class TransportItems {};
-        class TransportMagazines {};
-        class TransportWeapons {};
-        class TransportBackPacks {};
     };
 };
