@@ -8,7 +8,6 @@ class CfgPatches
 		weapons[] =
 		{
 			// 3d weapons Configured in 3dassets\cfgWeapons.hpp in same order as below
-			//"MRB_Vector",			//line 15
 			"MRB_PVS14",			//line 138
 			"MRB_PVS14FS",			//line 151
 			"MRB_PVS15",			//line 171
@@ -71,9 +70,6 @@ class CfgPatches
                         "MRB_MH60M",
 			"MRB_MH60M_DAP",
 			"MRB_MH60M_MLASS",
-			//"MH47E_Razor1", 		//line 77
-			//"MH47E_Razor2",		//line 149
-			//"MH47E_Razor3",		//line 221
 			// 3d Logistics Configured in 3dassets\cfgvehicles.hpp in same order as below
 			"MRB_Arsenal_Crate",		//line 147
 			"MRB_Full_Arsenal_Crate",	//line 230
@@ -82,67 +78,9 @@ class CfgPatches
 			"MRB_Supply_Crate",		//line 303
 			"MRB_Ammunition_Container",	//line 419
 			"MRB_Fuel_Container",		//line 429
-			"MRB_PersistenceCrate",
 			"MRB_FTX_Arsenal_Crate"
 		};
-		/*requiredAddons[] =
-		{
-			"ace_ballistics",
-			"ace_vector",
-			"ace_huntir",
-			"ace_attach",
-			"ace_interaction",
-			"ace_missileguidance",
-			"rhsusf_c_heavyweapons",
-			"rhs_c_weapons",
-			"ace_nightvision",
-			"A3_Weapons_F",
-			"A3_Sounds_F",
-			"A3_Sounds_F_Mark",
-			"A3_CargoPoses_F",
-			"A3_Weapons_F_Exp",
-			"A3_Boat_F_Destroyer",
-			"acre_main"
-		};*/
 	};
-};
-class BettIR_Config
-{
-    class CompatibleNightvisionGoggles
-    {
-         class MRB_PVS14
-         {
-              offset[] = {-0.05,0.12,0.12}; //0.1, 0.15,0.3
-         };
-		 class MRB_PVS14FS
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_PVS15
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_PVS15FS
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_AVS6
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_AVS6FS
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_PVS23
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-		 class MRB_PVS23FS
-         {
-              offset[] = {-0.05,0.12,0.12};
-         };
-    };
 };
 #include "cfgGroups.hpp"
 #include "cfgFactionClasses.hpp"
