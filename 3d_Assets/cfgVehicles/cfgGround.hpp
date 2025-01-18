@@ -19,6 +19,7 @@ class MRB_MRZR_Tan: rhsusf_mrzr_base {
   };
   class TransportMagazines {
     MAG_XX(rhs_mag_30Rnd_556x45_Mk318_Stanag, 20);
+  };
   class TransportItems {
     ITEM_XX(ACE_earplugs, 4);
     ITEM_XX(toolKit, 1);
@@ -88,6 +89,7 @@ class MRB_GMVR_Tan_M2 : rhsusf_m1025_w_m2 {
   };
   class TransportMagazines {
     MAG_XX(rhs_mag_30Rnd_556x45_Mk318_Stanag, 20);
+  };
   class EventHandlers {
     Init = "[_this select 0, ['Desert', 1], ['hide_CIP', 1, 'hide_BFT', 1, 'Hide_A2Bumper', 1]] call BIS_fnc_initVehicle;";
   };
