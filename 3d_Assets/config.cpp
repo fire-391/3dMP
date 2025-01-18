@@ -10,7 +10,7 @@
 class CfgPatches {
   class 3d_Assets {
     author = "3d MRB";
-    magazines[] = {"FakeMagazine_MELB"};
+    magazines[] = {};
     ammo[] = {};
     weapons[] = {
       // 3d weapons Configured in 3dassets\cfgWeapons.hpp in same order as below
