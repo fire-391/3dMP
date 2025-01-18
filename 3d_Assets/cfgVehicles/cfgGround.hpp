@@ -377,7 +377,7 @@ class B_MRAP_01_hmg_F;
       class TransportMagazine {
           MAG_XX(rhs_mag_30Rnd_556x45_Mk318_Stanag, 40);
       };
-
+};
 class MRB_Grizzly_ATV_Woodland : MRB_Grizzly_ATV_Tan {
   author = "3d MRB";
   scope = 2;
