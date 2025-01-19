@@ -2,37 +2,37 @@ class B_Carryall_cbr;
 class MRB_SPB_Mag: B_Carryall_cbr {
     scope = 2;
     scopeArsenal = 2;
-	author = "3d Mod Team";
-	displayName = "3d Carryall Mag Speedball";
+	  author = "3d Mod Team";
+	  displayName = "3d Carryall Mag Speedball";
 	class TransportMagazines {
-        MAG_XX(rhs_mag_30Rnd_556x45_M855A1_PMAG, 16);
-        MAG_XX(rhsusf_100Rnd_556x45_soft_pouch, 6);
+    MAG_XX(rhs_mag_30Rnd_556x45_M855A1_PMAG, 16);
+    MAG_XX(rhsusf_100Rnd_556x45_soft_pouch, 6);
 	};
 };
 class MRB_SPB_Throw: B_Carryall_cbr {
-	scope = 2;
-    scopeArsenal = 2;
-	author = "3d Mod Team";
+  scope = 2;
+  scopeArsenal = 2;
+  author = "3d Mod Team";
 	displayName = "3d Carryall Throwable Speedball";
-    class TransportMagazines {
-        MAG_XX(rhs_mag_an_m8hc, 11);
-        MAG_XX(rhs_mag_m67, 20);
-        MAG_XX(tsp_flashbang_m84, 20);
-    };
+  class TransportMagazines {
+    MAG_XX(rhs_mag_an_m8hc, 11);
+    MAG_XX(rhs_mag_m67, 20);
+    MAG_XX(tsp_flashbang_m84, 20);
+  };
 };
 class MRB_SPB_Med: B_Carryall_cbr {
-	scope = 2;
-    scopeArsenal = 2;
-	author = "3d Mod Team";
-	displayName = "3d Carryall Medical Speedball";
+  scope = 2;
+  scopeArsenal = 2;
+  author = "3d Mod Team";
+  displayName = "3d Carryall Medical Speedball";
 	class TransportItems {
-        ITEM_XX(ACE_quikclot, 20);
-        ITEM_XX(ACE_packingBandage, 20);
-        ITEM_XX(ACE_plasmaIV_500, 6);
-        ITEM_XX(ACE_plasmaIV, 3);
-        ITEM_XX(kat_TXA, 5);
-        ITEM_XX(ACE_tourniquet, 4);
-        ITEM_XX(kat_ketamine, 5);
+    ITEM_XX(ACE_quikclot, 20);
+    ITEM_XX(ACE_packingBandage, 20);
+    ITEM_XX(ACE_plasmaIV_500, 6);
+    ITEM_XX(ACE_plasmaIV, 3);
+    ITEM_XX(kat_TXA, 5);
+    ITEM_XX(ACE_tourniquet, 4);
+    ITEM_XX(kat_ketamine, 5);
 	};
 };
 /*class B_AssaultPack_Base;
