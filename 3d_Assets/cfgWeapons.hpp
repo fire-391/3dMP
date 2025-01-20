@@ -514,4 +514,8 @@ class CfgWeapons
 			mass = 35;
 		};
 	};
+  class vtx_chaingun_hedp;
+  class vtx_chaingun_hedpt: vtx_chaingun_hedp {
+      magazines[] = {"VTX_M230_Chaingun_LT", "VTX_M230_Chaingun_RT"};
+  };
 };
