@@ -19,9 +19,4 @@ class CfgAmmo
         intensity = 1250000;
         timeToLive = 40;
     };
-    class vtx_30mm_shells_hedp;
-    class vtx_30mm_shells_hedpt: vtx_30mm_shells_hedp {
-        tracerColor[] = {0.7,0.1,0.1,0.04};
-        tracerColorR[] = {0.7,0.1,0.1,0.04};
-    };
 };
