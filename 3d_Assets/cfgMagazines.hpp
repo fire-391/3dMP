@@ -13,18 +13,14 @@ class CfgMagazines {
     };
     class VTX_M230_Chaingun_L;
     class VTX_M230_Chaingun_LT: VTX_M230_Chaingun_L {
-        ammo = "vtx_30mm_shells_hedpt";
         displayname = "M230 HEDP-T [H60]";
-        hardpoints[] = {VTX_ST_L};
         pylonWeapon = "vtx_chaingun_hedpt";
         tracersEvery = 1;
         LastRoundsTracer = 1;
     };
     class VTX_M230_Chaingun_R;
     class VTX_M230_Chaingun_RT: VTX_M230_Chaingun_R {
-        ammo = "vtx_30mm_shells_hedpt";
         displayname = "M230 HEDP-T [H60]";
-        hardpoints[] = {VTX_ST_R};
         pylonWeapon = "vtx_chaingun_hedpt";
         tracersEvery = 1;
         lastRoundsTracer = 1;
