@@ -14,7 +14,7 @@ class MRB_MQ9 : USAF_MQ9 {
 };
 class vtx_MH60M;
 class MRB_MH60M : vtx_MH60M {
-  displayName = "MRB_MH-60M";
+  displayName = "MRB MH-60M";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
   scope = 2;
@@ -36,7 +36,7 @@ class MRB_MH60M : vtx_MH60M {
 };
 class vtx_MH60M_DAP;
 class MRB_MH60M_DAP : vtx_MH60M_DAP {
-  displayName = "MRB_MH-60M_DAP";
+  displayName = "MRB MH-60M_DAP";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
   scope = 2;
@@ -58,7 +58,7 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP {
 };
 class vtx_MH60M_DAP_MLASS;
 class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
-  displayName = "MRB_MH-60M_MLASS";
+  displayName = "MRB MH-60M MLASS";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
   scope = 2;
@@ -80,7 +80,7 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
 };
 class TF373_SOAR_MH47G;
 class MRB_MH47G : TF373_SOAR_MH47G {
-  displayName = "MRB_MH-47G";
+  displayName = "MRB MH-47G";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
   scope = 2;
