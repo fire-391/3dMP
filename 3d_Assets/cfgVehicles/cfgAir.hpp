@@ -30,7 +30,7 @@ class MRB_MH60M : vtx_MH60M {
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Mag, 2);
         BACK_XX(MRB_SPB_Throw, 1);
     };
 };
@@ -52,7 +52,7 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP {
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Mag, 2);
         BACK_XX(MRB_SPB_Throw, 1);
     };
 };
@@ -74,7 +74,7 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Mag, 2);
         BACK_XX(MRB_SPB_Throw, 1);
     };
 };
@@ -95,7 +95,7 @@ class MRB_MH47G : TF373_SOAR_MH47G {
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 1);
+        BACK_XX(MRB_SPB_Mag, 2);
         BACK_XX(MRB_SPB_Throw, 1);
     };
 };
