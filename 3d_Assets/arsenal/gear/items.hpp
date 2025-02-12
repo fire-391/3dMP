@@ -119,9 +119,8 @@ _items = [
   "MRB_AVS6FS",
 
 // CTAB
-  "ItemAndroid",
-  "ItemMicroDAGR",
-  "ItemcTab",
+  "ItemAndroidMisc",
+  "ItemcTabMisc",
   "ItemcTabHCam",
 
 // Vanilla Items
