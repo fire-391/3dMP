@@ -204,60 +204,6 @@ class cfgVehicles {
         };
     };
     class Reammobox_F;
-    class MRB_Equipment_Crate: ReammoBox_F {
-        author = "3d MRB";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-        displayName = "Equipment Crate";
-        editorCategory = "3d_Objects";
-        editorSubcategory = "3d_Crates";
-        ace_cargo_canLoad = 1;
-        ace_cargo_size = 2;
-        //Values from Box_NATO_Equip_F
-        mapSize = 1.25;
-        _generalMacro = "MRB_Supply_Crate";
-        model = "\A3\Supplies_F_Exp\Ammoboxes\Equipment_Box_F.p3d";
-        editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Box_NATO_Equip_F.jpg";
-        icon = "\A3\Supplies_F_Exp\Ammoboxes\Data\UI\icon_equipment_box_ca.paa";
-        DLC = "Expansion";
-        maximumLoad = 7000;
-        hiddenSelections[] = {"camo","camo_signs"};
-        hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_blufor_co.paa","\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_blufor_ca.paa"};
-        class EventHandlers {
-            Init = "[_this select 0] execVM '\3d_Assets\arsenal\equipment.sqf';";
-        };
-    };
-    class MRB_CNR_Crate: ReammoBox_F {
-        author = "3d MRB";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-        displayName = "Combat Net Radio Crate";
-        editorCategory = "3d_Objects";
-        editorSubcategory = "3d_Crates";
-        ace_cargo_canLoad = 1;
-        ace_cargo_size = 2;
-        mapSize = 1.25;
-        _generalMacro = "MRB_Supply_Crate";
-        model = "\A3\Supplies_F_Exp\Ammoboxes\Equipment_Box_F.p3d";
-        editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Box_NATO_Equip_F.jpg";
-        icon = "\A3\Supplies_F_Exp\Ammoboxes\Data\UI\icon_equipment_box_ca.paa";
-        DLC = "Expansion";
-        maximumLoad = 7000;
-        hiddenSelections[] = {"camo","camo_signs"};
-        hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_blufor_co.paa","\3d_Assets\data\crate_cnr_CA.paa"};
-        class TransportItems {
-            class _xx_ACRE_PRC152 {
-                name = "ACRE_PRC152";
-                count = 100;
-            };
-            class _xx_ACRE_PRC117F {
-                count = 20;
-                name = "ACRE_PRC117F";
-            };
-        };
-    };
     class MRB_Supply_Crate: ReammoBox_F {
         author = "3d MRB";
         scope = 2;
