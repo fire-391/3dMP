@@ -79,8 +79,6 @@ class CfgPatches {
       "MRB_Arsenal_Crate",
       "MRB_Full_Arsenal_Crate",
       "MRB_Equipment_Crate",
-      "MRB_CNR_Crate",
-      "MRB_Supply_Crate",
       "MRB_Ammunition_Container",
       "MRB_Fuel_Container",
       "MRB_FTX_Arsenal_Crate"
