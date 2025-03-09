@@ -28,8 +28,8 @@ class MRB_SPB_Med: B_Carryall_cbr {
   class TransportItems {
     ITEM_XX(ACE_quikclot, 20);
     ITEM_XX(ACE_packingBandage, 20);
-    ITEM_XX(ACE_plasmaIV_500, 6);
-    ITEM_XX(ACE_plasmaIV, 3);
+    ITEM_XX(kat_bloodIV_O_N_500, 6);
+    ITEM_XX(kat_bloodIV_O_N, 3);
     ITEM_XX(kat_TXA, 5);
     ITEM_XX(ACE_tourniquet, 4);
     ITEM_XX(kat_ketamine, 5);
