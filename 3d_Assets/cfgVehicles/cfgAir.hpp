@@ -29,8 +29,7 @@ class MRB_AH6M : RHS_MELB_AH6M {
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
-        BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 2);
+        BACK_XX(MRB_SPB_Mag, 1);
     };
 };
 class RHS_MELB_MH6M;
@@ -50,8 +49,8 @@ class MRB_MH6M : RHS_MELB_MH6M {
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
-        BACK_XX(MRB_SPB_Med, 1);
-        BACK_XX(MRB_SPB_Mag, 2);
+        BACK_XX(MRB_SPB_Throw, 1);
+        BACK_XX(MRB_SPB_Mag, 1);
     };
 };
 class vtx_MH60M;
