@@ -15,9 +15,11 @@ class MRB_SPB_Throw: B_Carryall_cbr {
   author = "3d Mod Team";
   displayName = "3d Carryall Throwable Speedball";
   class TransportMagazines {
-    MAG_XX(rhs_mag_an_m8hc, 11);
-    MAG_XX(rhs_mag_m67, 20);
-    MAG_XX(tsp_flashbang_m84, 20);
+    MAG_XX(rhs_mag_an_m8hc, 10);
+    MAG_XX(rhs_mag_m67, 10);
+    MAG_XX(tsp_flashbang_m84, 10);
+    MAG_XX(rhs_mag_M433_HEDP, 10);
+    MAG_XX(rhs_mag_m714_White, 10);
   };
 };
 class MRB_SPB_Med: B_Carryall_cbr {
@@ -28,8 +30,6 @@ class MRB_SPB_Med: B_Carryall_cbr {
   class TransportItems {
     ITEM_XX(ACE_quikclot, 20);
     ITEM_XX(ACE_packingBandage, 20);
-    ITEM_XX(kat_bloodIV_O_N_500, 6);
-    ITEM_XX(kat_bloodIV_O_N, 3);
     ITEM_XX(kat_TXA, 5);
     ITEM_XX(ACE_tourniquet, 4);
     ITEM_XX(kat_ketamine, 5);
