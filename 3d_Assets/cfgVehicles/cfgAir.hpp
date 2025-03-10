@@ -27,7 +27,6 @@ class MRB_AH6M : RHS_MELB_AH6M {
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
         ITEM_XX(ACE_M26_Clacker, 1);
-        ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Mag, 1);
