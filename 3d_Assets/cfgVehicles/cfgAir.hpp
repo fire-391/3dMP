@@ -26,6 +26,7 @@ class MRB_AH6M : RHS_MELB_AH6M {
         ITEM_XX(ACE_microDAGR, 2);
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
@@ -46,6 +47,7 @@ class MRB_MH6M : RHS_MELB_MH6M {
         ITEM_XX(ACE_microDAGR, 2);
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
@@ -67,6 +69,7 @@ class MRB_MH60M : vtx_MH60M {
         ITEM_XX(ACE_microDAGR, 2);
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
@@ -89,6 +92,7 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP {
         ITEM_XX(ACE_microDAGR, 2);
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
@@ -111,6 +115,7 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
         ITEM_XX(ACE_microDAGR, 2);
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
@@ -132,6 +137,7 @@ class MRB_MH47G : TF373_SOAR_MH47G {
     class TransportItems {
         ITEM_XX(ToolKit, 1);
         ITEM_XX(DemoCharge_Remote_Mag, 1);
+        ITEM_XX(ACE_M26_Clacker, 1);
         ITEM_XX(ACE_rope27, 2);
     };
     class TransportBackpacks {
