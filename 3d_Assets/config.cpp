@@ -72,6 +72,8 @@ class CfgPatches {
       "MRB_Zodiac",
       // Rotary Wing Configured in 3dassets\cfgvehicles\cfgAir.hpp in same order as below
       "MRB_MQ9",
+      "MRB_AH-6M",
+      "MRB_MH-6M",
       "MRB_MH60M",
       "MRB_MH60M_DAP",
       "MRB_MH60M_MLASS",
