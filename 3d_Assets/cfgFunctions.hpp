@@ -9,4 +9,16 @@ class CfgFunctions {
 			class pickupUAV {};
 		};
 	};
+	class MELB
+	{
+		tag = "MELB";
+		class functions
+		{
+			class ToggleWeapons
+			{
+				file = "\3d_Functions\functions\melb_toggleweapons.sqf";
+				description = "Toggle MELB weapons Control";
+			};
+		};
+	};
 };
