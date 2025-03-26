@@ -1,5 +1,243 @@
 class cfgVehicles {
-    #include "\3d_Assets\cfgVehicles\cfgAir.hpp"
+    class Air;
+    class Helicopter: Air 
+	{
+        class ACE_Actions {
+        class ACE_MainActions {};
+        };
+		class ViewPilot;
+    };
+	class Helicopter_Base_F: Helicopter 
+	{
+        class ACE_Actions: ACE_Actions {
+            class ACE_MainActions: ACE_MainActions {};
+        };
+		class Turrets;
+    };
+	class Helicopter_Base_H: Helicopter_Base_F
+	{
+		class pilotCamera;
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+		};
+	};
+	class MELB_base: Helicopter_Base_H
+	{
+		class Turrets: Turrets
+		{
+			class CopilotTurret : CopilotTurret
+			{
+				gunnerCompartments = "Compartment1";
+				body = "obsTurret";
+				gun = "obsGun";
+				animationSourceBody = "obsTurret";
+				animationSourceGun = "obsGun";
+				turretInfoType = "Rsc_MELB_Turret_UnitInfo";
+				memoryPointGunnerOptics = "commanderview";
+				stabilizedInAxes = 3;
+				minElev = -90;
+				maxElev = 45;
+				initElev = 0;
+				minTurn = -180;
+				maxTurn = 180;
+				initTurn = 0;
+				minFov = 0.25;
+				maxFov = 0.9;
+				initFov = 0.75;
+				memoryPointsGetInGunner = "pos gunner";
+				memoryPointsGetInGunnerDir = "pos gunner dir";
+				memoryPointsGetInGunnerPrecise = "pos gunner";
+				gunnerUsesPilotView = 0;
+				gunBeg = "commanderview";
+				gunEnd = "laserstart";
+				memoryPointGun = "commanderview";
+				discretedistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000};
+				discretedistanceinitindex = 3;
+				weapons[] = {"Laserdesignator_MELB","LWIRCM_MELB"};
+				magazines[] = {"Laserbatteries","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB","LWIRCM_Magazine_MELB"};
+				inGunnerMayFire = 1;
+				outGunnerMayFire = 1;
+				primaryGunner = 1;
+				gunnerAction = "Copilot_MELB";
+				gunnerInAction = "Copilot_MELB";
+				usePreciseGetInAction = 1;
+				precisegetinout = 0;
+				gunnerGetInAction = "Chopperlight_R_In_H";
+				gunnergetOutAction = "GetOutLow";
+				gunnerOpticsModel = "";
+				LockDetectionSystem = 8;
+				incomingMissileDetectionSystem = "8 + 16";
+				TurretCanSee = "1+2+4+8";
+				gunnerHasFlares = 1;
+				usepip = 1;
+				class ViewGunner
+				{
+					minAngleX = -65;
+					maxAngleX = 85;
+					initAngleX = 0;
+					minAngleY = -150;
+					maxAngleY = 150;
+					initAngleY = 0;
+					minFov = 0.25;
+					maxFov = 0.9;
+					initFov = 0.9;
+				};
+				class OpticsIn
+				{
+					class Wide
+					{
+						opticsDisplayName = "----";
+						initAngleX = 0;
+						minAngleX = 0;
+						maxAngleX = 0;
+						initAngleY = 0;
+						minAngleY = 0;
+						maxAngleY = 0;
+						initFov = 0.3;
+						minFov = 0.3;
+						maxFov = 0.3;
+						directionStabilized = 1;
+						horizontallyStabilized = 1;
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {0};
+						gunnerOpticsModel = "melb\data\optics\melb_flir_wf.p3d";
+						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+						gunnerOpticsEffect[] = {"TankCommanderOptics2"};
+					};
+					class WideT2: Wide
+					{
+						initFov = 0.2;
+						minFov = 0.2;
+						maxFov = 0.2;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_w2.p3d";
+					};
+					class MediumT: Wide
+					{
+						initFov = 0.1;
+						minFov = 0.1;
+						maxFov = 0.1;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_m.p3d";
+					};
+					class NarrowT: Wide
+					{
+						initFov = 0.022;
+						minFov = 0.022;
+						maxFov = 0.022;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_n.p3d";
+					};
+					class NarrowT2: Wide
+					{
+						initFov = 0.0092;
+						minFov = 0.0092;
+						maxFov = 0.0092;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_n2.p3d";
+					};
+					};
+				soundServo[] = {"",0.01,1,30};
+				lodTurnedOut = 1100;
+				showAllTargets = 0;
+			};
+		};
+			class ViewPilot: ViewPilot
+		{
+			maxFov = 0.9;
+		};
+		memoryPointDriverOptics = "pos pilot dir";
+		class pilotCamera {
+			stabilizedInAxes = 3;
+			minElev = -45;
+			maxElev = 90;
+			initElev = 0;
+			minTurn = -180;
+			maxTurn = 180;
+			initTurn = 0;
+			maxXRotSpeed=0.5;
+			maxYRotSpeed=0.5;
+			pilotOpticsShowCursor=1;
+			controllable=1;
+			gunBeg = "axis_flir";
+			gunEnd = "laserstart";
+			memorypointDriverOptics = "axis_flir";
+			memoryPointGun = "axis_flir";
+			gunnerOpticsModel = "";
+			body = "";
+			gun = "";
+			animationSourceBody = "";
+			animationSourceGun = "";
+			turretInfoType = "Rsc_MELB_Turret_UnitInfo";
+			discretedistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000};
+			discretedistanceinitindex = 3;
+			weapons[] = {"Laserdesignator_MELB"};
+			magazines[] = {"Laserbatteries"};
+			class OpticsIn
+				{
+					class Wide
+					{
+						opticsDisplayName = "Pilot_Camera";
+						initAngleX = 0;
+						minAngleX = 0;
+						maxAngleX = 0;
+						initAngleY = 0;
+						minAngleY = 0;
+						maxAngleY = 0;
+						initFov = 0.3;
+						minFov = 0.3;
+						maxFov = 0.3;
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {0};
+						directionStabilized = 1;
+						horizontallystabilized =1;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_wf.p3d";
+						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+						gunnerOpticsEffect[] = {"TankCommanderOptics2"};
+					};
+					class WideT2: Wide
+					{
+						initFov = 0.2;
+						minFov = 0.2;
+						maxFov = 0.2;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_w2.p3d";
+					};
+					class MediumT: Wide
+					{
+						initFov = 0.1;
+						minFov = 0.1;
+						maxFov = 0.1;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_m.p3d";
+					};
+					class NarrowT: Wide
+					{
+						initFov = 0.022;
+						minFov = 0.022;
+						maxFov = 0.022;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_n.p3d";
+					};
+					class NarrowT2: Wide
+					{
+						initFov = 0.0092;
+						minFov = 0.0092;
+						maxFov = 0.0092;
+						gunnerOpticsModel = "melb\data\optics\melb_flir_n2.p3d";
+					};
+				};
+		};
+	};
+   class UAV_01_base_F: Helicopter_Base_F {
+        class ACE_Actions: ACE_Actions {
+            class ACE_MainActions: ACE_MainActions {
+                class MRB_PickUp_UAV {
+                    displayName = "PickUp UAV";
+                    distance = 4;
+                    condition = "!('MRB_UAV_Item' in (backpackItems ACE_player)) && ACE_player canAddItemToBackpack 'MRB_UAV_Item'";
+                    statement = "[_target, _player] call MRB_fnc_pickupUAV";
+                    showDisabled = 0;
+                    priority = 1.255;
+                };
+            };
+        };
+    };
+	#include "\3d_Assets\cfgVehicles\cfgAir.hpp"
     #include "\3d_Assets\cfgVehicles\cfgBackpacks.hpp"
     #include "\3d_Assets\cfgVehicles\cfgGround.hpp"
     #include "\3d_Assets\cfgVehicles\cfgUnits.hpp"
@@ -101,31 +339,6 @@ class cfgVehicles {
             class MRB_UAV_Item {
                 name = "MRB_UAV_Item";
                 count = 1;
-            };
-        };
-    };
-    class Air;
-    class Helicopter: Air {
-        class ACE_Actions {
-            class ACE_MainActions {};
-        };
-    };
-    class Helicopter_Base_F: Helicopter {
-        class ACE_Actions: ACE_Actions {
-            class ACE_MainActions: ACE_MainActions {};
-        };
-    };
-    class UAV_01_base_F: Helicopter_Base_F {
-        class ACE_Actions: ACE_Actions {
-            class ACE_MainActions: ACE_MainActions {
-                class MRB_PickUp_UAV {
-                    displayName = "PickUp UAV";
-                    distance = 4;
-                    condition = "!('MRB_UAV_Item' in (backpackItems ACE_player)) && ACE_player canAddItemToBackpack 'MRB_UAV_Item'";
-                    statement = "[_target, _player] call MRB_fnc_pickupUAV";
-                    showDisabled = 0;
-                    priority = 1.255;
-                };
             };
         };
     };
