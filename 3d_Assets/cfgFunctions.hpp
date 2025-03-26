@@ -16,7 +16,7 @@ class CfgFunctions {
 		{
 			class ToggleWeapons
 			{
-				file = "\3d_Functions\functions\melb_toggleweapons.sqf";
+				file = "\3d_Assets\functions\melb_toggleweapons.sqf";
 				description = "Toggle MELB weapons Control";
 			};
 		};
