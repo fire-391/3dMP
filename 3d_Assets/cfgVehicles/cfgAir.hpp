@@ -23,7 +23,7 @@ class MELB_AH6M: MELB_base
 			position = "doplnovani";
 			radius = 2;
 			condition = "((call MELB_fnc_findPlayer)==driver this) or ((call MELB_fnc_findPlayer)==gunner this)";
-			statement = "call MELB_fnc_toggleweapons";
+			statement = "remoteExec ["MELB_fnc_toggleweapons", 0, false;
 			showWindow = 0;
 		};
 		};
