@@ -45,4 +45,4 @@
     {_vehicle removeWeaponTurret _x;} forEach _weaponsToRemove;
     
     // Broadcast to all clients
-    [ _vehicleNetId, _newPylonConfig, _weaponsToRemove ] remoteExec ["melb_fnc_clientUpdateVehicle", 0];
+   /* [ _vehicleNetId, _newPylonConfig, _weaponsToRemove ] remoteExec ["melb_fnc_clientUpdateVehicle", 0];*/
