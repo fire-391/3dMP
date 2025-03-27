@@ -24,6 +24,7 @@ class cfgVehicles {
 	};
 	class MELB_base: Helicopter_Base_H
 	{
+		class UserActions;
 		class Turrets: Turrets
 		{
 			class CopilotTurret : CopilotTurret

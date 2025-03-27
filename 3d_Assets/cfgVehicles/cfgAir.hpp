@@ -12,7 +12,22 @@ class MRB_MQ9 : USAF_MQ9 {
       init = "_veh = (_this select 0); createVehicleCrew _veh;";
     };
 };
-class MELB_AH6M;
+class MELB_AH6M: MELB_base
+{
+	class UserActions: UserActions
+		{
+		class Pylon_Control_Swap
+		{
+			displayName = "Swap Weapons Control";
+			onlyforplayer = 1;
+			position = "doplnovani";
+			radius = 2;
+			condition = "((call MELB_fnc_findPlayer)==driver this) or ((call MELB_fnc_findPlayer)==gunner this)";
+			statement = "call MELB_fnc_toggleweapons";
+			showWindow = 0;
+		};
+		};
+};
 class MRB_AH6M : MELB_AH6M {
   displayName = "MRB AH-6M";
   faction = "B_3d_Marine_Raider";
@@ -31,19 +46,6 @@ class MRB_AH6M : MELB_AH6M {
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Mag, 1);
     };
-		class UserActions
-		{
-		class Pylon_Control_Swap
-		{
-			displayName = "Swap Weapons Control";
-			onlyforplayer = 1;
-			position = "doplnovani";
-			radius = 2;
-			condition = "((call MELB_fnc_findPlayer)==driver this) or ((call MELB_fnc_findPlayer)==gunner this)";
-			statement = "call MELB_fnc_toggleweapons";
-			showWindow = 0;
-		};
-		};
 };
 class MELB_MH6M;
 class MRB_MH6M : MELB_MH6M {
