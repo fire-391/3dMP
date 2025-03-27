@@ -1,4 +1,6 @@
-   params ["_vehicle", "_p"];
+params ["_vehicle", "_p"];
+diag_log format ["DEBUG: Player Info: %1", _p];
+/*
     
     if (isNull _vehicle) then exitWith {} else
 	{
@@ -34,4 +36,4 @@ diag_log format ["DEBUG: Pylons Info: %1", _pylons];
 			};
 		} forEach _weapons;
     } forEach _pylons;
-	};
+	};*/
