@@ -1,8 +1,10 @@
-   params ["_vehicle"];
+   params ["_vehicle", "_p"];
     
-    if (isNull _vehicle) exitWith {};
-    
-    _pylons = getAllPylonsInfo _vehicle;
+    if (isNull _vehicle) then exitWith {} else
+	{
+	
+_pylons = getAllPylonsInfo vehicle _p;
+diag_log format ["DEBUG: Pylons Info: %1", _pylons];
     {
 	 private _pylonIndex = _x select 0;
 	 private _pylonName = _x select 1;
@@ -22,13 +24,14 @@
             }
         }
         private _weapons = _vehicle weaponsTurret _assignedTurret;
-	//diag_log format ["DEBUG: Weapons Info: %1", _weapons];
+	diag_log format ["DEBUG: Weapons Info: %1", _weapons];
 		{
 			private _weaponName = _x;
 			if (_magazineName find _weaponName != -1 or (_weaponName find "MELB_Hellfire" != -1) or (_weaponName find "MELB_DAGR" != -1) and (_weaponName != "LWIRCM_MELB") and (_weaponName != "Laserdesignator_MELB")) then 
 			{
-			//diag_log format ["DEBUG: Removing weapon '%1' from '%2'", _weaponName, _assignedTurret];
+			diag_log format ["DEBUG: Removing weapon '%1' from '%2'", _weaponName, _assignedTurret];
 			_vehicle removeWeaponTurret [_weaponName, _assignedTurret];
 			};
 		} forEach _weapons;
     } forEach _pylons;
+	};
