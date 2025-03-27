@@ -1,6 +1,8 @@
 _p = call MELB_fnc_findPlayer;
 _vehicle = vehicle _p;
-
+ _vehicleNetId = netId _vehicle;
+[ "MELB_fnc_serverSwapPylonControl", [_vehicleNetId] ] remoteExec ["call", 2];
+/*
 _pylons = getAllPylonsInfo vehicle _p;
 //diag_log format ["DEBUG: Pylons Info: %1", _pylons];
  {
@@ -28,4 +30,4 @@ _pylons = getAllPylonsInfo vehicle _p;
 			_vehicle removeWeaponTurret [_weaponName, _assignedTurret];
 			};
 		} forEach _weapons;
-    } forEach _pylons;
+    } forEach _pylons;*/
