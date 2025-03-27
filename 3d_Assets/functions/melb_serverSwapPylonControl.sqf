@@ -25,8 +25,8 @@
             }
         }
         
-        // Use ACE function for server-side pylon loadout
-        [_vehicle, _pylonIndex, _magazineName, _newTurret, true] call ace_pylons_fnc_setPylonLoadout;
+        // Non-ACE Functions
+        _vehicle setPylonLoadout [_pylonIndex, _magazineName, true, _newTurret];
         _vehicle setAmmoOnPylon [_pylonIndex, _ammoCount];
         _newPylonConfig pushBack [_pylonIndex, _magazineName, _newTurret];
         
@@ -45,4 +45,4 @@
     {_vehicle removeWeaponTurret _x;} forEach _weaponsToRemove;
     
     // Broadcast to all clients
-    [ _vehicleNetId, _newPylonConfig, _weaponsToRemove ] remoteExec ["melb_fnc_clientUpdateVehicle", 0];
+   /* [ _vehicleNetId, _newPylonConfig, _weaponsToRemove ] remoteExec ["melb_fnc_clientUpdateVehicle", 0];*/
