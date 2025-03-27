@@ -1,48 +1,34 @@
-   params ["_vehicleNetId"];
+   params ["_vehicle"];
     
-    _vehicle = objectFromNetId _vehicleNetId;
     if (isNull _vehicle) exitWith {};
     
     _pylons = getAllPylonsInfo _vehicle;
-    _newPylonConfig = [];
-    _weaponsToRemove = [];
-    
     {
-        _pylonIndex = _x select 0;
-        _pylonName = _x select 1;
-        _originalAssignedTurret = _x select 2;
-        _magazineName = _x select 3;
-        _ammoCount = _x select 4;
+	 private _pylonIndex = _x select 0;
+	 private _pylonName = _x select 1;
+	 private _originalAssignedTurret = _x select 2;
+	 private _magazineName = _x select 3;
+	 private _ammoCount = _x select 4;
+	 private _newTurret = [-1];
         
         // Swap between [0] and [1] for pilot and copilot
-        if (_originalAssignedTurret isEqualTo [0]) then {
-            _newTurret = [1];
+        if (_originalAssignedTurret isEqualTo [-1]) then {
+            _newTurret = [0];
         } else {
-            if (_originalAssignedTurret isEqualTo [1]) then {
-                _newTurret = [0];
+            if (_originalAssignedTurret isEqualTo [0]) then {
+                _newTurret = [-1];
             } else {
                 _newTurret = _originalAssignedTurret;
             }
         }
-        
-        // Non-ACE Functions
-        _vehicle setPylonLoadout [_pylonIndex, _magazineName, true, _newTurret];
-        _vehicle setAmmoOnPylon [_pylonIndex, _ammoCount];
-        _newPylonConfig pushBack [_pylonIndex, _magazineName, _newTurret];
-        
-        if (!isNil "_magazineName" && {_magazineName != ""}) then {
-            _weapons = _vehicle weaponsTurret _originalAssignedTurret;
-            {
-                _weaponName = _x;
-                if (_magazineName find _weaponName != -1 or (_weaponName find "MELB_Hellfire" != -1) or (_weaponName find "MELB_DAGR" != -1) and (_weaponName != "LWIRCM_MELB") and (_weaponName != "Laserdesignator_MELB")) then {
-                    _weaponsToRemove pushBack [_weaponName, _originalAssignedTurret];
-                };
-            } forEach _weapons;
-        };
+        private _weapons = _vehicle weaponsTurret _assignedTurret;
+	//diag_log format ["DEBUG: Weapons Info: %1", _weapons];
+		{
+			private _weaponName = _x;
+			if (_magazineName find _weaponName != -1 or (_weaponName find "MELB_Hellfire" != -1) or (_weaponName find "MELB_DAGR" != -1) and (_weaponName != "LWIRCM_MELB") and (_weaponName != "Laserdesignator_MELB")) then 
+			{
+			//diag_log format ["DEBUG: Removing weapon '%1' from '%2'", _weaponName, _assignedTurret];
+			_vehicle removeWeaponTurret [_weaponName, _assignedTurret];
+			};
+		} forEach _weapons;
     } forEach _pylons;
-    
-    // Remove weapons on server
-    {_vehicle removeWeaponTurret _x;} forEach _weaponsToRemove;
-    
-    // Broadcast to all clients
-   /* [ _vehicleNetId, _newPylonConfig, _weaponsToRemove ] remoteExec ["melb_fnc_clientUpdateVehicle", 0];*/
