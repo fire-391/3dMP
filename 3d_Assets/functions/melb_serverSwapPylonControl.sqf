@@ -25,8 +25,8 @@
             }
         }
         
-        // Use ACE function for server-side pylon loadout
-        [_vehicle, _pylonIndex, _magazineName, _newTurret, true] call ace_pylons_fnc_setPylonLoadout;
+        // Non-ACE Functions
+        _vehicle setPylonLoadout [_pylonIndex, _magazineName, true, _newTurret];
         _vehicle setAmmoOnPylon [_pylonIndex, _ammoCount];
         _newPylonConfig pushBack [_pylonIndex, _magazineName, _newTurret];
         
