@@ -13,14 +13,6 @@ _pylons = getAllPylonsInfo vehicle _p;
 	if (!isNil "_magazineName" && {_magazineName != ""}) then {
 			_weapons = _vehicle weaponsTurret _assignedTurret;
 	//diag_log format ["DEBUG: Weapons Info: %1", _weapons];
-		{
-			_weaponName = _x;
-			if (_magazineName find _weaponName != -1 or (_weaponName find "MELB_Hellfire" != -1) or (_weaponName find "MELB_DAGR" != -1) and (_weaponName != "LWIRCM_MELB") and (_weaponName != "Laserdesignator_MELB")) then 
-			{
-			//diag_log format ["DEBUG: Removing weapon '%1' from '%2'", _weaponName, _assignedTurret];
-			[_vehicle, [_weaponName, _assignedTurret]] remoteExec ["removeWeaponTurret", _vehicle];
-			};
-		} forEach _weapons;
 		if (_assignedTurret isEqualTo [-1]) then {
 		_turretToggle = [0]} else {_turretToggle = [-1]};
        // diag_log format ["DEBUG: Setting pylon loadout for pylon index '%1' with weapon '%2'", _pylonIndex, _magazineName];
