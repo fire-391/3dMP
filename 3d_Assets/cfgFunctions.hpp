@@ -19,16 +19,6 @@ class CfgFunctions {
 				file = "\3d_Assets\functions\melb_toggleweapons.sqf";
 				description = "Toggle MELB weapons Control";
 			};
-			class serverSwapPylonControl
-			{
-				file = "\3d_Assets\functions\melb_serverSwapPylonControl.sqf";
-				description = "Swap Pylons Server Side";
-			};
-			class clientUpdateVehcile
-			{
-				file = "\3d_Assets\functions\melb_clientUpdateVehicle.sqf";
-				description = "Update Pylons Cliet Side";
-			};
 		};
 	};
 };
