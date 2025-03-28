@@ -16,7 +16,7 @@ _pylons = getAllPylonsInfo vehicle _p;
 		if (_assignedTurret isEqualTo [-1]) then {
 		_turretToggle = [0]} else {_turretToggle = [-1]};
        // diag_log format ["DEBUG: Setting pylon loadout for pylon index '%1' with weapon '%2'", _pylonIndex, _magazineName];
-        [_vehicle, [_pylonIndex, _magazineName, true, _turretToggle]] remoteExec ["setPylonLoadout", _vehicle];
-		[_vehicle, [_pylonIndex, _ammoCount]] remoteExec ["setAmmoOnPylon", _vehicle];
+        [_vehicle, [_pylonIndex, _magazineName, true, _turretToggle]] remoteExec ["setPylonLoadout", 0];
+		[_vehicle, [_pylonIndex, _ammoCount]] remoteExec ["setAmmoOnPylon", 0];
     };
     } forEach _pylons;
