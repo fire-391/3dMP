@@ -139,7 +139,10 @@ _items = [
   "ACRE_VHF30108",
 
 // Recon
-  "US_Facepaint",
+  "FISH_Cream_Kit_Desert",
+  "FISH_Cream_Kit_Europe",
+  "FISH_Cream_Kit_Snow",
+	"FISH_Cream_Kit_Tropical",
 
 // SMA Optics and Attachments
 /*  "SMA_ANPEQ15_BLK",
