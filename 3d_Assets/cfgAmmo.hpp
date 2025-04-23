@@ -24,11 +24,12 @@ class CfgAmmo
 	class DAGR_Ammo_MELB: MissileBase
 	{
 		autoSeekTarget = 1;
+    missileLockCone = 30;
 		class ace_missileguidance
 		{
 			enabled = 1;
-			pitchRate = 15;
-			yawRate = 15;
+			pitchRate = 25;
+			yawRate = 25;
 			canVanillaLock = 0;
 			defaultSeekerType = "SALH";
 			seekerTypes[] = {"SALH"};
@@ -41,8 +42,8 @@ class CfgAmmo
 			seekerAccuracy = 1;
 			seekerMinRange = 1;
 			seekerMaxRange = 5000;
-			defaultAttackProfile = "hellfire";
-			attackProfiles[] = {"hellfire"};
+			defaultAttackProfile = "DIR";
+			attackProfiles[] = {"DIR"};
 		};
 	};
 };
