@@ -128,353 +128,293 @@ class CfgWeapons
         };
     };
     //Milgp hearing
-    class milgp_h_cap_02_CB {
-         ace_hearing_hasEHP = 1;  // Protection against deafening (0 to 1, higher means more protection)
-	 ace_hearing_lowerVolume = 0.00;  // Muffling of the sound (0 to 1, higher means more muffling)
+      class milgp_h_opscore_01_khk_cb {
+        ace_hearing_protection = 0.80;  // Protection against deafening (0 to 1, higher means more protection)
+	      ace_hearing_lowerVolume = 0.00;  // Muffling of the sound (0 to 1, higher means more muffling)
+        ace_hearing_hasEHP = 1;         // Is electronic hearing protection (0 to disable, 1 to enable)
 	};
-    class milgp_h_cap_02_KHK {
+    class milgp_h_opscore_01_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_MC {
+    class milgp_h_opscore_01_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_RGR {
+    class milgp_h_opscore_01_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_goggles_CB {
+    class milgp_h_opscore_01_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_goggles_KHK {
+    class milgp_h_opscore_01_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_goggles_MC {
+    class milgp_h_opscore_01_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_02_goggles_RGR {
+    class milgp_h_opscore_01_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_CB {
+    class milgp_h_opscore_01_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_KHK {
+    class milgp_h_opscore_01_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_MC {
+    class milgp_h_opscore_01_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_RGR {
+    class milgp_h_opscore_01_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_goggles_CB {
+    class milgp_h_opscore_02_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_goggles_KHK {
+    class milgp_h_opscore_02_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_goggles_MC {
+    class milgp_h_opscore_02_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_03_goggles_RGR {
+    class milgp_h_opscore_02_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_CB {
+    class milgp_h_opscore_02_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_KHK {
+    class milgp_h_opscore_02_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_MC {
+    class milgp_h_opscore_02_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_RGR {
+    class milgp_h_opscore_02_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_goggles_CB {
+    class milgp_h_opscore_02_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_goggles_KHK {
+    class milgp_h_opscore_02_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_goggles_MC {
+    class milgp_h_opscore_02_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_02_goggles_RGR {
+    class milgp_h_opscore_02_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_CB {
+    class milgp_h_opscore_03_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_KHK {
+    class milgp_h_opscore_03_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_MC {
+    class milgp_h_opscore_03_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_RGR {
+    class milgp_h_opscore_03_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_goggles_CB {
+    class milgp_h_opscore_03_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_goggles_KHK {
+    class milgp_h_opscore_03_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_goggles_MC {
+    class milgp_h_opscore_03_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_cap_backwards_03_goggles_RGR {
+    class milgp_h_opscore_03_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_CB_hexagon {
+    class milgp_h_opscore_03_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_CB {
+    class milgp_h_opscore_03_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_khk_hexagon {
+    class milgp_h_opscore_03_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_khk {
+    class milgp_h_opscore_03_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_MC {
+    class milgp_h_opscore_04_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_RGR_hexagon {
+    class milgp_h_opscore_04_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_RGR {
+    class milgp_h_opscore_04_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_CB_hexagon {
+    class milgp_h_opscore_04_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_CB {
+    class milgp_h_opscore_04_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_khk_hexagon {
+    class milgp_h_opscore_04_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_khk {
+    class milgp_h_opscore_04_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_MC {
+    class milgp_h_opscore_04_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_RGR_hexagon {
+    class milgp_h_opscore_04_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_01_goggles_RGR {
+    class milgp_h_opscore_04_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_CB_hexagon {
+    class milgp_h_opscore_04_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_CB {
+    class milgp_h_opscore_04_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_khk_hexagon {
+    class milgp_h_opscore_05_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_khk {
+    class milgp_h_opscore_05_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_MC {
+    class milgp_h_opscore_05_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_RGR_hexagon {
+    class milgp_h_opscore_05_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_RGR {
+    class milgp_h_opscore_05_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_CB_hexagon {
+    class milgp_h_opscore_05_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_CB {
+    class milgp_h_opscore_05_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_khk_hexagon {
+    class milgp_h_opscore_05_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_khk {
+    class milgp_h_opscore_05_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_MC {
+    class milgp_h_opscore_05_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_RGR_hexagon {
+    class milgp_h_opscore_05_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_02_goggles_RGR {
+    class milgp_h_opscore_05_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_CB_hexagon {
+    class milgp_h_opscore_06_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_CB {
+    class milgp_h_opscore_06_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_khk_hexagon {
+    class milgp_h_opscore_06_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_khk {
+    class milgp_h_opscore_06_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_MC {
+    class milgp_h_opscore_06_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_RGR_hexagon {
+    class milgp_h_opscore_06_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_RGR {
+    class milgp_h_opscore_06_goggles_khk_cb {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_goggles_CB_hexagon {
+    class milgp_h_opscore_06_goggles_khk_cb_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_goggles_CB {
+    class milgp_h_opscore_06_goggles_khk_cb_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_goggles_khk_hexagon {
+    class milgp_h_opscore_06_goggles_khk_rgr {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_goggles_khk {
+    class milgp_h_opscore_06_goggles_khk_rgr_mcc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
-    class milgp_h_opscore_03_goggles_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_03_goggles_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_03_goggles_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_04_goggles_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_05_goggles_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_RGR {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_CB_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_CB {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_khk_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_khk {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_MC {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_RGR_hexagon {
-         ace_hearing_hasEHP = 1;
-	};
-    class milgp_h_opscore_06_goggles_RGR {
+    class milgp_h_opscore_06_goggles_khk_rgr_mcalc {
+         ace_hearing_protection = 0.80;
          ace_hearing_hasEHP = 1;
 	};
 	class rhs_weap_ATAS_launcher;
