@@ -417,8 +417,8 @@ class cfgVehicles {
             init = "[_this select 0] execVM '\3d_Assets\arsenal\ftx_arsenal.sqf';";
         };
     };
-    class Reammobox_F;
-    class MRB_Supply_Crate: ReammoBox_F {
+    class CargoNet_01_box_F;
+    class MRB_Supply_Crate: CargoNet_01_box_F {
         author = "3d MRB";
         scope = 2;
         scopeCurator = 2;
