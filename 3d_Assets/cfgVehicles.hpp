@@ -429,8 +429,8 @@ class cfgVehicles {
         ace_cargo_canLoad = 1;
         ace_cargo_size = 4;
         mapSize = 1.58;
-        model = "\A3\Weapons_F\Ammoboxes\Supplydrop.p3d";
-        editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\C_T_supplyCrate_F.jpg";
+        model = "\A3\Supplies_F_Heli\CargoNets\CargoNet_01_box_F.p3d";
+        editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\CargoNet_01_box_F.jpg";
         maximumLoad = 5000;
         supplyRadius = -1;
         memoryPointSupply = "doplnovani";
