@@ -4,6 +4,7 @@ class CfgAmmo
 {
     class MissileCore;
 	class MissileBase;
+	class Missile_AGM_02_F;
 	class FlareCore;
     class FlareBase: FlareCore {};
     class Flare_82mm_AMOS_White: FlareCore 
@@ -46,4 +47,27 @@ class CfgAmmo
 			attackProfiles[] = {"DIR"};
 		};
 	};
+	class MELB_AGM_114K: Missile_AGM_02_F
+	{
+		class ace_missileguidance
+		{
+			enabled = 1;
+			pitchRate = 30;
+			yawRate = 30;
+			canVanillaLock = 0;
+			defaultSeekerType = "SALH";
+			seekerTypes[] = {"SALH"};
+			defaultSeekerLockMode = "LOAL";
+			seekerLockModes[] = { "LOAL", "LOBL" };
+			defaultNavigationType = "Direct";
+			navigationTypes[] = { "Direct","ZeroEffortMiss" };
+			seekLastTargetPos = 1;
+			seekerAngle = 30;
+			seekerAccuracy = 1;
+			seekerMinRange = 1;
+			seekerMaxRange = 8000;
+			defaultAttackProfile = "hellfire";
+			attackProfiles[] = {"hellfire", "hellfire_hi", "hellfire_lo"};
+		};
+	}:
 };
