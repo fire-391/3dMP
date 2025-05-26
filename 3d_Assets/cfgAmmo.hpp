@@ -69,5 +69,5 @@ class CfgAmmo
 			defaultAttackProfile = "hellfire";
 			attackProfiles[] = {"hellfire", "hellfire_hi", "hellfire_lo"};
 		};
-	}:
+	};
 };
