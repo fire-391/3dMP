@@ -233,19 +233,23 @@ _weapons = [
   "Tier1_P320_PMM",
   "Tier1_P320_TB",
   "rhs_weap_M320",
-  //"ACE_VMH3",
 
-//MVG Grips
-  "mgm_acc_mvg_blk",
-  "mgm_acc_mvg_de",
-  "mgm_acc_fortis_blk",
-  "mgm_acc_fortis_red",
-  "mgm_acc_kac_blk",
-  "mgm_acc_kac_tan",
-  "mgm_acc_mvg_blk",
-  "mgm_acc_mvg_tan",
-  "mgm_acc_tdstubby_blk",
-  "mgm_acc_tdstubby_tan",
-  "mgm_acc_rvg_blk",
-  "mgm_acc_rvg_de"
+//UW
+  "rhs_weap_ak105_npz",
+  "rhs_weap_ak105_zenitco01_b33",
+  "rhs_weap_ak74m_camo_npz",
+  "rhs_weap_ak74m_desert_npz",
+  "rhs_weap_ak74m_zenitco01",
+  "rhs_weap_ak74m_zenitco01_b33",
+  "rhs_weap_ak74mr",
+  "rhs_weap_ak74mr_gp25",
+  "rhs_weap_rpk74m_npz",
+  "rhs_weap_pkm",
+  "rhs_weap_pkp",
+  "rhs_weap_svdp_wd_npz",
+  "rhs_weap_svdp_npz",
+  "rhs_weap_svds_npz",
+  "rhs_weap_igla",
+  "rhs_weap_rpg26",
+  "rhs_weap_rpg7"
 ];
