@@ -1,6 +1,6 @@
 class USAF_MQ9;
-class MRB_MQ9 : USAF_MQ9 {
-  displayname = "MQ-9 Reaper";
+class MRB_MQ1C : USAF_MQ9 {
+  displayname = "MQ-1C Grey Eagle";
   faction = "B_3d_Marine_Raider";
   editorSubcategory = "B_3d_Marine_Raider_Aircraft";
   scope = 2;
