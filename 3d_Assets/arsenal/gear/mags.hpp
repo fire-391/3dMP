@@ -219,6 +219,8 @@ _mags = [
   "rhs_10Rnd_762x54mmR_7N14",
   "rhs_mag_9k38_rocket",
   "rhs_rpg7_PG7VL_mag",
+  "rhs_rpg7_TBG7V_mag",
+  "rhs_rpg7_type69_airburst_mag",
   "rhs_GDM40",
   "rhs_VG40OP_green",
   "rhs_VG40OP_white",
