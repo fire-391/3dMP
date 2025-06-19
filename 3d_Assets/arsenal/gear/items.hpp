@@ -841,6 +841,16 @@ _items = [
   "rhsusf_acc_aac_m14dcqd_silencer_wd",
   "rhsusf_acc_m14_flashsuppresor",
   "rhsgref_sdn6_suppressor",
+  "rhs_acc_m40_camo",
+  "rhs_acc_mk18_smr_bcm",
+  "rhs_acc_mk18_smr_d_bcm",
+  "rhs_acc_mk18_smr",
+  "rhs_acc_mk18_smr_d",
+  "rhs_acc_m4_urgi_bcm",
+  "rhs_acc_m4_urgi_d_bcm",
+  "rhs_acc_m4_urgi",
+  "rhs_acc_m4_urgi_d",
+  "rhs_acc_m24_camo",
 
 // 3d MRB custom
   //"MRB_SniperBlinds",

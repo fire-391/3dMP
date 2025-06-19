@@ -112,6 +112,8 @@ _weapons = [
     //"rhsusf_weap_MP7A2_desert",
     //"rhsusf_weap_MP7A2_winter"
   //M4A1 PIP
+    "rhs_weap_m4_urgi",
+    "rhs_weap_m4_urgi_kac",
     "rhs_weap_m4a1_carryhandle",
     "rhs_weap_m4a1_carryhandle_m203",
     "rhs_weap_m4a1_carryhandle_m203s",
@@ -170,6 +172,8 @@ _weapons = [
     "rhs_weap_mk18_KAC_wd",
     "rhs_weap_mk18_m320",
     "rhs_weap_mk18_KAC",
+    "rhs_weap_mk18_urgi",
+    "rhs_weap_mk18_urgi_kac",
   //249 SAW
     "rhs_weap_m249",
     "rhs_weap_m249_pip_L",
@@ -185,12 +189,20 @@ _weapons = [
     "rhs_weap_hk416d10_LMT",
     "rhs_weap_hk416d10_LMT_d",
     "rhs_weap_hk416d10_LMT_wd",
+    "rhs_weap_hk416d10_smr",
+    "rhs_weap_hk416d10_smr_kac",
+    "rhs_weap_hk416d10_smr_tan",
+    "rhs_weap_hk416d10_smr_tan_kac",
     "rhs_weap_hk416d145",
     "rhs_weap_hk416d145_d",
     "rhs_weap_hk416d145_d_2",
     "rhs_weap_hk416d145_m320",
     "rhs_weap_hk416d145_wd",
     "rhs_weap_hk416d145_wd_2",
+    "rhs_weap_hk416d15_smr",
+    "rhs_weap_hk416d15_smr_kac",
+    "rhs_weap_hk416d15_smr_tan",
+    "rhs_weap_hk416d15_smr_tan_kac",
 
 //Vanilla
   //M4 MAAWS
