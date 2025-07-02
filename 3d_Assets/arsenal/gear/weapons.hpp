@@ -247,6 +247,10 @@ _weapons = [
   "rhs_weap_M320",
 
 //UW
+  "rhs_weap_ak103_zenitco01_b33",
+  "rhs_weap_ak103_zenitco01_b33",
+  "rhs_weap_ak103_gp25_npz",
+  "rhs_weap_ak104_zenitco01_b33",
   "rhs_weap_ak105_npz",
   "rhs_weap_ak105_zenitco01_b33",
   "rhs_weap_ak74m_camo_npz",
