@@ -90,14 +90,11 @@ _items = [
 
 // Breach
   "tsp_lockpick",
-  "tsp_breach_block_mag",
-  "tsp_breach_block_auto_mag",
   "tsp_breach_linear_mag",
   "tsp_breach_linear_auto_mag",
   "tsp_breach_popper_mag",
   "tsp_breach_popper_auto_mag",
   "tsp_breach_package_mag",
-  "tsp_breach_silhouette_mag",
   "tsp_breach_stick_mag",
   "tsp_breach_shock",
 

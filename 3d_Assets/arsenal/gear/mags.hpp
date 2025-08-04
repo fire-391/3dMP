@@ -121,7 +121,6 @@ _mags = [
     "rhsusf_10Rnd_762x51_M993_Mag",
     "rhsusf_10Rnd_762x51_m62_Mag",
     "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",
-    "rhsusf_20Rnd_762x51_SR25_m62_Mag",
     "rhsusf_20Rnd_762x51_SR25_m993_Mag",
     "rhs_mag_20Rnd_SCAR_762x51_m118_special",
     "rhs_mag_20Rnd_SCAR_762x51_m61_ap",
@@ -196,7 +195,6 @@ _mags = [
 
 //TierOne
   "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
-  "Tier1_20Rnd_762x51_Mk316Mod0_SR25_Mag",
 
 //CSW
   "ace_csw_100Rnd_127x99_mag",

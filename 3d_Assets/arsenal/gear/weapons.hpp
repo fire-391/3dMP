@@ -142,6 +142,8 @@ _weapons = [
     "rhs_weap_m4a1_blockii_wd",
     "rhs_weap_m4a1_blockii_m203_wd",
     "rhs_weap_m4a1_blockii_kac_wd",
+  //M590
+    "rhs_weap_M590_5RD",
   //Mk 11 Mod 0
     "rhs_weap_sr25",
     "rhs_weap_sr25_d",
@@ -162,7 +164,7 @@ _weapons = [
     "rhs_weap_scarh_cqc",
     "rhs_weap_scarh_lb",
     "rhs_weap_scarh_std",
-  // MK 18 Mod 1
+  //MK 18 Mod 1
     "rhs_weap_mk18",
     "rhs_weap_mk18_bk",
     "rhs_weap_mk18_KAC_bk",
