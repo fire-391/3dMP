@@ -25,9 +25,13 @@ class CfgPatches
 };
 class CfgWeapons
 {
+	class Uniform_Base;
+	class ItemCore;
+	class UniformItem;
     class rhsusf_hgu56p;
     class rhsusf_hgu56p_visor;
     class rhsusf_hgu56p_visor_mask;
+	class milgp_v_marciras_marksman_belt_mc_mc_mc;
     class MRB_H_hgu56_base : rhsusf_hgu56p
     {
         author = "Spookers";
@@ -121,4 +125,47 @@ class CfgWeapons
             "pilot_helmets\img\rhs_hgu56_blk_murda_co"
         };
     };
+	
+	//vests
+	class milgp_v_marciras_marksman_belt_mc_mc_mc_tuulessa: milgp_v_marciras_marksman_belt_mc_mc_mc
+	{
+		scopeArsenal=2;
+		displayname="MarCiras Marksman + Belt (MC/MC/MC) [Tuulessa]";
+		hiddenSelectionsTextures[]=
+		{
+			"milgp_vests\textures\v_marciras_mc_co.paa",
+			"milgp_vests\textures\v_battle_belt_mc_co.paa",
+			"pilot_helmets\img\v_gear_01_mc_tuulessa_co.paa",
+			"milgp_vests\textures\v_gear_02_co.paa"
+		};
+	};
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
