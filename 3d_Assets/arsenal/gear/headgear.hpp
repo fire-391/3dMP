@@ -156,6 +156,10 @@ _headgear = [
 "MRB_H_hgu56_visor_mask_Whelan",
 
 "RHS_jetpilot_usaf",
-"JS_JC_FA18_PilotHelmet"
+"JS_JC_FA18_PilotHelmet",
+
+//Tuuli Headgear
+"MRB_H_hgu56_visor_mask_Tuulessa",
+"MRB_H_hgu56_visor_mask_Murda"
 
 ];
