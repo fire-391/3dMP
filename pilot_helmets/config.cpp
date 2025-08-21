@@ -50,7 +50,7 @@ class CfgWeapons
     {
         displayName = "HGU-56/P USA (Carrera)";
         scope = 2;
-		picture = "\pilot_helmets\img\rhs_hgu56_usa_ca"
+		picture = "\pilot_helmets\img\rhs_hgu56_usa_ca";
         hiddenSelectionsTextures[] =
         {
             "pilot_helmets\img\MRB_H_hgu56_Carrera"
@@ -87,7 +87,7 @@ class CfgWeapons
     { 
         displayname = "HGU-56/P Visor Mask (Whelan)";
         scope = 2;
-		picture = "\pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca"
+		picture = "\pilot_helmets\img\rhs_hgu56_visor_mask_olv_smiley_ca";
         hiddenSelectionsTextures[] =
         { 
             "pilot_helmets\img\MRB_H_hgu56_visor_mask_Whelan"
@@ -100,6 +100,25 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         { 
             "pilot_helmets\img\MRB_H_hgu56_visor_mask_Jordan"
+        };
+    };
+	class MRB_H_hgu56_visor_mask_Tuulessa : MRB_H_hgu56_visor_mask_base
+    {
+        displayname = "HGU-56/P Visor Mask (Tuulessa)";
+        scope = 2;
+        hiddenSelectionsTextures[] =
+        { 
+            "pilot_helmets\img\rhs_hgu56_olv_tuulessa_co"
+        };
+		ace_hearing_lowerVolume=0.3;
+    };
+	class MRB_H_hgu56_visor_mask_Murda : MRB_H_hgu56_visor_mask_base
+    {
+        displayname = "HGU-56/P Visor Mask (Murda)";
+        scope = 2;
+        hiddenSelectionsTextures[] =
+        { 
+            "pilot_helmets\img\rhs_hgu56_blk_murda_co"
         };
     };
 };
