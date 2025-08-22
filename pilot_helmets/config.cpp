@@ -127,7 +127,7 @@ class CfgWeapons
     };
 	
 	//vests
-	class milgp_v_marciras_marksman_belt_mc_mc_mc_tuulessa: milgp_v_marciras_marksman_belt_mc_mc_mc
+	/*class milgp_v_marciras_marksman_belt_mc_mc_mc_tuulessa: milgp_v_marciras_marksman_belt_mc_mc_mc
 	{
 		scopeArsenal=2;
 		displayname="MarCiras Marksman + Belt (MC/MC/MC) [Tuulessa]";
@@ -138,5 +138,5 @@ class CfgWeapons
 			"pilot_helmets\img\v_gear_01_mc_tuulessa_co.paa",
 			"milgp_vests\textures\v_gear_02_co.paa"
 		};
-	};
+	};*/
 };

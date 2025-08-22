@@ -41,9 +41,9 @@ _vests = [
   "milgp_v_mmac_marksman_mc_mc",
   "milgp_v_mmac_marksman_belt_mc_mc_mc",
   "milgp_v_mmac_teamleader_mc_mc",
-  "milgp_v_mmac_teamleader_belt_mc_mc_mc",
+  "milgp_v_mmac_teamleader_belt_mc_mc_mc"
   
   //Tuuli Edited Assets
-"milgp_v_marciras_marksman_belt_mc_mc_mc_tuulessa"
+//"milgp_v_marciras_marksman_belt_mc_mc_mc_tuulessa"
 
 ];
