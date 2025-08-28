@@ -6,20 +6,10 @@ class CfgPatches {
         authors[] = {"3d MRB"};
         authorUrl = "https://3dmrbru.com/forums/";
         requiredAddons[] = {
-            // loose
-            //"ace_repair",
-            //"ace_nametags",
             "cba_events",
             "cba_keybinding",
             "cba_settings",
             "cba_versioning",
-
-            // strict
-            //"ace_ai",
-            //"rhs_us_a2_airimport",
-            //"rhsusf_c_ch53",
-            //"rhsusf_c_melb"
-            //"achilles_modules_f_ares"
         };
         requiredVersion = 2.00;
         units[] = {"Ares_Module_Create_Spawn_Zone"};
@@ -101,14 +91,6 @@ class CfgVehicleClasses {
 
 class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
-   // class Ares_Module_Base;
-    //class Ares_Module_Create_Spawn_Zone: Ares_Module_Base {
-      //  scopeCurator = 2;
-      //  displayName = "Create Spawn Zone";
-      //  Category = "Environment";
-       // function = "MRB_fnc_AresModuleCreateSpZone";
-    //};
-
     class Plane_Base_F;
     class RHS_AH1Z_base;
     class Heli_Light_03_base_F;
@@ -466,34 +448,7 @@ class RscPictureKeepAspect;
 class RscText;
 #include "splash.hpp"
 class RscDisplayMain: RscStandardDisplay
-{
-	class Spotlight
-	{
-		class Server1
-		{
-			//text = "[OFFICIAL] 3d Marine Raider Battalion Server #1"; // Text displayed on the square button, converted to upper-case
-			//textIsQuote = 0; // 1 to add quotation marks around the text
-			//picture = "\3d_Functions\data\logoOverMRB.paa"; // Square picture, ideally 512x512
-			//video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
-			//action = "0 = [_this, 'your.domain.name', '2302', 'yourpasshere'] execVM '\amp_spotlight\joinServer.sqf';";
-			//action = "0 = [_this, '104.243.34.34', '2302', '3draider'] execVM '\3d_Functions\functions\joinServer.sqf';";
-			//actionText = "Join server: [OFFICIAL] 3d Marine Raider Battalion Server #1"; // Text displayed in top left corner of on-hover white frame
-			//condition = "true"; // Condition for showing the spotlight
-		};
-		
-		class Server2
-		{
-			//text = "[OFFICIAL] 3d Marine Raider Battalion Server #2"; // Text displayed on the square button, converted to upper-case
-			//textIsQuote = 0; // 1 to add quotation marks around the text
-			//picture = "\3d_Functions\data\logoOverMRB.paa"; // Square picture, ideally 512x512
-			//video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
-			//action = "0 = [_this, 'your.domain.name', '2302', 'yourpasshere'] execVM '\amp_spotlight\joinServer.sqf';";
-			//action = "0 = [_this, '104.243.34.34', '2312', '3draider'] execVM '\3d_Functions\functions\joinServer.sqf';";
-			//actionText = "Join server: [OFFICIAL] 3d Marine Raider Battalion Server #2"; // Text displayed in top left corner of on-hover white frame
-			//condition = "true"; // Condition for showing the spotlight
-		};
-	};
-	
+{	
 	class controls
 	{
 		class Logo: RscPictureKeepAspect
