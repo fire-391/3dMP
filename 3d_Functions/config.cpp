@@ -26,10 +26,6 @@ class CfgPatches {
 #define TEX(FILE) QUOTE(\3d_Functions\data\FILE.paa)
 #define ICO(FILE) QUOTE(\3d_Functions\UI\FILE.paa)
 
-#define ADD_MASTERSAFE(MODIFY,BASE) class MODIFY: BASE { \
-    weapons[] = {"rhs_weap_MASTERSAFE", "rhs_weap_FFARLauncher", "rhsusf_weap_CMFlareLauncher"}; \
-};
-
 class Extended_PreInit_EventHandlers {
     class MRB_PreInitEvent {
         init = "call compile preprocessFileLineNumbers '3d_Functions\XEH_preInit.sqf'";
@@ -91,36 +87,6 @@ class CfgVehicleClasses {
 
 class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
-    class Plane_Base_F;
-    class RHS_AH1Z_base;
-    class Heli_Light_03_base_F;
-    class RHS_UH1Y_US_base;
-    class RHS_UH1Y: RHS_UH1Y_US_base {
-        class UserActions {
-            class SAFEMODE {
-                displayName = "<t color='#00FF7F'>MASTERSAFE</t>";
-                condition = "ace_player in this";
-                statement = "ace_player action ['SwitchWeapon', this, ace_player, 0];";
-                position = "";
-                radius = 10;
-                priority = 10.5;
-                onlyForPlayer = 1;
-                showWindow = 0;
-                shortcut = "user13";
-                hideOnUse = 1;
-            };
-        };
-    };
-    ADD_MASTERSAFE(RHS_AH1Z,RHS_AH1Z_base)
-    ADD_MASTERSAFE(RHS_UH1_Base,Heli_Light_03_base_F)
-    ADD_MASTERSAFE(RHS_UH1Y_FFAR,RHS_UH1Y)
-    ADD_MASTERSAFE(RHS_UH1Y_GS,RHS_UH1Y)
-
-    class Helicopter_Base_H;
-    class RHS_MELB_base: Helicopter_Base_H {
-        getInRadius = 3;
-    };
-
     class ACE_Module;
     class MRB_teleporter_module: ACE_Module {
         author = "3d MRB";
