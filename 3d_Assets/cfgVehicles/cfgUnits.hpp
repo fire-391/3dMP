@@ -6,7 +6,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		icon = "iconManOfficer";
 		linkedItems[] = {};
 		weapons[] = {};
@@ -59,7 +59,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		icon = "iconManOfficer";
 		linkedItems[] = {};
 		weapons[] = {};
@@ -121,7 +121,7 @@
 		faction = "B_3d_Marine_Raider";
 		editorSubcategory = "B_3d_Marine_Raider_Men";
 		model = "\rhsusf\addons\rhsusf_infantry2\CryeGen3.p3d";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		backpack = ;
 		icon = "iconManOfficer";
 		linkedItems[] = {};
@@ -172,7 +172,7 @@
 	{
 		scope = 2;
 		displayname = "Element Leader";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		class EventHandlers
 		{
 			init = "init = if(local (_this select 0))then{(_this select 0) setVariable [""ace_medical_medicClass"",1]};";
@@ -182,7 +182,7 @@
 	{
 		scope = 2;
 		displayname = "Assistant Element Leader";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		class EventHandlers
 		{
 			init = "init = if(local (_this select 0))then{(_this select 0) setVariable [""ace_medical_medicClass"",1]};";
@@ -195,7 +195,7 @@
 		backpack = ;
 		linkedItems[] = {};
 		magazines[] = {};
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		icon = "iconManMedic";
 		Items[] = {};
 		class EventHandlers
@@ -207,7 +207,7 @@
 	{
 		scope = 2;
 		displayname = "Critical Skills Operator";
-		uniformClass = "VSM_M81_Crye_Camo";
+		uniformClass = "rhs_uniform_FROG01_wd";
 		icon = "iconManAT";
 		class EventHandlers
 		{
