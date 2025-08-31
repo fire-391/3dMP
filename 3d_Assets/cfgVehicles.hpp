@@ -25,6 +25,11 @@ class cfgVehicles {
 	class MELB_base: Helicopter_Base_H
 	{
 		class UserActions;
+		class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+		};
 		class Turrets: Turrets
 		{
 			class CopilotTurret : CopilotTurret
@@ -457,3 +462,4 @@ class cfgVehicles {
         editorSubcategory = "3d_Containers";
     };
 };
+
