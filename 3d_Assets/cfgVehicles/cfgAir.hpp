@@ -7,6 +7,11 @@ class MRB_MQ1C : USAF_MQ9 {
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
+  class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+			};
     class EventHandlers 
     {
       init = "_veh = (_this select 0); createVehicleCrew _veh;";
@@ -77,6 +82,11 @@ class MRB_MH60M : vtx_MH60M {
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
+  		class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+			};
     class TransportMagazines {};
     class TransportItems {
         ITEM_XX(ACE_microDAGR, 2);
@@ -100,6 +110,11 @@ class MRB_MH60M_DAP : vtx_MH60M_DAP {
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
+  		class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+			};
     class TransportMagazines {};
     class TransportItems {
         ITEM_XX(ACE_microDAGR, 2);
@@ -123,6 +138,11 @@ class MRB_MH60M_MLASS : vtx_MH60M_DAP_MLASS {
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
+  		class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+			};
     class TransportMagazines {};
     class TransportItems {
         ITEM_XX(ACE_microDAGR, 2);
@@ -146,6 +166,11 @@ class MRB_MH47G : TF373_SOAR_MH47G {
   side = 1;
   scopeCurator = 2;
   scopeArsenal = 2;
+  		class AcreComponents {
+			componentName = "ACRE_RF3080_UHF_TNC";
+			mountedAntenna = "";
+			mastMount[] = {};
+			};
     class TransportMagazines {};
     class TransportItems {
         ITEM_XX(ToolKit, 1);
