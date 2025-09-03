@@ -87,13 +87,9 @@ _headgear = [
 "milgp_h_opscore_06_goggles_khk_rgr_mcalc",
 
 //Softcovers
-"VSM_Beanie_Black",
-"VSM_Beanie_OD",
-"VSM_Beanie_tan",
 "rhs_booniehat2_marpatd",
 "rhs_booniehat2_marpatwd",
 "rhssaf_booniehat_woodland",
-"VSM_Multicam_Boonie",
 "H_Booniehat_khk_hs",
 "rhs_8point_marpatd",
 "rhs_8point_marpatwd",
