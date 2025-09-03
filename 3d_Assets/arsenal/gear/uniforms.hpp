@@ -3,12 +3,6 @@ _uniforms = [
 //VSM & Main Staples
 "SOCOM_uniform_g3_w_marpat_base",
 "SOCOM_uniform_g3_d_marpat_base",
-"VSM_M81_Crye_Camo",
-"VSM_Multicam_Crye_Camo",
-"VSM_M81_Crye_SS_Camo",
-"VSM_Multicam_Crye_SS_Camo",
-"M81_Survival_Uni",
-"MC_Survival_Uni",
 "U_B_Wetsuit",
 
 //MilGp
