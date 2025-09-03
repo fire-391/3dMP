@@ -24,11 +24,6 @@ _packs = [
   "milgp_bp_Pointman_cb",
   "milgp_bp_Tomahawk_cb",
 
-//VSM
-  "VSM_OGA_OD_carryall",
-  "VSM_OGA_OD_Backpack_Compact",
-  "VSM_OGA_OD_Backpack_Kitbag",
-
 // COS Backpacks
   "COS_PARACHUTE",
   "PARACHUTE_W",
