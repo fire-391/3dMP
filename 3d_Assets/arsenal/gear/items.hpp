@@ -97,6 +97,7 @@ _items = [
   "tsp_breach_package_mag",
   "tsp_breach_stick_mag",
   "tsp_breach_shock",
+  "tsp_sling",
 
 // Chemical Warfare (Delete if not causing issues)
   /*"U_mas_usl_B_suite_VEG",
@@ -134,6 +135,9 @@ _items = [
   "ACRE_PRC152",
   "ACRE_PRC117F",
   "ACRE_VHF30108",
+	
+// ACRE 2 SATCOM
+  "ACRE_RF3080",
 
 // Recon
   "FISH_Cream_Kit_Desert",

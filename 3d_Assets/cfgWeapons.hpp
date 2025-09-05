@@ -350,42 +350,10 @@ class CfgWeapons
 	class 3d_weap_ATAS_launcher: rhs_weap_ATAS_launcher {
 		magazines[] = {"3d_mag_ATAS_2"};
 	};
-	//Scout Swimmer Uniforms
-	class UniformItem;
-	class Uniform_Base;
-	class VSM_M81_Crye_Camo;
-	class VSM_Multicam_Crye_Camo;
-	class M81_Survival_Uni: VSM_M81_Crye_Camo
-	{
-		author="3d MRB";
-		scope=2;
-		displayName="Survival Fatigues M81";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		class ItemInfo: UniformItem
-		{
-			uniformClass = "VSM_M81_Crye_Uniform";
-			containerClass = "Supply70";
-			uniformType="Neopren";
-			mass = 35;
-		};
-	};
-	class MC_Survival_Uni: VSM_Multicam_Crye_Camo
-	{
-		author="3d MRB";
-		scope=2;
-		displayName="Survival Fatigues Multicam";
-		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
-		class ItemInfo: UniformItem
-		{
-			uniformClass = "VSM_Multicam_Crye_Uniform";
-			containerClass = "Supply70";
-			uniformType="Neopren";
-			mass = 35;
-		};
-	};
   class vtx_chaingun_hedp;
   class vtx_chaingun_hedpt: vtx_chaingun_hedp {
       magazines[] = {"VTX_M230_Chaingun_LT", "VTX_M230_Chaingun_RT"};
   };
 };
+
 
