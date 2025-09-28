@@ -12,15 +12,7 @@ class CfgPatches
             "MRB_H_hgu56_visor_mask_Jordan",
             "MRB_H_hgu56_visor_mask_Whelan"
         };
-        author[] =  
-        {
-            "Spookers"
-        };
-        requiredVersion = 1.32;
-        requiredAddons[] =
-        {
-            "rhsusf_c_troops"
-        }; 
+        author[] =  {"Spookers"};
     };
 };
 class CfgWeapons
@@ -139,4 +131,5 @@ class CfgWeapons
 			"milgp_vests\textures\v_gear_02_co.paa"
 		};
 	};*/
+
 };
