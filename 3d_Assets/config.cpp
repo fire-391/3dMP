@@ -87,5 +87,7 @@ class CfgPatches {
       "MRB_FTX_Arsenal_Crate"
     };
     requiredAddons[] = {"MELB"};
+    skipWhenMissingDependencies = 1;
   };
 };
+
