@@ -13,6 +13,8 @@ class CfgPatches
             "MRB_H_hgu56_visor_mask_Whelan"
         };
         author[] =  {"Spookers"};
+        requiredAddons[] = {"rhsusf_c_troops"}; 
+		    skipWhenMissingDependencies = 1;
     };
 };
 class CfgWeapons
@@ -133,3 +135,4 @@ class CfgWeapons
 	};*/
 
 };
+
