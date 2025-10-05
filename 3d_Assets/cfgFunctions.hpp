@@ -11,6 +11,12 @@ class CfgFunctions {
 				postInit = 1;
 			};
 		};
+		class DEBUG {
+			class preInitFLIRFIX {
+				file = "\3d_Assets\functions\fn_preInitFLIRFIX.sqf";
+				preInit = 1;
+			};
+		};
 		class functions {
 			file = "3d_Assets\functions";
 			class deployTL {};
@@ -32,4 +38,3 @@ class CfgFunctions {
 		};
 	};
 };
-
