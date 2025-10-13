@@ -86,8 +86,8 @@ class CfgPatches {
       "MRB_Fuel_Container",
       "MRB_FTX_Arsenal_Crate"
     };
-    requiredAddons[] = {"MELB"};
-    skipWhenMissingDependencies = 1;
+    requiredAddons[] = {"MELB","fza_ah64_hydra"};
   };
 };
+
 
