@@ -461,5 +461,10 @@ class cfgVehicles {
         editorCategory = "3d_Objects";
         editorSubcategory = "3d_Containers";
     };
+	class StaticShip;
+    class Peral_LHA: StaticShip {
+        Aircraft[] = {"MRB_AH6M","MRB_MH6M","MRB_MH60M","MRB_MH60M_DAP","MRB_MH60M_MLASS","MRB_MH47G"};
+        Boats[] = {{"MRB_Zodiac",9,1.2,2}};
+    };
 };
 
