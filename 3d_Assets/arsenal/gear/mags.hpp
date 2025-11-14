@@ -178,7 +178,7 @@ _mags = [
     "rhs_mag_smaw_HEDP",
     "rhs_mag_smaw_SR",
     "rhs_m72a7_mag",
-    "rhs_fim92_mag",
+    "AIO_rhs_fim92_mag",
     //"rhs_mag_maaws_HE",
     //"rhs_mag_maaws_HEAT",
     //"rhs_mag_maaws_HEDP",
