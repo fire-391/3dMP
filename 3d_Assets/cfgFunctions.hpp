@@ -16,6 +16,10 @@ class CfgFunctions {
 				file = "\3d_Assets\functions\fn_preInitFLIRFIX.sqf";
 				preInit = 1;
 			};
+			class preInitFUEL {
+				file = "\3d_Assets\functions\fn_preInitFUEL.sqf";
+				preInit = 1;
+			};
 		};
 		class functions {
 			file = "3d_Assets\functions";
