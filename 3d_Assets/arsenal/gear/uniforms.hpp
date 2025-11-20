@@ -1,5 +1,8 @@
 _uniforms = [
 
+//3CB
+"UK3CB_CW_US_B_LATE_U_J_Pilot_Uniform_01_NATO",
+
 //VSM & Main Staples
 "SOCOM_uniform_g3_w_marpat_base",
 "SOCOM_uniform_g3_d_marpat_base",
