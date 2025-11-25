@@ -51,6 +51,24 @@ class MRB_AH6M : MELB_AH6M {
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Mag, 1);
     };
+    class NVGMarkers
+	{
+        class IR_Position
+        {
+            color[] = {0.1,0.1,0.1};
+            ambient[] = {0.01,0.01,0.01};
+            brightness = 0.15;
+            name = "IR_Position";
+            drawLight = 1;
+            drawLightSize = 0.01;
+            drawLightCenterSize = 0.005;
+            activeLight = 0;
+            blinking = 0;
+            dayLight = 0;
+            onlyInNvg = 1;
+            useFlare = 0;
+        };
+    };
 };
 class MELB_MH6M;
 class MRB_MH6M : MELB_MH6M {
@@ -71,6 +89,24 @@ class MRB_MH6M : MELB_MH6M {
     };
     class TransportBackpacks {
         BACK_XX(MRB_SPB_Mag, 1);
+    };
+    class NVGMarkers
+	{
+        class IR_Position
+        {
+            color[] = {0.1,0.1,0.1};
+            ambient[] = {0.01,0.01,0.01};
+            brightness = 0.15;
+            name = "IR_Position";
+            drawLight = 1;
+            drawLightSize = 0.01;
+            drawLightCenterSize = 0.005;
+            activeLight = 0;
+            blinking = 0;
+            dayLight = 0;
+            onlyInNvg = 1;
+            useFlare = 0;
+        };
     };
 };
 class vtx_MH60M;
