@@ -1,9 +1,9 @@
 _items = [
 
 // Ace Medical Items
-    "ACE_splint",
-    "ACE_tourniquet",
-    "ACE_surgicalKit",
+  "ACE_splint",
+  "ACE_tourniquet",
+  "ACE_surgicalKit",
   //ACM
     "ACM_IV_14g",
     "ACM_IV_16g",
@@ -100,6 +100,19 @@ _items = [
   "ACE_rope18",
   "ACE_rope27",
   "ACE_rope36",
+
+//ACE Rations
+  "ACE_Canteen",
+  "ACE_Humanitarian_Ration",
+  "ACE_MRE_BeefStew",
+  "ACE_MRE_ChickenTikkaMasala",
+  "ACE_MRE_ChickenHerbDumplings",
+  "ACE_MRE_CreamChickenSoup",
+  "ACE_MRE_CreamTomatoSoup",
+  "ACE_MRE_LambCurry",
+  "ACE_MRE_MeatballsPasta",
+  "ACE_MRE_SteakVegetables",
+  "ACE_WaterBottle",
 
 // Adv Rapeling
   "AUR_Rappel_Rope_10",
