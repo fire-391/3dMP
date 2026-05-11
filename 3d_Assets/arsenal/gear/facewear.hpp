@@ -73,6 +73,7 @@ _facewear = [
   "G_Shades_Red",
   "G_Spectacles_Tinted",
   "G_Lowprofile",
+  "G_WirelessEarpiece_F",
   "rhs_googles_clear",
   "rhs_googles_orange",
   "rhs_googles_yellow",

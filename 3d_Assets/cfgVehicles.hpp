@@ -348,6 +348,49 @@ class cfgVehicles {
             };
         };
     };
+	class Land_Bro_locker_metal;
+	class MRB_Arsenal_Locker: Land_Bro_locker_metal {
+        author = "3d MRB";
+        scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+        displayName = "Arsenal Locker";
+        editorCategory = "3d_Objects";
+        editorSubcategory = "3d_Crates";
+        class EventHandlers {
+            init = "[_this select 0] execVM '\3d_Assets\arsenal\fixed_arsenal.sqf';";
+        };
+        //Content
+        class TransportItems {
+            class _xx_ACE_key_lockpick {
+                name = "ACE_key_lockpick";
+                count = "75";
+            };
+            class _xx_ACE_key_west {
+                name = "ACE_key_west";
+                count = "75";
+            };
+            class _xx_ACRE_PRC152 {
+                name = "ACRE_PRC152";
+                count = "100";
+            };
+            class _xx_ACRE_PRC117F {
+                name = "ACRE_PRC117F";
+                count = "20";
+            };
+        };
+        class TransportMagazines {
+            class _xx_Laserbatteries {
+                magazine = "Laserbatteries";
+                count = "10";
+            };
+            class _xx_ACE_SpareBarrel {
+                magazine = "ACE_SpareBarrel";
+                count = "10";
+            };
+        };
+
+	}
     class CargoNet_01_base_F;
     class MRB_Arsenal_Crate: CargoNet_01_base_F {
         author = "3d MRB";

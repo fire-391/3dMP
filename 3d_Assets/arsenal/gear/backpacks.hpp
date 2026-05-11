@@ -12,6 +12,12 @@ _packs = [
   "B_AssaultPack_rgr",
   "B_AssaultPack_cbr",
   "B_Assaultpack_KHK",
+  "B_CivilianBackpack_01_Everyday_Black_F",
+  "B_CivilianBackpack_01_Everyday_Astra_F",
+  "B_CivilianBackpack_01_Everyday_Vrana_F",
+  "B_CivilianBackpack_01_Sport_Blue_F",
+  "B_CivilianBackpack_01_Sport_Green_F",
+  "B_CivilianBackpack_01_Sport_Red_F",
 
 // RHS + Modified
  /* "MRB_assault_eagleaiii_coy_Medic",

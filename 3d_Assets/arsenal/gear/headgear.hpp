@@ -110,6 +110,16 @@ _headgear = [
 "milgp_h_cap_backwards_01_rgr_rgr",
 "milgp_h_cap_backwards_01_tan_khk",
 
+"H_Bandanna_gry",
+"H_Bandanna_blu",
+"H_Bandanna_cbr",
+"H_Bandanna_khk",
+"H_Bandanna_sgg",
+"H_Bandanna_sand",
+"H_Watchcap_blk",
+"H_Watchcap_cbr",
+"H_Watchcap_camo",
+
 "SOAS_160th_Beret_1stLT",
 "SOAS_160th_Beret_2ndLT",
 "SOAS_160th_Beret_CPT",

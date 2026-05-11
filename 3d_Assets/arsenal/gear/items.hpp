@@ -645,6 +645,16 @@ _items = [
     "Tier1_Mk18_LA5_M300C_Black",
     "Tier1_Mk18_NGAL_M300C_Black",
     "Tier1_Mk18_NGAL_M300C",
+    "Tier1_MP7_LA5_Side",
+    "Tier1_MP7_LA5_M300C_Black",
+    "Tier1_MP7_LA5_M300C_Black_FL",
+    "Tier1_MP7_LA5_M300C",
+    "Tier1_MP7_LA5_M300C_FL",
+    "Tier1_MP7_NGAL_Side",
+    "Tier1_MP7_NGAL_M300C_Black",
+    "Tier1_MP7_NGAL_M300C_Black_FL",
+    "Tier1_MP7_NGAL_M300C",
+    "Tier1_MP7_NGAL_M300C_FL",
   //Muzzle Devices:
     "tier1_aac_m42000_black",
     "tier1_aac_m42000_desert",
@@ -977,5 +987,9 @@ _items = [
   "rhs_acc_mk18_urgi_d",
   "Tier1_M249_LA5_M600V_Black",
   "Tier1_M249_LA5_M600V",
-  "Tier1_M249_LA5_M603V"
+  "Tier1_M249_LA5_M603V",
+  "muzzle_snds_L",
+  "muzzle_snds_o9",
+  "ef_snds_diplomat",
+  "ef_snds_diplomat_coy"
 ];

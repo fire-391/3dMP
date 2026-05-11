@@ -223,7 +223,7 @@ _weapons = [
   "arifle_SPAR_03_blk_F",
   "arifle_SPAR_03_khk_F",
   "arifle_SPAR_03_snd_F",
-  //"SMG_05_F",
+  "SMG_05_F",
   //"srifle_EBR_F",
   "rhs_weap_m240B",
   //shotgun "rhs_weap_M590_8RD",
