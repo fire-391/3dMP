@@ -79,6 +79,7 @@ class CfgPatches {
       "MRB_MH60M_MLASS",
       "MRB_MH47G",
       // 3d Logistics Configured in 3dassets\cfgvehicles.hpp in same order as below
+      "MRB_Arsenal_Locker",
       "MRB_Arsenal_Crate",
       "MRB_Full_Arsenal_Crate",
       "MRB_Supply_Crate",
