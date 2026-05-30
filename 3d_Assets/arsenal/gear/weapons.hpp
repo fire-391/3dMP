@@ -106,11 +106,11 @@ _weapons = [
     //"rhs_weap_maaws",
   //M27 IAR
     "rhs_weap_m27iar",
-  //MP7s
-    //"rhsusf_weap_MP7A2",
-    //"rhsusf_weap_MP7A2_aor1",
-    //"rhsusf_weap_MP7A2_desert",
-    //"rhsusf_weap_MP7A2_winter"
+  MP7s
+    "rhsusf_weap_MP7A2",
+    "rhsusf_weap_MP7A2_aor1",
+    "rhsusf_weap_MP7A2_desert",
+    "rhsusf_weap_MP7A2_winter",
   //M4A1 PIP
     "rhs_weap_m4_urgi",
     "rhs_weap_m4_urgi_kac",

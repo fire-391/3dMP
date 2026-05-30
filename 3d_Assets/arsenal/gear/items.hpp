@@ -172,6 +172,7 @@ _items = [
   "ACRE_PRC152",
   "ACRE_PRC117F",
   "ACRE_VHF30108",
+  "ACRE_BF888S",
 	
 // ACRE 2 SATCOM
   "ACRE_RF3080",
