@@ -106,7 +106,7 @@ _weapons = [
     //"rhs_weap_maaws",
   //M27 IAR
     "rhs_weap_m27iar",
-  MP7s
+  //MP7s
     "rhsusf_weap_MP7A2",
     "rhsusf_weap_MP7A2_aor1",
     "rhsusf_weap_MP7A2_desert",
