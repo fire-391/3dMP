@@ -976,8 +976,8 @@ _items = [
   "puo_shottimer_item",
 
 //Marker Panels
-  "VS17_Large_Panel_Item"
-  "VS17_Small_Panel_Item"
+  "VS17_Large_Panel_Item",
+  "VS17_Small_Panel_Item",
 
 //UW
   "rhs_acc_1p29",
