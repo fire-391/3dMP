@@ -13,7 +13,7 @@ All are false by default.
 		["Delete Vehicle", "delete_any"],
 		["Quad Bike", "MRB_Grizzly_ATV_Black"],
 		["A-29 Super Tucano", "RHSGREF_A29B_HIDF", [true, false, false]],
-		["AC-130U Spooky", "STmod_airplane_AC130J", [true, false, false]],
+		["AC-130J Ghost Rider", "STmod_airplane_AC130J", [true, false, false]],
 		["C-130J Hercules", "USAF_C130J", [true, false, false]],
 		["C-130J Hercules [3CB]", "UK3CB_CW_US_B_Early_C130J", [true, false, false]],
 		["C-130J Hercules Cargo", "USAF_C130J_Cargo", [true, false, false]],
