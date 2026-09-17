@@ -763,7 +763,7 @@ _items = [
   "rhsusf_acc_anpeq15_wmx_light",
   //"acc_pointer_IR",
   "acc_flashlight_pistol",
-  "rhsusf_acc_anpas13gv1",
+  "rhsusf_acc_anpas13gv1_A3TI",
   "rhsusf_acc_anpeq15",
   //"rhsusf_acc_anpeq15A",
   "rhsusf_acc_anpeq15_light",
@@ -822,8 +822,8 @@ _items = [
   "rhsusf_acc_nt4_tan",
   "rhsusf_acc_rotex5_grey",
   "rhsusf_acc_rotex5_tan",
-  "optic_tws",
-  "optic_tws_mg",
+  "optic_tws_A3TI",
+  "optic_tws_mg_A3TI",
   "optic_DMS",
   "optic_AMS",
   "optic_KHS_blk",
@@ -967,6 +967,17 @@ _items = [
   "mgm_acc_tdstubby_tan",
   "mgm_acc_rvg_blk",
   "mgm_acc_rvg_de",
+
+//BJ Strobes
+  "BJ_Strobes_helstar",
+  "BJ_Strobes_raillink",
+
+//Shot timer
+  "puo_shottimer_item",
+
+//Marker Panels
+  "VS17_Large_Panel_Item"
+  "VS17_Small_Panel_Item"
 
 //UW
   "rhs_acc_1p29",

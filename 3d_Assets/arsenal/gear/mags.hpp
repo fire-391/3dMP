@@ -47,6 +47,9 @@ _mags = [
     "MRAWS_HEAT55_F",
     "R_MRAAWS_HE_F",
     "R_MRAAWS_HEAT_F",
+    "za_enhancedmaaws_mag_MT756",
+    "za_enhancedmaaws_mag_HEAT551",
+    "za_enhancedmaaws_mag_ASM509",
 
 //ACE Items
   //Mines
@@ -192,19 +195,12 @@ _mags = [
     "rhs_mag_smaw_SR",
     "rhs_m72a7_mag",
     "AIO_rhs_fim92_mag",
-    //"rhs_mag_maaws_HE",
-    //"rhs_mag_maaws_HEAT",
-    //"rhs_mag_maaws_HEDP",
-    //"rhs_mag_maaws_ILLUM",
-    //"rhs_mag_maaws_SMOKE",
+    "rhs_mag_maaws_HE",
+    "rhs_mag_maaws_HEAT",
+    "rhs_mag_maaws_HEDP",
+    "rhs_mag_maaws_ILLUM",
+    "rhs_mag_maaws_SMOKE",
     "rhs_fgm148_magazine_AT",
-
-//AMP
-  //"AMP_Breaching_Charge_Mag",
-  //"AMP_Door_Wedge",
-
-// MS IFF Strobe
-  "MS_Strobe_Mag_1",
 
 //TierOne
   "Tier1_20Rnd_762x51_M80A1_EPR_SR25_Mag",
