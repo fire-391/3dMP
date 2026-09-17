@@ -103,7 +103,7 @@ _weapons = [
   //Javelin
     "rhs_weap_fgm148",
   //M3 MAAWS
-    //"rhs_weap_maaws",
+    "rhs_weap_maaws",
   //M27 IAR
     "rhs_weap_m27iar",
   //MP7s
