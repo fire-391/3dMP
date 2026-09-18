@@ -42,14 +42,13 @@ _mags = [
     "Chemlight_yellow",
     "B_IR_Grenade",
   //M4 MAAWS
-    "MRAWS_HE_F",
-    "MRAWS_HEAT_F",
-    "MRAWS_HEAT55_F",
-    "R_MRAAWS_HE_F",
-    "R_MRAAWS_HEAT_F",
-    "za_enhancedmaaws_mag_MT756",
-    "za_enhancedmaaws_mag_HEAT551",
-    "za_enhancedmaaws_mag_ASM509",
+    "za_enhancedmaaws_mag_m4_ASM509",
+    "za_enhancedmaaws_mag_m4_HE",
+    "za_enhancedmaaws_mag_m4_HEAT551",
+    "za_enhancedmaaws_mag_m4_HEAT",
+    "za_enhancedmaaws_mag_m4_HEDP",
+    "za_enhancedmaaws_mag_m4_ILLUM",
+    "za_enhancedmaaws_mag_m4_MT756",
 
 //ACE Items
   //Mines
