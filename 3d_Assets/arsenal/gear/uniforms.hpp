@@ -177,16 +177,6 @@ _uniforms = [
 "USP_TSHIRT_JEANS_RGR_NF_BLU",
 "USP_TSHIRT_JEANS_RGR_NF_BLU2",
 
-//Lapa Hoods
-"molot_lapa_facewear_mc_v1",
-"molot_lapa_facewear_mc_v1",
-"molot_lapa_facewear_mcal_v1",
-"molot_lapa_facewear_mcal_v2",
-"molot_lapa_facewear_mct_v1",
-"molot_lapa_facewear_mct_v2",
-"molot_lapa_facewear_sapsan_v1",
-"molot_lapa_facewear_sapsan_v2",
-
 //Low-Visibility BJC
 "Project_BJC_PCU_Cargo2",
 "Project_BJC_PCU_Cargo10",

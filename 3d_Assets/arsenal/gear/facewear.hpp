@@ -171,7 +171,17 @@ _facewear = [
 "UK3CB_G_Tactical_Gloves_Tan_Shemagh_Green",
 "UK3CB_G_Tactical_Gloves_Tan_Shemagh_Tan",
 "UK3CB_G_Tactical_Gloves_Tan_Shemagh_White",
-	
+
+//Lapa Hoods
+"molot_lapa_facewear_mc_v1",
+"molot_lapa_facewear_mc_v2",
+"molot_lapa_facewear_mcal_v1",
+"molot_lapa_facewear_mcal_v2",
+"molot_lapa_facewear_mct_v1",
+"molot_lapa_facewear_mct_v2",
+"molot_lapa_facewear_sapsan_v1",
+"molot_lapa_facewear_sapsan_v2",
+
 //COS
   "mask_HALO"
 ];
