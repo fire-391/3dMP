@@ -60,7 +60,7 @@ _items = [
     "ACM_Vial_TXA",
 
 // Ace Items
-  "ACE_MX2A",
+  "ACE_MX2A_A3TI",
   "ACE_bodyBag",
   "ACE_bodyBag_blue",
   "ACE_bodyBag_white",
@@ -974,6 +974,9 @@ _items = [
 
 //Shot timer
   "puo_shottimer_item",
+
+//Signals
+  "p_sig_no470",
 
 //Marker Panels
   "VS17_Large_Panel_Item",
