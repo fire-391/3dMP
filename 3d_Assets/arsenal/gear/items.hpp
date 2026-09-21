@@ -947,6 +947,11 @@ _items = [
   "TOTT_XPS3_LT101_FTS",
   "TOTT_XPS3_g33",
   "TOTT_XPS3_LT101_g33",
+	//A3TI
+	"TOTT_atacr18_nsw_voodoo_A3TI",
+	"TOTT_Leu_CQBSS_Geissele_voodoo_A3TI",
+	"TOTT_Razor_110_Geissele_voodoo_A3TI",
+	"TOTT_Razor_16_Geissele_voodoo_A3TI",
 
 // 3d MRB custom
   //"MRB_SniperBlinds",
