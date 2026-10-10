@@ -19,9 +19,9 @@ _crate addItemCargoGlobal ["rhs_mag_m67", 30];
 _crate addItemCargoGlobal ["SmokeShellYellow", 30];
 _crate addItemCargoGlobal ["BJ_Strobes_helstar", 5];
 _crate addItemCargoGlobal ["BJ_Strobes_raillink", 5];
-_crate addItemCargoGlobal ["MRAWS_HEAT_F", 6];
-_crate addItemCargoGlobal ["MRAWS_HEAT55_F", 6];
-_crate addItemCargoGlobal ["MRAWS_HE_F", 10];
+_crate addItemCargoGlobal ["za_enhancedmaaws_mag_m4_HEAT", 6];
+_crate addItemCargoGlobal ["za_enhancedmaaws_mag_m4_HEAT551", 6];
+_crate addItemCargoGlobal ["za_enhancedmaaws_mag_m4_HE", 10];
 _crate addItemCargoGlobal ["rhs_weap_M136", 4];
 _crate addItemCargoGlobal ["DemoCharge_Remote_Mag", 4];
 
