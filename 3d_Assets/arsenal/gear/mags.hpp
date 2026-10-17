@@ -49,6 +49,7 @@ _mags = [
     "za_enhancedmaaws_mag_m4_HEDP",
     "za_enhancedmaaws_mag_m4_ILLUM",
     "za_enhancedmaaws_mag_m4_MT756",
+    "za_enhancedmaaws_mag_m4_SMOKE",
 
 //ACE Items
   //Mines
